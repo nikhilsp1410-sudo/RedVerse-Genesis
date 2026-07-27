@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { Search, Filter, Shield, Sword, Zap, Orbit, Layers, Hexagon, Lock, Fingerprint, Database } from 'lucide-react';
 import Tilt from 'react-parallax-tilt';
-import { guardians } from '../data/guardians';
+import { useDynamicGallery } from '../web3/hooks/useDynamicGallery';
 import { useWallet } from '@/web3';
 import { useGenesisContract } from '../web3/hooks/useGenesisContract';
 import { ACTIVE_NETWORK, CONTRACT_ADDRESS } from '../web3/core/config';
@@ -12,25 +12,26 @@ import PremiumImage from '../components/ui/PremiumImage';
 const Collection = () => {
   const { isConnected, account, connectWallet } = useWallet();
   const { totalSupply, maxSupply, ownershipMap, isLoading: contractLoading } = useGenesisContract();
+  const { dynamicGuardians, isLoadingGallery } = useDynamicGallery();
   
   const [searchQuery, setSearchQuery] = useState('');
   const [activeFilter, setActiveFilter] = useState('All');
   const [showFilters, setShowFilters] = useState(false);
 
   // Extract unique filters
-  const alignments = [...new Set(guardians.map(g => g.moralAlignment))];
-  const weapons = [...new Set(guardians.map(g => g.weapon.split(' ')[0]))];
-  const cores = [...new Set(guardians.map(g => g.core.split(' ')[0]))];
+  const alignments = [...new Set(dynamicGuardians.map(g => g.moralAlignment))];
+  const weapons = [...new Set(dynamicGuardians.map(g => g.weapon.split(' ')[0]))];
+  const cores = [...new Set(dynamicGuardians.map(g => g.core.split(' ')[0]))];
 
   // My Vault
   const ownedGuardians = useMemo(() => {
     if (!isConnected || !account || contractLoading) return [];
-    return guardians.filter(g => ownershipMap[g.id] === account.toLowerCase());
-  }, [isConnected, account, contractLoading, ownershipMap]);
+    return dynamicGuardians.filter(g => ownershipMap[g.id] === account.toLowerCase());
+  }, [isConnected, account, contractLoading, ownershipMap, dynamicGuardians]);
 
   // Archive Filter logic
   const filteredGuardians = useMemo(() => {
-    return guardians.filter(g => {
+    return dynamicGuardians.filter(g => {
       const matchesSearch = g.name.toLowerCase().includes(searchQuery.toLowerCase()) || 
                             g.title.toLowerCase().includes(searchQuery.toLowerCase());
       
@@ -41,7 +42,7 @@ const Collection = () => {
 
       return matchesSearch && matchesFilter;
     });
-  }, [searchQuery, activeFilter]);
+  }, [searchQuery, activeFilter, dynamicGuardians]);
 
   const getPowerSymbol = (core) => {
     if (core.toLowerCase().includes('void') || core.toLowerCase().includes('dark')) return <Orbit className="w-4 h-4 text-primary" />;
@@ -150,7 +151,7 @@ const Collection = () => {
                      <p className="text-text-muted font-display tracking-widest uppercase text-sm animate-pulse">Syncing Cryptographic Ownership...</p>
                   </div>
                ) : ownedGuardians.length > 0 ? (
-                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-16 gap-x-8 relative z-10">
                      {ownedGuardians.map(g => (
                         <GuardianCard key={g.id} guardian={g} getPowerSymbol={getPowerSymbol} isOwnedByMe={true} />
                      ))}
@@ -252,7 +253,7 @@ const Collection = () => {
           </AnimatePresence>
 
           {/* Archive Grid */}
-          <motion.div layout className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+          <motion.div layout className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-y-16 gap-x-8">
             <AnimatePresence mode="popLayout">
               {filteredGuardians.length > 0 ? filteredGuardians.map((guardian, index) => {
                  const isOwnedByMe = isConnected && account && ownershipMap[guardian.id] === account.toLowerCase();
@@ -313,7 +314,7 @@ const GuardianCard = ({ guardian, getPowerSymbol, isOwnedByMe, ownerAddress }) =
           
           {/* Artwork container */}
           <PremiumImage 
-            src={`/images/guardians/${guardian.id.toString().padStart(3, '0')}.png`}
+            src={guardian.image}
             alt={`${guardian.name} - ${guardian.title}`}
             containerClassName="absolute inset-0 z-0 bg-surface group-hover:scale-110 transition-transform duration-1000"
           />
@@ -346,10 +347,17 @@ const GuardianCard = ({ guardian, getPowerSymbol, isOwnedByMe, ownerAddress }) =
           </div>
 
           {/* Content Meta Data */}
-          <div className="p-5 relative z-20 flex-1 flex flex-col justify-end transform translate-y-12 group-hover:translate-y-0 transition-transform duration-700 ease-out">
-            <p className="text-primary font-display text-[10px] tracking-widest uppercase mb-1 drop-shadow-md">
-              {guardian.title}
-            </p>
+          <div className="p-5 relative z-20 flex-1 flex flex-col justify-end transition-transform duration-700 ease-out">
+            <div className="flex items-center gap-2 mb-1">
+              <p className="text-primary font-display text-[10px] tracking-widest uppercase drop-shadow-md">
+                {guardian.title}
+              </p>
+              {guardian.rank && (
+                <span className="px-1.5 py-0.5 bg-yellow-500/20 text-yellow-500 border border-yellow-500/50 rounded text-[8px] uppercase tracking-widest font-bold">
+                  {guardian.rank}
+                </span>
+              )}
+            </div>
             <h3 className="text-2xl font-heading font-bold uppercase text-white mb-3 drop-shadow-lg leading-none group-hover:text-glow transition-colors">
               {guardian.name}
             </h3>
@@ -360,6 +368,14 @@ const GuardianCard = ({ guardian, getPowerSymbol, isOwnedByMe, ownerAddress }) =
                </p>
                
                <div className="grid grid-cols-2 gap-2 text-[10px] uppercase font-bold tracking-wider mb-4">
+                  <div className="bg-surface/80 p-2 rounded border border-border/50 truncate" title="Creator">
+                     <span className="text-text-muted block text-[8px] mb-0.5">Creator</span>
+                     <span className="text-white drop-shadow-md">RedVerse</span>
+                  </div>
+                  <div className="bg-surface/80 p-2 rounded border border-border/50 truncate" title="Blockchain">
+                     <span className="text-text-muted block text-[8px] mb-0.5">Blockchain</span>
+                     <span className="text-white drop-shadow-md">Polygon</span>
+                  </div>
                   <div className="bg-surface/80 p-2 rounded border border-border/50 truncate" title={guardian.moralAlignment}>
                      <span className="text-text-muted block text-[8px] mb-0.5">Faction</span>
                      <span className="text-white drop-shadow-md">{guardian.moralAlignment}</span>
@@ -370,8 +386,20 @@ const GuardianCard = ({ guardian, getPowerSymbol, isOwnedByMe, ownerAddress }) =
                   </div>
                </div>
                
-               <div className="w-full py-2 border border-primary/50 text-primary text-center text-xs font-bold tracking-widest uppercase rounded hover:bg-primary hover:text-white transition-colors">
-                  Enter Chronicle
+               <div className="flex gap-2">
+                 <div className="flex-1 py-2 border border-primary/50 text-primary text-center text-[10px] font-bold tracking-widest uppercase rounded hover:bg-primary hover:text-white transition-colors">
+                    Details
+                 </div>
+                 <button 
+                   onClick={(e) => {
+                     e.preventDefault();
+                     e.stopPropagation();
+                     window.open(`https://opensea.io/assets/matic/0xccFD90167f47c4F890C213Cc4a4611eE91942d0B/${guardian.id}`, '_blank');
+                   }}
+                   className="flex-1 py-2 bg-primary border border-primary text-white text-center text-[10px] font-bold tracking-widest uppercase rounded hover:bg-primary/90 transition-colors shadow-[0_0_15px_rgba(217,4,41,0.4)]"
+                 >
+                    Buy on OpenSea
+                 </button>
                </div>
             </div>
           </div>

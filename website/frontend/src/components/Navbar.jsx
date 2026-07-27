@@ -39,7 +39,7 @@ const Navbar = () => {
           </div>
           <div className="hidden md:block flex-1">
             <div className="ml-10 flex items-center space-x-8">
-              {['Collection', 'Lore', 'About', 'Mint'].map((item) => {
+              {['Collection', 'Lore', 'About'].map((item) => {
                 const isActive = location.pathname.includes(item.toLowerCase());
                 return (
                   <Link key={item} to={`/${item.toLowerCase()}`} className="relative group px-3 py-2 text-sm font-display tracking-widest uppercase interactive">
@@ -48,6 +48,9 @@ const Navbar = () => {
                   </Link>
                 );
               })}
+              <Link to="/collection" className="relative group px-5 py-2 text-sm font-display tracking-widest uppercase interactive border border-primary/50 text-primary rounded hover:bg-primary/10 transition-colors shadow-[0_0_15px_rgba(217,4,41,0.2)]">
+                Marketplace
+              </Link>
             </div>
           </div>
           <div className="flex items-center space-x-4">

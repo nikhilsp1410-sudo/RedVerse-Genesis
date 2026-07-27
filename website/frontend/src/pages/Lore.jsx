@@ -3,6 +3,7 @@ import { motion, useScroll, useTransform, AnimatePresence } from 'framer-motion'
 import { Link } from 'react-router-dom';
 import { ChevronDown } from 'lucide-react';
 import Footer from '../components/Footer';
+import PremiumImage from '../components/ui/PremiumImage';
 
 const Lore = () => {
   const containerRef = useRef(null);
@@ -74,9 +75,12 @@ const Lore = () => {
               transition={{ duration: 1.5 }}
               className="aspect-square glass-heavy rounded-2xl relative overflow-hidden flex items-center justify-center border border-border group"
             >
-               <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent z-10"></div>
-               <div className="w-full h-full bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-surface-light via-surface to-background"></div>
-               <span className="absolute z-20 text-xs font-display tracking-widest uppercase text-text-muted/50 group-hover:text-primary transition-colors">Obsidian Spire Data Corrupted</span>
+               <PremiumImage 
+                 src="/images/obsidian_spire.png"
+                 alt="Obsidian Spire"
+                 containerClassName="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000"
+               />
+               <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-transparent to-transparent z-10 pointer-events-none"></div>
             </motion.div>
           </div>
         </section>

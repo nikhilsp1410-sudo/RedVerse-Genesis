@@ -11,7 +11,7 @@ export const NETWORKS = {
     chainId: 137,
     chainIdHex: '0x89',
     name: 'Polygon Mainnet',
-    rpcUrl: import.meta.env.VITE_MAINNET_RPC_URL || 'https://polygon-rpc.com/',
+    rpcUrl: import.meta.env.VITE_RPC_URL || 'https://polygon-mainnet.g.alchemy.com/v2/alch_Ced0K_dCEI4cUy16w4xLT',
     currency: { name: 'MATIC', symbol: 'MATIC', decimals: 18 },
     blockExplorer: 'https://polygonscan.com/',
   }

@@ -37,17 +37,18 @@ const Footer = () => {
             <h4 className="text-primary font-display text-[10px] uppercase tracking-widest mb-4">Collection</h4>
             <ul className="space-y-2">
               <li><Link to="/collection" className="text-text-muted hover:text-white transition-colors text-sm font-light">Genesis Archive</Link></li>
-              <li><a href="#" className="text-text-muted hover:text-white transition-colors text-sm font-light">Smart Contract</a></li>
-              <li><a href="#" className="text-text-muted hover:text-white transition-colors text-sm font-light">Polygonscan</a></li>
+              <li><a href="https://opensea.io/collection/redverse-genesis" target="_blank" rel="noopener noreferrer" className="text-text-muted hover:text-white transition-colors text-sm font-light">OpenSea Collection</a></li>
+              <li><a href="https://polygonscan.com/address/0xccFD90167f47c4F890C213Cc4a4611eE91942d0B" target="_blank" rel="noopener noreferrer" className="text-text-muted hover:text-white transition-colors text-sm font-light">Polygonscan Contract</a></li>
             </ul>
           </div>
 
           <div>
             <h4 className="text-primary font-display text-[10px] uppercase tracking-widest mb-4">Connect</h4>
             <ul className="space-y-2">
-              <li><a href="#" className="text-text-muted hover:text-white transition-colors text-sm font-light">Documentation</a></li>
-              <li><a href="#" className="text-text-muted hover:text-white transition-colors text-sm font-light">Twitter / X</a></li>
-              <li><a href="#" className="text-text-muted hover:text-white transition-colors text-sm font-light">Discord</a></li>
+              <li><a href="https://www.instagram.com/redverse_studio?igsh=MTdqOGY5MTNzeXA5ZA==" target="_blank" rel="noopener noreferrer" className="text-text-muted hover:text-white transition-colors text-sm font-light">Instagram</a></li>
+              <li><a href="https://x.com/RedVerse_studio" target="_blank" rel="noopener noreferrer" className="text-text-muted hover:text-white transition-colors text-sm font-light">X (Twitter)</a></li>
+              <li><a href="https://github.com/redverse" target="_blank" rel="noopener noreferrer" className="text-text-muted hover:text-white transition-colors text-sm font-light">GitHub</a></li>
+              <li><a href="https://discord.gg/RedVerse" target="_blank" rel="noopener noreferrer" className="text-text-muted hover:text-white transition-colors text-sm font-light">Discord</a></li>
             </ul>
           </div>
 

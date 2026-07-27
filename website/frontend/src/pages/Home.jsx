@@ -4,8 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Canvas, useFrame } from '@react-three/fiber';
 import { Points, PointMaterial, Environment } from '@react-three/drei';
 import * as random from 'maath/random/dist/maath-random.esm';
-import { guardians } from '../data/guardians';
-import Footer from '../components/Footer';
+import { useDynamicGallery } from '../web3/hooks/useDynamicGallery';
 import PremiumImage from '../components/ui/PremiumImage';
 
 
@@ -74,6 +73,8 @@ const FaqAccordion = ({ question, answer }) => {
 };
 
 const Home = () => {
+  const { dynamicGuardians } = useDynamicGallery();
+  
   return (
     <div className="min-h-screen bg-background text-text overflow-x-hidden selection:bg-primary/30">
       
@@ -129,9 +130,9 @@ const Home = () => {
             <a href="#guardians" className="px-8 py-4 text-text-muted font-bold tracking-wider uppercase text-sm hover:text-white transition-colors">
               Explore Collection
             </a>
-            <Link to="/collection" className="glass px-8 py-4 text-primary font-bold tracking-wider uppercase text-sm rounded border border-primary/30 hover:border-primary transition-all">
-              Connect Wallet / Mint
-            </Link>
+            <a href="https://opensea.io/collection/redverse-genesis" target="_blank" rel="noopener noreferrer" className="glass px-8 py-4 text-primary font-bold tracking-wider uppercase text-sm rounded border border-primary/30 hover:border-primary transition-all">
+              View on OpenSea
+            </a>
           </motion.div>
         </div>
       </section>
@@ -164,9 +165,9 @@ const Home = () => {
               className="relative aspect-square rounded-2xl overflow-hidden glass-heavy"
             >
                <PremiumImage 
-                 src="/images/guardians/005.png"
+                 src="/images/crimson_fracture.png"
                  alt="The Crimson Fracture"
-                 containerClassName="w-full h-full"
+                 containerClassName="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000"
                />
             </motion.div>
           </div>
@@ -197,7 +198,7 @@ const Home = () => {
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {guardians.slice(0, 8).map((g, idx) => (
+            {dynamicGuardians.slice(0, 8).map((g, idx) => (
               <motion.div 
                 key={g.id}
                 initial={{ opacity: 0, y: 30 }}
@@ -207,6 +208,11 @@ const Home = () => {
               >
                 <Link to={`/guardian/${g.id}`} className="block group h-full">
                   <div className="aspect-[3/4] h-full rounded-xl overflow-hidden glass relative border border-border group-hover:border-primary/50 transition-colors">
+                     <PremiumImage 
+                        src={g.image}
+                        alt={g.name}
+                        containerClassName="absolute inset-0 z-0 bg-surface group-hover:scale-110 transition-transform duration-1000"
+                     />
                      <div className="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-transparent z-10 opacity-90 group-hover:opacity-60 transition-opacity duration-500"></div>
                      <div className="absolute inset-x-0 bottom-0 p-6 z-20 transform translate-y-2 group-hover:translate-y-0 transition-transform duration-500">
                         <p className="text-primary font-display text-xs tracking-widest uppercase mb-1 truncate">{g.title}</p>
@@ -405,9 +411,6 @@ const Home = () => {
           </motion.div>
         </div>
       </section>
-
-      {/* 10. Footer */}
-      <Footer />
       
     </div>
   );

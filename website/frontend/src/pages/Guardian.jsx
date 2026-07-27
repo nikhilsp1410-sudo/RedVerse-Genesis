@@ -4,9 +4,9 @@ import { motion } from 'framer-motion';
 import { Canvas, useFrame } from '@react-three/fiber';
 import { Points, PointMaterial, Environment } from '@react-three/drei';
 import * as random from 'maath/random/dist/maath-random.esm';
-import { ArrowLeft, Shield, Sword, Cpu, Zap, Activity, Fingerprint, Lock, Unlock, ShieldAlert } from 'lucide-react';
+import { ArrowLeft, Shield, Sword, Cpu, Zap, Activity, Fingerprint, Lock, Unlock, ShieldAlert, ExternalLink } from 'lucide-react';
 import Tilt from 'react-parallax-tilt';
-import { guardians } from '../data/guardians';
+import { useDynamicGallery } from '../web3/hooks/useDynamicGallery';
 import { useWallet } from '@/web3';
 import { useLiveNFT } from '../web3/hooks/useLiveNFT';
 import PremiumImage from '../components/ui/PremiumImage';
@@ -34,7 +34,8 @@ function InteractiveAura({ color }) {
 const Guardian = () => {
   const { id } = useParams();
   const { isConnected, account, connectWallet } = useWallet();
-  const guardian = guardians.find(g => g.id === parseInt(id));
+  const { dynamicGuardians, isLoadingGallery } = useDynamicGallery();
+  const guardian = dynamicGuardians.find(g => g.id === parseInt(id));
   const liveData = useLiveNFT(id);
 
   // Scroll to top on load/change
@@ -42,12 +43,43 @@ const Guardian = () => {
     window.scrollTo(0, 0);
   }, [id]);
 
+  // SEO Updates
+  useEffect(() => {
+    if (guardian) {
+      document.title = `RedVerse Genesis | ${guardian.name}`;
+      
+      let metaDesc = document.querySelector('meta[name="description"]');
+      if (!metaDesc) {
+        metaDesc = document.createElement('meta');
+        metaDesc.name = "description";
+        document.head.appendChild(metaDesc);
+      }
+      metaDesc.content = `Acquire ${guardian.name}, a ${guardian.rank || 'Genesis'} Guardian from the RedVerse collection. View on OpenSea.`;
+
+      let ogTitle = document.querySelector('meta[property="og:title"]');
+      if (!ogTitle) {
+        ogTitle = document.createElement('meta');
+        ogTitle.setAttribute("property", "og:title");
+        document.head.appendChild(ogTitle);
+      }
+      ogTitle.content = `RedVerse Genesis | ${guardian.name}`;
+      
+      let twitterCard = document.querySelector('meta[name="twitter:card"]');
+      if (!twitterCard) {
+        twitterCard = document.createElement('meta');
+        twitterCard.name = "twitter:card";
+        document.head.appendChild(twitterCard);
+      }
+      twitterCard.content = "summary_large_image";
+    }
+  }, [guardian]);
+
   const relatedGuardians = useMemo(() => {
     if (!guardian) return [];
-    return guardians
+    return dynamicGuardians
       .filter(g => g.id !== guardian.id && (g.moralAlignment === guardian.moralAlignment || g.combatStyle.split(' ')[0] === guardian.combatStyle.split(' ')[0]))
       .slice(0, 4);
-  }, [guardian]);
+  }, [guardian, dynamicGuardians]);
 
   if (!guardian) {
     return (
@@ -114,7 +146,7 @@ const Guardian = () => {
               <div className="aspect-[3/4] w-full rounded-2xl overflow-hidden glass-heavy group sticky top-28 border border-border/50 shadow-[0_0_50px_rgba(0,0,0,0.8)]">
                 <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-transparent to-transparent z-10 pointer-events-none"></div>
                 <PremiumImage 
-                  src={`/images/guardians/${guardian.id.toString().padStart(3, '0')}.png`}
+                  src={guardian.image}
                   alt={`${guardian.name} - ${guardian.title}`}
                   containerClassName="w-full h-full"
                   priority={true}
@@ -198,21 +230,31 @@ const Guardian = () => {
                  </div>
                  
                  {/* Live Blockchain Data Badge */}
-                 {!liveData.isLoading && liveData.name && (
-                   <div className="border-l-2 border-primary/20 pl-6 w-full md:w-auto">
-                     <h4 className="text-[10px] font-display tracking-widest uppercase text-primary mb-2">Live Ledger Data</h4>
-                     <div className="flex flex-col gap-1 text-[10px] font-mono text-text-muted">
-                       <p>Contract: <span className="text-white">{liveData.name} ({liveData.symbol})</span></p>
-                       {liveData.royaltyAmount && <p>Royalty: <span className="text-white">{parseFloat(liveData.royaltyAmount)} MATIC / ETH</span></p>}
-                     </div>
+                 <div className="border-l-2 border-primary/20 pl-6 w-full md:w-auto">
+                   <h4 className="text-[10px] font-display tracking-widest uppercase text-primary mb-2">Live Ledger Data</h4>
+                   <div className="flex flex-col gap-1 text-[10px] font-mono text-text-muted">
+                     <p>Token ID: <span className="text-white">#{guardian.id.toString().padStart(3, '0')}</span></p>
+                     <p>Contract: <a href="https://polygonscan.com/address/0xccFD90167f47c4F890C213Cc4a4611eE91942d0B" target="_blank" rel="noopener noreferrer" className="text-white hover:text-primary transition-colors underline decoration-border">0xccFD...d0B</a></p>
+                     {liveData.royaltyAmount && <p>Royalty: <span className="text-white">{parseFloat(liveData.royaltyAmount)} MATIC / ETH</span></p>}
+                     <p>Metadata: <a href={`https://ipfs.io/ipfs/bafybeih6mrx7cuzcqqx2y77ed4ncrpcy3m5krt23z6i32j5c5imfqdrc74/${String(guardian.id).padStart(3, '0')}.json`} target="_blank" rel="noopener noreferrer" className="text-white hover:text-primary transition-colors underline decoration-border">View on IPFS</a></p>
                    </div>
-                 )}
+                 </div>
 
-                 {!isConnected && (
-                    <button onClick={connectWallet} className="px-6 py-3 bg-primary/20 hover:bg-primary text-white border border-primary transition-colors rounded uppercase text-[10px] font-bold tracking-widest whitespace-nowrap mt-4 md:mt-0 shadow-[0_0_15px_rgba(217,4,41,0.3)]">
-                       Connect to Verify
-                    </button>
-                 )}
+                 <div className="flex flex-col gap-3 mt-4 md:mt-0 w-full md:w-auto">
+                   <a 
+                     href={`https://opensea.io/assets/matic/0xccFD90167f47c4F890C213Cc4a4611eE91942d0B/${guardian.id}`}
+                     target="_blank"
+                     rel="noopener noreferrer"
+                     className="px-6 py-3 bg-primary hover:bg-primary/90 text-white border border-primary transition-colors rounded uppercase text-[10px] font-bold tracking-widest whitespace-nowrap shadow-[0_0_20px_rgba(217,4,41,0.5)] box-glow text-center flex items-center justify-center gap-2"
+                   >
+                     View on OpenSea <ExternalLink className="w-3 h-3" />
+                   </a>
+                   {!isConnected && (
+                     <button onClick={connectWallet} className="px-6 py-2 bg-surface hover:bg-surface-light text-text-muted hover:text-white border border-border transition-colors rounded uppercase text-[10px] font-bold tracking-widest whitespace-nowrap text-center">
+                        Connect Wallet
+                     </button>
+                   )}
+                 </div>
               </div>
             </motion.div>
           </div>
@@ -309,9 +351,11 @@ const Guardian = () => {
                      <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10} scale={1.05} transitionSpeed={1000}>
                        <Link to={`/guardian/${related.id}`} className="block group">
                           <div className="aspect-[3/4] rounded-xl overflow-hidden glass relative border border-border group-hover:border-primary/50 transition-colors shadow-lg group-hover:shadow-[0_0_30px_rgba(217,4,41,0.2)]">
-                             <div className="absolute inset-0 bg-surface z-0">
-                                <div className="w-full h-full bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-surface-light to-background opacity-80 group-hover:scale-110 transition-transform duration-1000" />
-                             </div>
+                             <PremiumImage 
+                                src={related.image}
+                                alt={related.name}
+                                containerClassName="absolute inset-0 z-0 bg-surface group-hover:scale-110 transition-transform duration-1000"
+                              />
                              <div className="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-transparent z-10 opacity-90 group-hover:opacity-60 transition-opacity"></div>
                              <div className="absolute inset-x-0 bottom-0 p-6 z-20 transform translate-y-2 group-hover:translate-y-0 transition-transform">
                                 <p className="text-primary font-display text-[10px] tracking-widest uppercase mb-1 truncate">{related.title}</p>
