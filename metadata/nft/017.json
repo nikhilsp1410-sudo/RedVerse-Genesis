@@ -1,0 +1,73 @@
+{
+  "name": "Kaze - The Sakura Sentinel",
+  "description": "Kaze is a breathtaking but lethal guardian. Clad in the Lotus Plate and dual-wielding the Celestial War Fans, he moves like the wind. His mechanical seraph wings allow him to dance across the sky, slicing through corruption with effortless grace.",
+  "image": "ipfs://bafybeiagnoixk6uxcykyl2n3oppv2petvypwi4utpjc3qfg5udk7m4eaca/017.png",
+  "external_url": "https://redverse.xyz/guardian/17",
+  "attributes": [
+    {
+      "trait_type": "Role",
+      "value": "The Sentinel"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "Lawful Neutral"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "The Celestial War Fans"
+    },
+    {
+      "trait_type": "Armor",
+      "value": "The Lotus Plate"
+    },
+    {
+      "trait_type": "Helmet",
+      "value": "The Blossom Crest"
+    },
+    {
+      "trait_type": "Companion",
+      "value": "The Mechanical Seraph Wings"
+    },
+    {
+      "trait_type": "Aura",
+      "value": "The Falling Petals"
+    },
+    {
+      "trait_type": "Core",
+      "value": "The Sakura Jewel"
+    },
+    {
+      "trait_type": "Class",
+      "value": "The Dancer"
+    },
+    {
+      "trait_type": "Rank",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Threat Level",
+      "value": "Alpha"
+    },
+    {
+      "trait_type": "Realm",
+      "value": "The Floating Gardens"
+    },
+    {
+      "trait_type": "Material",
+      "value": "White Ceramic and Gold"
+    },
+    {
+      "trait_type": "Cape",
+      "value": "The Wind Robes"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Guardian Number",
+      "value": 17
+    },
+    {
+      "trait_type": "Generation",
+      "value": "Genesis"
+    }
+  ]
+}

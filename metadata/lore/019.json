@@ -1,0 +1,148 @@
+{
+  "identity": {
+    "guardian_number": 19,
+    "id": "019",
+    "name": "Osiris",
+    "legendary_title": "The Desert Mystic",
+    "collection": "RedVerse Genesis",
+    "generation": 1,
+    "universe": "RedVerse",
+    "version": "5.0"
+  },
+  "story": {
+    "short_description": "Osiris, The Desert Mystic. A hooded pharaoh of holy solar magic.",
+    "long_description": "Osiris commands the searing light of the desert sun. Clad in the Sandstone Robes and wielding the Sun-God's Staff, he protects the ancient secrets of the Floating Pyramids from those who seek to plunder the universe's past.",
+    "origin": "Awakened from the ancient sands of time",
+    "purpose": "To guard the ancient histories and relics.",
+    "legacy": "The Sun Priest.",
+    "current_status": "Active",
+    "role_in_fracture": "The Mystic",
+    "relationship_to_architects": "The Historian",
+    "historical_importance": "High"
+  },
+  "combat": {
+    "primary_weapon": "The Sun-God's Staff",
+    "secondary_weapon": "None",
+    "combat_style": "Solar magic, blinding light, and control of the sands.",
+    "class": "The Mystic",
+    "rank": "Legendary",
+    "guardian_type": "Genesis",
+    "threat_level": "Alpha",
+    "power_level": 8800
+  },
+  "visual_identity": {
+    "helmet": "The Hood of Ra",
+    "armor": "The Sandstone Robes",
+    "cape": "The Pharaoh's Cloak",
+    "companion": "The Sun Dial",
+    "aura": "The Desert Wind",
+    "core": "The Blue Sunburst",
+    "energy": "Solar Blue Energy",
+    "material": "White Gold and Sandstone",
+    "primary_color": "Pristine White",
+    "secondary_color": "Royal Gold",
+    "accent_color": "Bright Blue",
+    "architect_symbols": "Pyramids, Suns, Hoods"
+  },
+  "personality": {
+    "temperament": "Wise, ancient, serene.",
+    "leadership": "Spiritual Leader",
+    "morality": "Lawful Good",
+    "emotion": "Wisdom",
+    "virtue": "Knowledge",
+    "fear": "The erasure of history.",
+    "strength": "Incredible crowd control and blinding attacks.",
+    "weakness": "Physically vulnerable."
+  },
+  "world_building": {
+    "home_realm": "The Floating Pyramids",
+    "known_locations": [
+      "The Tomb of the Ancients",
+      "The Solar Obelisk"
+    ],
+    "ancient_relics": [
+      "The Sun-God's Staff"
+    ],
+    "architect_connection": "The memory keeper",
+    "enemy_factions": [
+      "Grave robbers and void entities"
+    ],
+    "important_events": [
+      "The Awakening of the Sands"
+    ],
+    "timeline": "Post-Fracture"
+  },
+  "marketplace": {
+    "image": "ipfs://TO_BE_FILLED",
+    "image_small": "ipfs://TO_BE_FILLED",
+    "image_thumbnail": "ipfs://TO_BE_FILLED",
+    "image_high": "ipfs://TO_BE_FILLED",
+    "animation_url": "ipfs://TO_BE_FILLED",
+    "preview": "ipfs://TO_BE_FILLED",
+    "external_url": "https://redverse.xyz/guardian/19",
+    "background_color": "000000",
+    "royalty": "5%",
+    "license": "CC BY-NC 4.0",
+    "edition": 19,
+    "collection_number": 19,
+    "supply": 1
+  },
+  "traits": [
+    {
+      "trait_type": "Role",
+      "value": "The Mystic"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "Lawful Good"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "The Sun-God's Staff"
+    },
+    {
+      "trait_type": "Armor",
+      "value": "The Sandstone Robes"
+    },
+    {
+      "trait_type": "Helmet",
+      "value": "The Hood of Ra"
+    },
+    {
+      "trait_type": "Companion",
+      "value": "The Sun Dial"
+    },
+    {
+      "trait_type": "Aura",
+      "value": "The Desert Wind"
+    },
+    {
+      "trait_type": "Core",
+      "value": "The Blue Sunburst"
+    },
+    {
+      "trait_type": "Class",
+      "value": "The Mystic"
+    },
+    {
+      "trait_type": "Rank",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Threat Level",
+      "value": "Alpha"
+    },
+    {
+      "trait_type": "Realm",
+      "value": "The Floating Pyramids"
+    },
+    {
+      "trait_type": "Material",
+      "value": "White Gold and Sandstone"
+    },
+    {
+      "trait_type": "Cape",
+      "value": "The Pharaoh's Cloak"
+    }
+  ]
+}

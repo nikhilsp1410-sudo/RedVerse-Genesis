@@ -1,0 +1,73 @@
+{
+  "name": "Azrael - The Cosmic Warlock",
+  "description": "Azrael weaves the fabric of reality itself. Wielding the Nebula Scepter, he manipulates black holes and cosmic storms from the Singularity. He is the ultimate warlock, a master of arcane devastation.",
+  "image": "ipfs://bafybeiagnoixk6uxcykyl2n3oppv2petvypwi4utpjc3qfg5udk7m4eaca/018.png",
+  "external_url": "https://redverse.xyz/guardian/18",
+  "attributes": [
+    {
+      "trait_type": "Role",
+      "value": "The Warlock"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "Chaotic Neutral"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "The Nebula Scepter"
+    },
+    {
+      "trait_type": "Armor",
+      "value": "The Arcane Carapace"
+    },
+    {
+      "trait_type": "Helmet",
+      "value": "The Arcane Crest"
+    },
+    {
+      "trait_type": "Companion",
+      "value": "The Cosmic Orb"
+    },
+    {
+      "trait_type": "Aura",
+      "value": "The Arcane Storm"
+    },
+    {
+      "trait_type": "Core",
+      "value": "The Purple Starburst"
+    },
+    {
+      "trait_type": "Class",
+      "value": "The Warlock"
+    },
+    {
+      "trait_type": "Rank",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Threat Level",
+      "value": "Omega"
+    },
+    {
+      "trait_type": "Realm",
+      "value": "The Singularity"
+    },
+    {
+      "trait_type": "Material",
+      "value": "Cosmic Obsidian"
+    },
+    {
+      "trait_type": "Cape",
+      "value": "The Warlock's Mantle"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Guardian Number",
+      "value": 18
+    },
+    {
+      "trait_type": "Generation",
+      "value": "Genesis"
+    }
+  ]
+}

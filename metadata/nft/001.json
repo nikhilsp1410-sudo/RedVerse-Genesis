@@ -1,0 +1,73 @@
+{
+  "name": "Kaelen - The First Guardian",
+  "description": "Kaelen was the first Architect to bind a Crimson Shard to his armor during the Fracture, sacrificing his physical form to stabilize the timeline. He now stands as an eternal sentinel in the Genesis Temple.",
+  "image": "ipfs://bafybeiagnoixk6uxcykyl2n3oppv2petvypwi4utpjc3qfg5udk7m4eaca/001.png",
+  "external_url": "https://redverse.xyz/guardian/1",
+  "attributes": [
+    {
+      "trait_type": "Role",
+      "value": "The First Guardian"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "Lawful Neutral"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "The Chronos Halberd"
+    },
+    {
+      "trait_type": "Armor",
+      "value": "Aegis Plate"
+    },
+    {
+      "trait_type": "Helmet",
+      "value": "Visor of Eternity"
+    },
+    {
+      "trait_type": "Companion",
+      "value": "Sentinel Drone Ordis"
+    },
+    {
+      "trait_type": "Aura",
+      "value": "Temporal Stasis"
+    },
+    {
+      "trait_type": "Core",
+      "value": "The Alpha Shard"
+    },
+    {
+      "trait_type": "Class",
+      "value": "The First Guardian"
+    },
+    {
+      "trait_type": "Rank",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Threat Level",
+      "value": "Omega"
+    },
+    {
+      "trait_type": "Realm",
+      "value": "The Genesis Temple"
+    },
+    {
+      "trait_type": "Material",
+      "value": "Obsidian and Ceramic"
+    },
+    {
+      "trait_type": "Cape",
+      "value": "The Void Mantle"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Guardian Number",
+      "value": 1
+    },
+    {
+      "trait_type": "Generation",
+      "value": "Genesis"
+    }
+  ]
+}

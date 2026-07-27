@@ -1,0 +1,148 @@
+{
+  "identity": {
+    "guardian_number": 17,
+    "id": "017",
+    "name": "Kaze",
+    "legendary_title": "The Sakura Sentinel",
+    "collection": "RedVerse Genesis",
+    "generation": 1,
+    "universe": "RedVerse",
+    "version": "5.0"
+  },
+  "story": {
+    "short_description": "Kaze, The Sakura Sentinel. A divine warrior wielding the furious beauty of the cherry blossom wind.",
+    "long_description": "Kaze is a breathtaking but lethal guardian. Clad in the Lotus Plate and dual-wielding the Celestial War Fans, he moves like the wind. His mechanical seraph wings allow him to dance across the sky, slicing through corruption with effortless grace.",
+    "origin": "Born from the first falling petal of the world tree",
+    "purpose": "To protect the harmony and beauty of the universe.",
+    "legacy": "The Divine Dancer.",
+    "current_status": "Active",
+    "role_in_fracture": "The Sentinel",
+    "relationship_to_architects": "The Grace of the Architects",
+    "historical_importance": "High"
+  },
+  "combat": {
+    "primary_weapon": "The Celestial War Fans",
+    "secondary_weapon": "The Mechanical Seraph Wings",
+    "combat_style": "Graceful, acrobatic, and deadly. He slices through enemies in a mesmerizing dance of death.",
+    "class": "The Dancer",
+    "rank": "Legendary",
+    "guardian_type": "Genesis",
+    "threat_level": "Alpha",
+    "power_level": 8900
+  },
+  "visual_identity": {
+    "helmet": "The Blossom Crest",
+    "armor": "The Lotus Plate",
+    "cape": "The Wind Robes",
+    "companion": "The Mechanical Seraph Wings",
+    "aura": "The Falling Petals",
+    "core": "The Sakura Jewel",
+    "energy": "Sakura Pink Energy",
+    "material": "White Ceramic and Gold",
+    "primary_color": "Pristine White",
+    "secondary_color": "Soft Sakura Pink",
+    "accent_color": "Royal Gold",
+    "architect_symbols": "Cherry Blossoms, Fans, Wings"
+  },
+  "personality": {
+    "temperament": "Graceful, serene, perfectionist.",
+    "leadership": "Lone Sentinel",
+    "morality": "Lawful Neutral",
+    "emotion": "Serenity",
+    "virtue": "Harmony",
+    "fear": "Disharmony and ugliness.",
+    "strength": "Unmatched agility and area-of-effect slashing damage.",
+    "weakness": "Fragile armor."
+  },
+  "world_building": {
+    "home_realm": "The Floating Gardens",
+    "known_locations": [
+      "The Sakura Shrine",
+      "The Path of Petals"
+    ],
+    "ancient_relics": [
+      "The Celestial War Fans"
+    ],
+    "architect_connection": "The Artist",
+    "enemy_factions": [
+      "Those who bring decay"
+    ],
+    "important_events": [
+      "The First Blossom"
+    ],
+    "timeline": "Post-Fracture"
+  },
+  "marketplace": {
+    "image": "ipfs://TO_BE_FILLED",
+    "image_small": "ipfs://TO_BE_FILLED",
+    "image_thumbnail": "ipfs://TO_BE_FILLED",
+    "image_high": "ipfs://TO_BE_FILLED",
+    "animation_url": "ipfs://TO_BE_FILLED",
+    "preview": "ipfs://TO_BE_FILLED",
+    "external_url": "https://redverse.xyz/guardian/17",
+    "background_color": "000000",
+    "royalty": "5%",
+    "license": "CC BY-NC 4.0",
+    "edition": 17,
+    "collection_number": 17,
+    "supply": 1
+  },
+  "traits": [
+    {
+      "trait_type": "Role",
+      "value": "The Sentinel"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "Lawful Neutral"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "The Celestial War Fans"
+    },
+    {
+      "trait_type": "Armor",
+      "value": "The Lotus Plate"
+    },
+    {
+      "trait_type": "Helmet",
+      "value": "The Blossom Crest"
+    },
+    {
+      "trait_type": "Companion",
+      "value": "The Mechanical Seraph Wings"
+    },
+    {
+      "trait_type": "Aura",
+      "value": "The Falling Petals"
+    },
+    {
+      "trait_type": "Core",
+      "value": "The Sakura Jewel"
+    },
+    {
+      "trait_type": "Class",
+      "value": "The Dancer"
+    },
+    {
+      "trait_type": "Rank",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Threat Level",
+      "value": "Alpha"
+    },
+    {
+      "trait_type": "Realm",
+      "value": "The Floating Gardens"
+    },
+    {
+      "trait_type": "Material",
+      "value": "White Ceramic and Gold"
+    },
+    {
+      "trait_type": "Cape",
+      "value": "The Wind Robes"
+    }
+  ]
+}

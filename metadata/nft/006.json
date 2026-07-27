@@ -1,0 +1,73 @@
+{
+  "name": "Orox - The Obsidian Anvil",
+  "description": "Orox was not built; he was forged under the extreme pressure of a dying star during the Fracture. He is a colossal juggernaut clad in cracked obsidian plate armor laced with molten core energy. He does not dodge attacks; he absorbs them and strikes back with world-breaking force.",
+  "image": "ipfs://bafybeiagnoixk6uxcykyl2n3oppv2petvypwi4utpjc3qfg5udk7m4eaca/006.png",
+  "external_url": "https://redverse.xyz/guardian/6",
+  "attributes": [
+    {
+      "trait_type": "Role",
+      "value": "The Siege Juggernaut"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "Lawful Neutral"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "The Worldbreaker"
+    },
+    {
+      "trait_type": "Armor",
+      "value": "The Tectonic Plate"
+    },
+    {
+      "trait_type": "Helmet",
+      "value": "The Crown of Cinders"
+    },
+    {
+      "trait_type": "Companion",
+      "value": "The Aegis of Cinder"
+    },
+    {
+      "trait_type": "Aura",
+      "value": "The Storm of Ash"
+    },
+    {
+      "trait_type": "Core",
+      "value": "The Furnace Heart"
+    },
+    {
+      "trait_type": "Class",
+      "value": "The Siege Juggernaut"
+    },
+    {
+      "trait_type": "Rank",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Threat Level",
+      "value": "Omega"
+    },
+    {
+      "trait_type": "Realm",
+      "value": "The Shattered Crucible"
+    },
+    {
+      "trait_type": "Material",
+      "value": "Obsidian"
+    },
+    {
+      "trait_type": "Cape",
+      "value": "The Ashen Mantle"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Guardian Number",
+      "value": 6
+    },
+    {
+      "trait_type": "Generation",
+      "value": "Genesis"
+    }
+  ]
+}

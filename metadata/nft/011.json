@@ -1,0 +1,73 @@
+{
+  "name": "Valerius - The Blood Sentinel",
+  "description": "Valerius stands watch over the Demonic Spire, a dark sentinel enforcing the harshest laws of the universe. Clad in the Sanguine Plate, he uses his massive Bloodletter Greatsword to carve runic summoning circles into the battlefield, manipulating dark magic and crushing those who oppose his rule.",
+  "image": "ipfs://bafybeiagnoixk6uxcykyl2n3oppv2petvypwi4utpjc3qfg5udk7m4eaca/011.png",
+  "external_url": "https://redverse.xyz/guardian/11",
+  "attributes": [
+    {
+      "trait_type": "Role",
+      "value": "The Dark Knight"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "Lawful Evil"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "The Bloodletter Greatsword"
+    },
+    {
+      "trait_type": "Armor",
+      "value": "The Sanguine Plate"
+    },
+    {
+      "trait_type": "Helmet",
+      "value": "The Helm of the Sovereign"
+    },
+    {
+      "trait_type": "Companion",
+      "value": "The Blood Diamond"
+    },
+    {
+      "trait_type": "Aura",
+      "value": "The Blood Magic"
+    },
+    {
+      "trait_type": "Core",
+      "value": "The Crimson Web"
+    },
+    {
+      "trait_type": "Class",
+      "value": "The Dark Knight"
+    },
+    {
+      "trait_type": "Rank",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Threat Level",
+      "value": "Omega"
+    },
+    {
+      "trait_type": "Realm",
+      "value": "The Demonic Spire"
+    },
+    {
+      "trait_type": "Material",
+      "value": "Spiked Obsidian"
+    },
+    {
+      "trait_type": "Cape",
+      "value": "The Sovereign's Mantle"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Guardian Number",
+      "value": 11
+    },
+    {
+      "trait_type": "Generation",
+      "value": "Genesis"
+    }
+  ]
+}

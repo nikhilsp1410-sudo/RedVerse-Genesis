@@ -1,0 +1,73 @@
+{
+  "name": "Moros - The Eclipse Wraith",
+  "description": "When the Fracture ripped open the cosmos, the resulting entropy and death coalesced into a single entity. Moros resides in the Eclipsed Necropolis, a dark realm where the souls of shattered realities gather. He is the ultimate executioner, wielding the Eclipse Scythe to reap the dimensional energy of those who disturb the final rest of the universe.",
+  "image": "ipfs://bafybeiagnoixk6uxcykyl2n3oppv2petvypwi4utpjc3qfg5udk7m4eaca/007.png",
+  "external_url": "https://redverse.xyz/guardian/7",
+  "attributes": [
+    {
+      "trait_type": "Role",
+      "value": "The Executioner"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "True Neutral"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "The Eclipse Scythe"
+    },
+    {
+      "trait_type": "Armor",
+      "value": "The Umbral Carapace"
+    },
+    {
+      "trait_type": "Helmet",
+      "value": "The Crown of Nightmares"
+    },
+    {
+      "trait_type": "Companion",
+      "value": "The Star of Ruin"
+    },
+    {
+      "trait_type": "Aura",
+      "value": "Violet Mist"
+    },
+    {
+      "trait_type": "Core",
+      "value": "The Violet Singularity"
+    },
+    {
+      "trait_type": "Class",
+      "value": "The Executioner"
+    },
+    {
+      "trait_type": "Rank",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Threat Level",
+      "value": "Omega"
+    },
+    {
+      "trait_type": "Realm",
+      "value": "The Eclipsed Necropolis"
+    },
+    {
+      "trait_type": "Material",
+      "value": "Vantablack Metal"
+    },
+    {
+      "trait_type": "Cape",
+      "value": "The Death Shroud"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Guardian Number",
+      "value": 7
+    },
+    {
+      "trait_type": "Generation",
+      "value": "Genesis"
+    }
+  ]
+}

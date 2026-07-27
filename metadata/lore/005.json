@@ -1,0 +1,218 @@
+{
+  "identity": {
+    "guardian_number": 5,
+    "id": "005",
+    "name": "Cyrus",
+    "legendary_title": "The Astral Blade",
+    "collection": "RedVerse Genesis",
+    "generation": 1,
+    "universe": "RedVerse",
+    "version": "5.0"
+  },
+  "story": {
+    "short_description": "Cyrus, The Astral Blade. A lightning-fast strike of cosmic justice.",
+    "long_description": "Forged in the upper atmospheres of the Celestial Spire, Cyrus was designed to be the ultimate vanguard. He is incredibly agile, dual-wielding plasma blades to slice through reality itself and outmaneuver the forces of the Void before they even realize they've been engaged.",
+    "origin": "Forged in the upper atmosphere of the Celestial Spire",
+    "purpose": "To act as the swift and unyielding sword of the cosmic balance.",
+    "legacy": "The fastest Guardian to ever emerge from the Fracture.",
+    "current_status": "Active",
+    "role_in_fracture": "The Vanguard",
+    "relationship_to_architects": "Honored Warrior",
+    "historical_importance": "High"
+  },
+  "combat": {
+    "primary_weapon": "The Twin Novas",
+    "secondary_weapon": "None",
+    "combat_style": "Lightning-fast, agile, dual-wielding strikes that overwhelm opponents before they can react.",
+    "class": "The Astral Blade",
+    "rank": "Legendary",
+    "guardian_type": "Genesis",
+    "threat_level": "Alpha",
+    "power_level": 8900
+  },
+  "visual_identity": {
+    "helmet": "The Cyan Visor",
+    "armor": "The Zenith Suit",
+    "cape": "The Stardust Cloak",
+    "companion": "The Celestial Gyro",
+    "aura": "The Halo of Zenith",
+    "core": "The Cyan Star",
+    "energy": "Cyan Plasma",
+    "material": "White Ceramic and Vantablack Obsidian",
+    "primary_color": "Brilliant White",
+    "secondary_color": "Vantablack",
+    "accent_color": "Royal Gold and Cyan",
+    "architect_symbols": "Astrolabes, Celestial Rings"
+  },
+  "personality": {
+    "temperament": "Confident, energetic, hyper-focused.",
+    "leadership": "Frontline Assaulter",
+    "morality": "Chaotic Good",
+    "emotion": "Exhilaration",
+    "virtue": "Courage",
+    "fear": "Being slowed down or trapped",
+    "strength": "Unmatched speed and agility",
+    "weakness": "Lacks heavy defensive capabilities, relying entirely on dodging."
+  },
+  "world_building": {
+    "home_realm": "The Celestial Spire",
+    "known_locations": [
+      "The Upper Stratosphere",
+      "The Golden Archways"
+    ],
+    "ancient_relics": [
+      "The Twin Novas"
+    ],
+    "architect_connection": "Loyal Enforcer",
+    "enemy_factions": [
+      "The Void Walkers",
+      "The Corrupted"
+    ],
+    "important_events": [
+      "The Shattering of the Sky"
+    ],
+    "timeline": "Post-Fracture Vanguard"
+  },
+  "marketplace": {
+    "image": "ipfs://TO_BE_FILLED",
+    "image_small": "ipfs://TO_BE_FILLED",
+    "image_thumbnail": "ipfs://TO_BE_FILLED",
+    "image_high": "ipfs://TO_BE_FILLED",
+    "animation_url": "ipfs://TO_BE_FILLED",
+    "preview": "ipfs://TO_BE_FILLED",
+    "external_url": "https://redverse.xyz/guardian/5",
+    "background_color": "000000",
+    "royalty": "5%",
+    "license": "CC BY-NC 4.0",
+    "edition": 5,
+    "collection_number": 5,
+    "supply": 1
+  },
+  "traits": [
+    {
+      "trait_type": "Role",
+      "value": "The Vanguard"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "Chaotic Good"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "The Twin Novas"
+    },
+    {
+      "trait_type": "Armor",
+      "value": "The Zenith Suit"
+    },
+    {
+      "trait_type": "Helmet",
+      "value": "The Cyan Visor"
+    },
+    {
+      "trait_type": "Companion",
+      "value": "The Celestial Gyro"
+    },
+    {
+      "trait_type": "Aura",
+      "value": "The Halo of Zenith"
+    },
+    {
+      "trait_type": "Core",
+      "value": "The Cyan Star"
+    },
+    {
+      "trait_type": "Class",
+      "value": "The Astral Blade"
+    },
+    {
+      "trait_type": "Rank",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Threat Level",
+      "value": "Alpha"
+    },
+    {
+      "trait_type": "Realm",
+      "value": "The Celestial Spire"
+    },
+    {
+      "trait_type": "Material",
+      "value": "Ceramic and Obsidian"
+    },
+    {
+      "trait_type": "Cape",
+      "value": "The Stardust Cloak"
+    }
+  ],
+  "art_direction": {
+    "silhouette": "Sleek, highly agile, fast, dual-wielding knight.",
+    "pose": "Combat-ready, legs wide, holding dual energy blades, floating astrolabe at his side.",
+    "camera": "Dynamic, low angle, action-oriented.",
+    "environment": "A bright celestial city with towering pillars and floating geometric structures.",
+    "lighting": "Bright daylight filtering through celestial clouds, glowing cyan energy.",
+    "mood": "Energetic, dangerous, heavenly.",
+    "materials": "Sleek white ceramic, matte vantablack undersuit, highly polished gold accents.",
+    "scale": "Humanoid, extremely fit.",
+    "visual_theme": "Agility, Energy Blades, Cosmic Vanguard.",
+    "rendering_style": "AAA Unreal Engine 5, photorealistic",
+    "art_direction_notes": "The glowing cyan energy of the blades and core must contrast heavily with the black and white armor."
+  },
+  "lore": {
+    "origin": "Created to be the swiftest blade against the creeping Void.",
+    "history": "Cyrus mapped the entire Celestial Spire in under a minute after his creation. He operates as the first strike force against any incursion.",
+    "purpose": "To overwhelm threats with blinding speed.",
+    "legend": "A flash of cyan light, and the battle is over.",
+    "current_mission": "Hunting Void remnants in the upper atmosphere.",
+    "secrets": "He moves so fast he occasionally skips forward in time by a few milliseconds.",
+    "quotes": [
+      "\"If you can see my blades, you're already dead.\""
+    ],
+    "famous_battles": [
+      "The Skirmish of the Upper Heavens"
+    ],
+    "architect_notes": "His speed is unprecedented. Defensive plating is unnecessary."
+  },
+  "relationships": {
+    "creators": "The Architects",
+    "protects": "The Celestial Spire",
+    "fought": "The Void Walkers",
+    "serves": "The Cosmic Balance",
+    "allies": [
+      "Aurelius (Follows his judgements)"
+    ],
+    "rivals": [
+      "Malakor (Hates his slow, gravity-based combat)"
+    ],
+    "future_connections": []
+  },
+  "status": {
+    "production": {
+      "metadata_complete": true,
+      "prompt_complete": true,
+      "image_generated": true,
+      "image_reviewed": true,
+      "image_approved": true,
+      "uploaded_ipfs": false,
+      "website_added": false,
+      "contract_verified": false
+    }
+  },
+  "future_expansion": {
+    "models_3d": null,
+    "videos": null,
+    "audio": null,
+    "voice_lines": null,
+    "game_stats": {
+      "hp": 8000,
+      "attack": 1400,
+      "defense": 400,
+      "speed": 1200
+    },
+    "ar_support": null,
+    "vr_support": null,
+    "collectibles": null,
+    "merchandise": null
+  }
+}

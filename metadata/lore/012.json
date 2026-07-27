@@ -1,0 +1,148 @@
+{
+  "identity": {
+    "guardian_number": 12,
+    "id": "012",
+    "name": "Sylas",
+    "legendary_title": "The Silent Judge",
+    "collection": "RedVerse Genesis",
+    "generation": 1,
+    "universe": "RedVerse",
+    "version": "5.0"
+  },
+  "story": {
+    "short_description": "Sylas, The Silent Judge. A cosmic arbiter wielding dual violet chakrams.",
+    "long_description": "From the Astral Tribunal, Sylas observes the balance of the RedVerse. He is the Silent Judge, an agile executor of cosmic law. Wielding his Void Chakrams, he strikes with acrobatic lethality, ensuring that those who tip the scales of reality face immediate, silent judgment.",
+    "origin": "Manifested from the cosmic scales of the universe",
+    "purpose": "To maintain absolute balance at all costs.",
+    "legacy": "The impartial executor of the cosmos.",
+    "current_status": "Active",
+    "role_in_fracture": "The Arbiter",
+    "relationship_to_architects": "The Cosmic Scale",
+    "historical_importance": "High"
+  },
+  "combat": {
+    "primary_weapon": "The Void Chakrams",
+    "secondary_weapon": "None",
+    "combat_style": "High-speed acrobatic combat. He throws his glowing chakrams, which ricochet off the environment and return to him, slicing through anything in their path.",
+    "class": "The Arbiter",
+    "rank": "Legendary",
+    "guardian_type": "Genesis",
+    "threat_level": "Alpha",
+    "power_level": 9000
+  },
+  "visual_identity": {
+    "helmet": "The Helm of Judgment",
+    "armor": "The Cosmic Carapace",
+    "cape": "The Void Mantle",
+    "companion": "The Third Eye",
+    "aura": "The Cosmic Void",
+    "core": "The Violet Starburst",
+    "energy": "Violet Cosmic Energy",
+    "material": "Vantablack and Cosmic Stardust",
+    "primary_color": "Deep Vantablack",
+    "secondary_color": "Bright Violet",
+    "accent_color": "Purple",
+    "architect_symbols": "Chakrams, Eclipses, Stars"
+  },
+  "personality": {
+    "temperament": "Impartial, silent, absolute.",
+    "leadership": "Lone Judge",
+    "morality": "Lawful Neutral",
+    "emotion": "Apathy",
+    "virtue": "Justice",
+    "fear": "Nothing.",
+    "strength": "Extreme agility and unpredictable ricocheting attacks.",
+    "weakness": "Relies heavily on momentum and mobility."
+  },
+  "world_building": {
+    "home_realm": "The Astral Tribunal",
+    "known_locations": [
+      "The Cosmic Scales",
+      "The Silent Court"
+    ],
+    "ancient_relics": [
+      "The Void Chakrams"
+    ],
+    "architect_connection": "The ultimate law",
+    "enemy_factions": [
+      "Those who disrupt balance"
+    ],
+    "important_events": [
+      "The Silencing of the Corrupted"
+    ],
+    "timeline": "Post-Fracture Arbiter"
+  },
+  "marketplace": {
+    "image": "ipfs://TO_BE_FILLED",
+    "image_small": "ipfs://TO_BE_FILLED",
+    "image_thumbnail": "ipfs://TO_BE_FILLED",
+    "image_high": "ipfs://TO_BE_FILLED",
+    "animation_url": "ipfs://TO_BE_FILLED",
+    "preview": "ipfs://TO_BE_FILLED",
+    "external_url": "https://redverse.xyz/guardian/12",
+    "background_color": "000000",
+    "royalty": "5%",
+    "license": "CC BY-NC 4.0",
+    "edition": 12,
+    "collection_number": 12,
+    "supply": 1
+  },
+  "traits": [
+    {
+      "trait_type": "Role",
+      "value": "The Arbiter"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "Lawful Neutral"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "The Void Chakrams"
+    },
+    {
+      "trait_type": "Armor",
+      "value": "The Cosmic Carapace"
+    },
+    {
+      "trait_type": "Helmet",
+      "value": "The Helm of Judgment"
+    },
+    {
+      "trait_type": "Companion",
+      "value": "The Third Eye"
+    },
+    {
+      "trait_type": "Aura",
+      "value": "The Cosmic Void"
+    },
+    {
+      "trait_type": "Core",
+      "value": "The Violet Starburst"
+    },
+    {
+      "trait_type": "Class",
+      "value": "The Arbiter"
+    },
+    {
+      "trait_type": "Rank",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Threat Level",
+      "value": "Alpha"
+    },
+    {
+      "trait_type": "Realm",
+      "value": "The Astral Tribunal"
+    },
+    {
+      "trait_type": "Material",
+      "value": "Cosmic Obsidian"
+    },
+    {
+      "trait_type": "Cape",
+      "value": "The Void Mantle"
+    }
+  ]
+}

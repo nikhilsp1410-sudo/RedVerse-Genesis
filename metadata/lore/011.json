@@ -1,0 +1,149 @@
+{
+  "identity": {
+    "guardian_number": 11,
+    "id": "011",
+    "name": "Valerius",
+    "legendary_title": "The Blood Sentinel",
+    "collection": "RedVerse Genesis",
+    "generation": 1,
+    "universe": "RedVerse",
+    "version": "5.0"
+  },
+  "story": {
+    "short_description": "Valerius, The Blood Sentinel. A dark knight commanding forbidden blood magic.",
+    "long_description": "Valerius stands watch over the Demonic Spire, a dark sentinel enforcing the harshest laws of the universe. Clad in the Sanguine Plate, he uses his massive Bloodletter Greatsword to carve runic summoning circles into the battlefield, manipulating dark magic and crushing those who oppose his rule.",
+    "origin": "Forged in the darkest abysses of the Fracture",
+    "purpose": "To enforce order through absolute, terrifying power.",
+    "legacy": "The most feared enforcer of the Architect's laws.",
+    "current_status": "Active",
+    "role_in_fracture": "The Dark Knight",
+    "relationship_to_architects": "The Iron Fist",
+    "historical_importance": "High"
+  },
+  "combat": {
+    "primary_weapon": "The Bloodletter Greatsword",
+    "secondary_weapon": "None",
+    "combat_style": "Dark magic and heavy melee. He uses his greatsword to draw massive runic circles on the battlefield that drain the life of his enemies.",
+    "class": "The Dark Knight",
+    "rank": "Legendary",
+    "guardian_type": "Genesis",
+    "threat_level": "Omega",
+    "power_level": 9500
+  },
+  "visual_identity": {
+    "helmet": "The Helm of the Sovereign",
+    "armor": "The Sanguine Plate",
+    "cape": "The Sovereign's Mantle",
+    "companion": "The Blood Diamond",
+    "aura": "The Blood Magic",
+    "core": "The Crimson Web",
+    "energy": "Crimson Runic Energy",
+    "material": "Spiked Obsidian",
+    "primary_color": "Deep Obsidian Black",
+    "secondary_color": "Crimson Red",
+    "accent_color": "Blood Red",
+    "architect_symbols": "Summoning Circles, Horns"
+  },
+  "personality": {
+    "temperament": "Tyrannical, commanding, ruthless.",
+    "leadership": "Authoritarian",
+    "morality": "Lawful Evil",
+    "emotion": "Dominance",
+    "virtue": "Order",
+    "fear": "Chaos.",
+    "strength": "Massive area denial and life-draining magic.",
+    "weakness": "Slow to cast his most powerful runic magic."
+  },
+  "world_building": {
+    "home_realm": "The Demonic Spire",
+    "known_locations": [
+      "The Runic Courtyard",
+      "The Throne of Blood"
+    ],
+    "ancient_relics": [
+      "The Bloodletter Greatsword"
+    ],
+    "architect_connection": "They rely on his ruthlessness",
+    "enemy_factions": [
+      "The Rebellious",
+      "The Void"
+    ],
+    "important_events": [
+      "The Subjugation of the Lower Realms"
+    ],
+    "timeline": "Post-Fracture Sentinel"
+  },
+  "marketplace": {
+    "image": "ipfs://TO_BE_FILLED",
+    "image_small": "ipfs://TO_BE_FILLED",
+    "image_thumbnail": "ipfs://TO_BE_FILLED",
+    "image_high": "ipfs://TO_BE_FILLED",
+    "animation_url": "ipfs://TO_BE_FILLED",
+    "preview": "ipfs://TO_BE_FILLED",
+    "external_url": "https://redverse.xyz/guardian/11",
+    "background_color": "000000",
+    "royalty": "5%",
+    "license": "CC BY-NC 4.0",
+    "edition": 11,
+    "collection_number": 11,
+    "supply": 1
+  },
+  "traits": [
+    {
+      "trait_type": "Role",
+      "value": "The Dark Knight"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "Lawful Evil"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "The Bloodletter Greatsword"
+    },
+    {
+      "trait_type": "Armor",
+      "value": "The Sanguine Plate"
+    },
+    {
+      "trait_type": "Helmet",
+      "value": "The Helm of the Sovereign"
+    },
+    {
+      "trait_type": "Companion",
+      "value": "The Blood Diamond"
+    },
+    {
+      "trait_type": "Aura",
+      "value": "The Blood Magic"
+    },
+    {
+      "trait_type": "Core",
+      "value": "The Crimson Web"
+    },
+    {
+      "trait_type": "Class",
+      "value": "The Dark Knight"
+    },
+    {
+      "trait_type": "Rank",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Threat Level",
+      "value": "Omega"
+    },
+    {
+      "trait_type": "Realm",
+      "value": "The Demonic Spire"
+    },
+    {
+      "trait_type": "Material",
+      "value": "Spiked Obsidian"
+    },
+    {
+      "trait_type": "Cape",
+      "value": "The Sovereign's Mantle"
+    }
+  ]
+}

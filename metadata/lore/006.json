@@ -1,0 +1,218 @@
+{
+  "identity": {
+    "guardian_number": 6,
+    "id": "006",
+    "name": "Orox",
+    "legendary_title": "The Obsidian Anvil",
+    "collection": "RedVerse Genesis",
+    "generation": 1,
+    "universe": "RedVerse",
+    "version": "5.0"
+  },
+  "story": {
+    "short_description": "Orox, The Obsidian Anvil. An unstoppable force of nature and gravity.",
+    "long_description": "Orox was not built; he was forged under the extreme pressure of a dying star during the Fracture. He is a colossal juggernaut clad in cracked obsidian plate armor laced with molten core energy. He does not dodge attacks; he absorbs them and strikes back with world-breaking force.",
+    "origin": "Forged in the heart of a dying star during the Fracture",
+    "purpose": "To serve as the immovable object against the unstoppable forces of the Void.",
+    "legacy": "The heaviest and most durable Guardian in existence.",
+    "current_status": "Active",
+    "role_in_fracture": "The Siege Juggernaut",
+    "relationship_to_architects": "Force of Nature",
+    "historical_importance": "Critical"
+  },
+  "combat": {
+    "primary_weapon": "The Worldbreaker",
+    "secondary_weapon": "None",
+    "combat_style": "Unstoppable, earth-shattering area-of-effect strikes. He absorbs impacts and retaliates with devastating force.",
+    "class": "The Siege Juggernaut",
+    "rank": "Legendary",
+    "guardian_type": "Genesis",
+    "threat_level": "Omega",
+    "power_level": 9500
+  },
+  "visual_identity": {
+    "helmet": "The Crown of Cinders",
+    "armor": "The Tectonic Plate",
+    "cape": "The Ashen Mantle",
+    "companion": "The Aegis of Cinder",
+    "aura": "The Storm of Ash",
+    "core": "The Furnace Heart",
+    "energy": "Molten Gold",
+    "material": "Heavy Obsidian and Molten Energy",
+    "primary_color": "Obsidian Black",
+    "secondary_color": "Molten Gold",
+    "accent_color": "Amber Orange",
+    "architect_symbols": "Tectonic Fractures, Sunbursts"
+  },
+  "personality": {
+    "temperament": "Immovable, silent, utterly destructive when provoked.",
+    "leadership": "Lone Siege Engine",
+    "morality": "Lawful Neutral",
+    "emotion": "Apathy",
+    "virtue": "Endurance",
+    "fear": "Nothing.",
+    "strength": "Unmatched durability and raw destructive power.",
+    "weakness": "Extremely slow, relying entirely on his armor to survive attacks."
+  },
+  "world_building": {
+    "home_realm": "The Shattered Crucible",
+    "known_locations": [
+      "The Molten Plains",
+      "The Obsidian Peaks"
+    ],
+    "ancient_relics": [
+      "The Worldbreaker"
+    ],
+    "architect_connection": "Viewed as a necessary disaster",
+    "enemy_factions": [
+      "The Void Walkers",
+      "Anything in his path"
+    ],
+    "important_events": [
+      "The Cracking of the First World"
+    ],
+    "timeline": "Post-Fracture Behemoth"
+  },
+  "marketplace": {
+    "image": "ipfs://TO_BE_FILLED",
+    "image_small": "ipfs://TO_BE_FILLED",
+    "image_thumbnail": "ipfs://TO_BE_FILLED",
+    "image_high": "ipfs://TO_BE_FILLED",
+    "animation_url": "ipfs://TO_BE_FILLED",
+    "preview": "ipfs://TO_BE_FILLED",
+    "external_url": "https://redverse.xyz/guardian/6",
+    "background_color": "000000",
+    "royalty": "5%",
+    "license": "CC BY-NC 4.0",
+    "edition": 6,
+    "collection_number": 6,
+    "supply": 1
+  },
+  "traits": [
+    {
+      "trait_type": "Role",
+      "value": "The Siege Juggernaut"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "Lawful Neutral"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "The Worldbreaker"
+    },
+    {
+      "trait_type": "Armor",
+      "value": "The Tectonic Plate"
+    },
+    {
+      "trait_type": "Helmet",
+      "value": "The Crown of Cinders"
+    },
+    {
+      "trait_type": "Companion",
+      "value": "The Aegis of Cinder"
+    },
+    {
+      "trait_type": "Aura",
+      "value": "The Storm of Ash"
+    },
+    {
+      "trait_type": "Core",
+      "value": "The Furnace Heart"
+    },
+    {
+      "trait_type": "Class",
+      "value": "The Siege Juggernaut"
+    },
+    {
+      "trait_type": "Rank",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Threat Level",
+      "value": "Omega"
+    },
+    {
+      "trait_type": "Realm",
+      "value": "The Shattered Crucible"
+    },
+    {
+      "trait_type": "Material",
+      "value": "Obsidian"
+    },
+    {
+      "trait_type": "Cape",
+      "value": "The Ashen Mantle"
+    }
+  ],
+  "art_direction": {
+    "silhouette": "Massive, hulking, impossibly heavy juggernaut.",
+    "pose": "Imposing, standing firm, holding a colossal warhammer resting on the ground.",
+    "camera": "Epic, low angle, looking up at a towering behemoth.",
+    "environment": "A dark, apocalyptic ruined city with a stormy, cloudy sky and golden lightning striking down.",
+    "lighting": "Dark shadows contrasted by intensely bright, glowing molten gold and amber energy.",
+    "mood": "Apocalyptic, overwhelming power, destructive, ancient.",
+    "materials": "Cracked obsidian, flowing molten gold, heavy dark cloth.",
+    "scale": "Massive, much larger than a normal human.",
+    "visual_theme": "Obsidian, Magma, Volcanic Gravity.",
+    "rendering_style": "AAA Unreal Engine 5, photorealistic",
+    "art_direction_notes": "The cracked obsidian armor must have glowing molten gold energy radiating from within."
+  },
+  "lore": {
+    "origin": "Formed when the immense gravity of the Fracture crushed a star into a sentient suit of armor.",
+    "history": "Orox has never been defeated. He simply walks through enemy lines, obliterating them with sheer mass.",
+    "purpose": "To destroy the most heavily fortified Void strongholds.",
+    "legend": "When the ground shakes and the sky bleeds gold, Orox has arrived.",
+    "current_mission": "Walking the Molten Plains, waiting for a worthy target.",
+    "secrets": "His core is actually a miniature dying star.",
+    "quotes": [
+      "\"I do not break. I break the world.\""
+    ],
+    "famous_battles": [
+      "The Shattering of the Crucible"
+    ],
+    "architect_notes": "We did not create him. He created himself from the pressure of our mistakes."
+  },
+  "relationships": {
+    "creators": "The Fracture",
+    "protects": "The Core Timeline",
+    "fought": "The Void Walkers",
+    "serves": "His own gravitational pull",
+    "allies": [
+      "Dravek (Respects his immovable nature)"
+    ],
+    "rivals": [
+      "Cyrus (Considers him an annoying insect)"
+    ],
+    "future_connections": []
+  },
+  "status": {
+    "production": {
+      "metadata_complete": true,
+      "prompt_complete": true,
+      "image_generated": true,
+      "image_reviewed": true,
+      "image_approved": true,
+      "uploaded_ipfs": false,
+      "website_added": false,
+      "contract_verified": false
+    }
+  },
+  "future_expansion": {
+    "models_3d": null,
+    "videos": null,
+    "audio": null,
+    "voice_lines": null,
+    "game_stats": {
+      "hp": 15000,
+      "attack": 1800,
+      "defense": 2000,
+      "speed": 100
+    },
+    "ar_support": null,
+    "vr_support": null,
+    "collectibles": null,
+    "merchandise": null
+  }
+}

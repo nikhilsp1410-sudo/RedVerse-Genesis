@@ -1,0 +1,73 @@
+{
+  "name": "Boreas - The Glacial Sentinel",
+  "description": "From the Freezing Spire, Boreas commands the cold entropy of the universe. Clad in the Permafrost Plate and wielding the Winter's Halberd, he stops the advance of any enemy by simply freezing the battlefield to absolute zero.",
+  "image": "ipfs://bafybeiagnoixk6uxcykyl2n3oppv2petvypwi4utpjc3qfg5udk7m4eaca/014.png",
+  "external_url": "https://redverse.xyz/guardian/14",
+  "attributes": [
+    {
+      "trait_type": "Role",
+      "value": "The Vanguard"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "Lawful Neutral"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "The Winter's Halberd"
+    },
+    {
+      "trait_type": "Armor",
+      "value": "The Permafrost Plate"
+    },
+    {
+      "trait_type": "Helmet",
+      "value": "The Helm of Absolute Zero"
+    },
+    {
+      "trait_type": "Companion",
+      "value": "The Frost Astrolabe"
+    },
+    {
+      "trait_type": "Aura",
+      "value": "The Biting Frost"
+    },
+    {
+      "trait_type": "Core",
+      "value": "The Blue Starburst"
+    },
+    {
+      "trait_type": "Class",
+      "value": "The Vanguard"
+    },
+    {
+      "trait_type": "Rank",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Threat Level",
+      "value": "Alpha"
+    },
+    {
+      "trait_type": "Realm",
+      "value": "The Freezing Spire"
+    },
+    {
+      "trait_type": "Material",
+      "value": "Obsidian and True Ice"
+    },
+    {
+      "trait_type": "Cape",
+      "value": "The Blizzard's Mantle"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Guardian Number",
+      "value": 14
+    },
+    {
+      "trait_type": "Generation",
+      "value": "Genesis"
+    }
+  ]
+}

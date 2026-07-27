@@ -1,0 +1,213 @@
+{
+  "identity": {
+    "guardian_number": 2,
+    "id": "002",
+    "name": "Valerius",
+    "legendary_title": "The Crimson King",
+    "collection": "RedVerse Genesis",
+    "generation": 1,
+    "universe": "RedVerse",
+    "version": "5.0"
+  },
+  "story": {
+    "short_description": "Valerius, The Crimson King. The golden emperor of the shattered timelines.",
+    "long_description": "Valerius rules over the Hall of Eternity, manipulating time and space through a massive celestial astrolabe. He is the vain, theatrical master of the golden void.",
+    "origin": "Forged in the Fracture",
+    "purpose": "To command the flow of time and exact worship from the remnants of reality.",
+    "legacy": "A timeless sovereign whose name echoes across broken dimensions.",
+    "current_status": "Active",
+    "role_in_fracture": "Sovereign of the Timestream",
+    "relationship_to_architects": "Rivalry",
+    "historical_importance": "Critical"
+  },
+  "combat": {
+    "primary_weapon": "The Sovereign Scepter",
+    "secondary_weapon": "None",
+    "combat_style": "Elegant, methodical, bending time to strike with absolute precision.",
+    "class": "The Crimson King",
+    "rank": "Legendary",
+    "guardian_type": "Genesis",
+    "threat_level": "Omega",
+    "power_level": 9999
+  },
+  "visual_identity": {
+    "helmet": "The Crown of Hubris",
+    "armor": "The God-King Plate",
+    "cape": "The Celestial Mantle",
+    "companion": "None",
+    "aura": "The Astrolabe of Hubris",
+    "core": "The Sovereign Spark",
+    "energy": "Crimson Plasma",
+    "material": "Obsidian and Polished Gold",
+    "primary_color": "Gold",
+    "secondary_color": "Vantablack",
+    "accent_color": "Crimson",
+    "architect_symbols": "Clockwork, Hourglasses, Celestial Spheres"
+  },
+  "personality": {
+    "temperament": "Vain, arrogant, theatrical, regal.",
+    "leadership": "Dictatorial",
+    "morality": "Lawful Evil",
+    "emotion": "Pride",
+    "virtue": "Patience (Timeless)",
+    "fear": "Irrelevance",
+    "strength": "Absolute control over his domain",
+    "weakness": "Excessive vanity and overconfidence"
+  },
+  "world_building": {
+    "home_realm": "The Hall of Eternity",
+    "known_locations": [
+      "The Golden Void",
+      "The Shattered Dimensions"
+    ],
+    "ancient_relics": [
+      "The Sovereign Scepter",
+      "The Astrolabe of Hubris"
+    ],
+    "architect_connection": "Defiant",
+    "enemy_factions": [
+      "The Corrupted",
+      "The Architects"
+    ],
+    "important_events": [
+      "The Shattering of the First Clock"
+    ],
+    "timeline": "Eternal"
+  },
+  "marketplace": {
+    "image": "ipfs://TO_BE_FILLED",
+    "image_small": "ipfs://TO_BE_FILLED",
+    "image_thumbnail": "ipfs://TO_BE_FILLED",
+    "image_high": "ipfs://TO_BE_FILLED",
+    "animation_url": "ipfs://TO_BE_FILLED",
+    "preview": "ipfs://TO_BE_FILLED",
+    "external_url": "https://redverse.xyz/guardian/2",
+    "background_color": "000000",
+    "royalty": "5%",
+    "license": "CC BY-NC 4.0",
+    "edition": 2,
+    "collection_number": 2,
+    "supply": 1
+  },
+  "traits": [
+    {
+      "trait_type": "Role",
+      "value": "The Crimson King"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "Lawful Evil"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "The Sovereign Scepter"
+    },
+    {
+      "trait_type": "Armor",
+      "value": "The God-King Plate"
+    },
+    {
+      "trait_type": "Helmet",
+      "value": "The Crown of Hubris"
+    },
+    {
+      "trait_type": "Aura",
+      "value": "The Astrolabe of Hubris"
+    },
+    {
+      "trait_type": "Core",
+      "value": "The Sovereign Spark"
+    },
+    {
+      "trait_type": "Class",
+      "value": "The Crimson King"
+    },
+    {
+      "trait_type": "Rank",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Threat Level",
+      "value": "Omega"
+    },
+    {
+      "trait_type": "Realm",
+      "value": "The Hall of Eternity"
+    },
+    {
+      "trait_type": "Material",
+      "value": "Gold and Obsidian"
+    },
+    {
+      "trait_type": "Cape",
+      "value": "The Celestial Mantle"
+    }
+  ],
+  "art_direction": {
+    "silhouette": "Imposing, heavily armored knight with a towering crown and massive clockwork halo.",
+    "pose": "Standing regal, spear planted, surveying his endless domain.",
+    "camera": "Low angle, cinematic, majestic.",
+    "environment": "A vast golden hall filled with giant hourglasses and celestial clockwork.",
+    "lighting": "Dramatic golden volumetric lighting, contrasting with the vantablack armor.",
+    "mood": "Timeless, ancient, regal, opulent.",
+    "materials": "Highly polished gold, glossy obsidian, glowing crimson plasma.",
+    "scale": "Larger than life, mythical.",
+    "visual_theme": "Clockwork, Time, Royalty, Dark Fantasy.",
+    "rendering_style": "AAA Unreal Engine 5, photorealistic",
+    "art_direction_notes": "Focus heavily on the reflective qualities of the gold and obsidian."
+  },
+  "lore": {
+    "origin": "Emerged from the Fracture grasping the shards of time itself.",
+    "history": "Valerius wove the remnants of a shattered dimension into the Hall of Eternity, placing himself at its center as a golden god.",
+    "purpose": "To command the flow of time.",
+    "legend": "Those who enter his hall never age, but they also never leave.",
+    "current_mission": "Expanding the Hall of Eternity.",
+    "secrets": "The Astrolabe is slowly draining his life force.",
+    "quotes": [
+      "\"I am the measure of all things. I am time itself.\""
+    ],
+    "famous_battles": [
+      "The Battle of the Shattered Clock"
+    ],
+    "architect_notes": "A beautiful anomaly. Do not disrupt."
+  },
+  "relationships": {
+    "creators": "The First Architects",
+    "protects": "The Hall of Eternity",
+    "fought": "The Void Walkers",
+    "serves": "Himself",
+    "allies": [],
+    "rivals": [
+      "Kaelen, The First Guardian"
+    ],
+    "future_connections": []
+  },
+  "status": {
+    "production": {
+      "metadata_complete": true,
+      "prompt_complete": true,
+      "image_generated": true,
+      "image_reviewed": true,
+      "image_approved": true,
+      "uploaded_ipfs": false,
+      "website_added": false,
+      "contract_verified": false
+    }
+  },
+  "future_expansion": {
+    "models_3d": null,
+    "videos": null,
+    "audio": null,
+    "voice_lines": null,
+    "game_stats": {
+      "hp": 12000,
+      "attack": 600,
+      "defense": 400,
+      "speed": 200
+    },
+    "ar_support": null,
+    "vr_support": null,
+    "collectibles": null,
+    "merchandise": null
+  }
+}

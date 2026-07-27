@@ -1,0 +1,73 @@
+{
+  "name": "Orion - The Celestial Hunter",
+  "description": "From the Floating Empyrean, Orion watches. Clad in the Solar Carapace and wielding the Sunstrike Bow, he is the ultimate bounty hunter of the RedVerse. His golden arrows of pure plasma can strike a target across dimensional rifts with terrifying precision.",
+  "image": "ipfs://bafybeiagnoixk6uxcykyl2n3oppv2petvypwi4utpjc3qfg5udk7m4eaca/009.png",
+  "external_url": "https://redverse.xyz/guardian/9",
+  "attributes": [
+    {
+      "trait_type": "Role",
+      "value": "The Sharpshooter"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "Lawful Neutral"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "The Sunstrike Bow"
+    },
+    {
+      "trait_type": "Armor",
+      "value": "The Solar Carapace"
+    },
+    {
+      "trait_type": "Helmet",
+      "value": "The Crown of Dawn"
+    },
+    {
+      "trait_type": "Companion",
+      "value": "The Eye of Apollo"
+    },
+    {
+      "trait_type": "Aura",
+      "value": "The Golden Flare"
+    },
+    {
+      "trait_type": "Core",
+      "value": "The Astral Compass"
+    },
+    {
+      "trait_type": "Class",
+      "value": "The Sharpshooter"
+    },
+    {
+      "trait_type": "Rank",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Threat Level",
+      "value": "Alpha"
+    },
+    {
+      "trait_type": "Realm",
+      "value": "The Floating Empyrean"
+    },
+    {
+      "trait_type": "Material",
+      "value": "Starlight Gold"
+    },
+    {
+      "trait_type": "Cape",
+      "value": "The Hunter's Cloak"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Guardian Number",
+      "value": 9
+    },
+    {
+      "trait_type": "Generation",
+      "value": "Genesis"
+    }
+  ]
+}

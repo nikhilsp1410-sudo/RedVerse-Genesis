@@ -1,0 +1,73 @@
+{
+  "name": "Aurelius - The Celestial Arbiter",
+  "description": "Aurelius resides in the Astral Sanctum, acting as the ultimate judge of all cosmic events. Forged from pure starlight and unwavering law, he brings divine order to a chaotic universe, wielding the Astrolabe of Judgement to mete out celestial punishment.",
+  "image": "ipfs://bafybeiagnoixk6uxcykyl2n3oppv2petvypwi4utpjc3qfg5udk7m4eaca/004.png",
+  "external_url": "https://redverse.xyz/guardian/4",
+  "attributes": [
+    {
+      "trait_type": "Role",
+      "value": "The Celestial Arbiter"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "Lawful Good"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "The Astrolabe of Judgement"
+    },
+    {
+      "trait_type": "Armor",
+      "value": "The Empyrean Plate"
+    },
+    {
+      "trait_type": "Helmet",
+      "value": "The Crown of Stars"
+    },
+    {
+      "trait_type": "Companion",
+      "value": "The Prism of Truth"
+    },
+    {
+      "trait_type": "Aura",
+      "value": "Divine Radiance"
+    },
+    {
+      "trait_type": "Core",
+      "value": "The Astral Heart"
+    },
+    {
+      "trait_type": "Class",
+      "value": "The Celestial Arbiter"
+    },
+    {
+      "trait_type": "Rank",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Threat Level",
+      "value": "Omega"
+    },
+    {
+      "trait_type": "Realm",
+      "value": "The Astral Sanctum"
+    },
+    {
+      "trait_type": "Material",
+      "value": "Ceramic and Gold"
+    },
+    {
+      "trait_type": "Cape",
+      "value": "The Firmament Mantle"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Guardian Number",
+      "value": 4
+    },
+    {
+      "trait_type": "Generation",
+      "value": "Genesis"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-heading: 'Space Grotesk', system-ui, sans-serif;
+  --font-display: 'Orbitron', system-ui, sans-serif;
+
+  --color-primary: #D90429;
+  --color-secondary: #EF233C;
+  --color-background: #0B0B0F;
+  --color-surface: #16181D;
+  --color-surface-light: rgba(255, 255, 255, 0.05); /* Softer surface hover */
+  --color-border: rgba(255, 255, 255, 0.08);
+  --color-accent: #FF4D6D;
+  --color-success: #22C55E;
+  --color-warning: #F59E0B;
+  --color-danger: #EF4444;
+  --color-text: #FFFFFF;
+  --color-text-muted: #A0A0A0;
+
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+}
+/* Custom utilities */
+@layer utilities {
+  .text-glow {
+    text-shadow: 0 0 10px rgba(217, 4, 41, 0.5), 0 0 20px rgba(217, 4, 41, 0.3), 0 0 40px rgba(217, 4, 41, 0.1);
+  }
+  .box-glow {
+    box-shadow: 0 0 15px rgba(217, 4, 41, 0.3), 0 0 30px rgba(217, 4, 41, 0.1);
+  }
+  .glass {
+    background: rgba(18, 18, 22, 0.5);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  }
+  .glass-heavy {
+    background: rgba(10, 10, 14, 0.7);
+    backdrop-filter: blur(24px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 20px 40px rgba(0,0,0,0.5);
+  }
+  .glass-hover {
+    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  .glass-hover:hover {
+    background: rgba(26, 26, 34, 0.7);
+    backdrop-filter: blur(16px);
+    border-color: rgba(217, 4, 41, 0.4);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 0 20px rgba(217, 4, 41, 0.15);
+  }
+}
+
+/* Animations */
+@keyframes sweep {
+  0% { transform: translateX(-150%) skewX(-12deg); }
+  100% { transform: translateX(150%) skewX(-12deg); }
+}
+
+.animate-sweep {
+  animation: sweep 1.2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #0B0B0F;
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  cursor: none; /* Hide default cursor because of CustomCursor */
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0B0B0F;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-surface-light);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-primary);
+}

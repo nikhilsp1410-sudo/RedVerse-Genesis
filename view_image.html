@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>View Composite</title>
+</head>
+<body style="margin: 0; padding: 0; background-color: #555;">
+    <img id="composite" src="ChatGPT Image Jul 27, 2026, 10_37_00 AM.png" style="display:block;" />
+    <script>
+        const img = document.getElementById('composite');
+        img.addEventListener('mousemove', (e) => {
+            console.log(`x: ${e.offsetX}, y: ${e.offsetY}`);
+        });
+    </script>
+</body>
+</html>

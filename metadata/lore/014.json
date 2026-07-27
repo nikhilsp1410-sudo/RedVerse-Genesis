@@ -1,0 +1,148 @@
+{
+  "identity": {
+    "guardian_number": 14,
+    "id": "014",
+    "name": "Boreas",
+    "legendary_title": "The Glacial Sentinel",
+    "collection": "RedVerse Genesis",
+    "generation": 1,
+    "universe": "RedVerse",
+    "version": "5.0"
+  },
+  "story": {
+    "short_description": "Boreas, The Glacial Sentinel. A towering ice knight commanding the absolute zero of the void.",
+    "long_description": "From the Freezing Spire, Boreas commands the cold entropy of the universe. Clad in the Permafrost Plate and wielding the Winter's Halberd, he stops the advance of any enemy by simply freezing the battlefield to absolute zero.",
+    "origin": "Forged in the frozen depths of the cosmos",
+    "purpose": "To halt the spread of uncontrollable chaos by freezing it in time.",
+    "legacy": "The unstoppable winter.",
+    "current_status": "Active",
+    "role_in_fracture": "The Vanguard",
+    "relationship_to_architects": "The Shield of Entropy",
+    "historical_importance": "High"
+  },
+  "combat": {
+    "primary_weapon": "The Winter's Halberd",
+    "secondary_weapon": "None",
+    "combat_style": "Slow, methodical area denial through extreme cold and sweeping halberd strikes.",
+    "class": "The Vanguard",
+    "rank": "Legendary",
+    "guardian_type": "Genesis",
+    "threat_level": "Alpha",
+    "power_level": 9000
+  },
+  "visual_identity": {
+    "helmet": "The Helm of Absolute Zero",
+    "armor": "The Permafrost Plate",
+    "cape": "The Blizzard's Mantle",
+    "companion": "The Frost Astrolabe",
+    "aura": "The Biting Frost",
+    "core": "The Blue Starburst",
+    "energy": "Glacial Blue Energy",
+    "material": "Obsidian and True Ice",
+    "primary_color": "Deep Obsidian Black",
+    "secondary_color": "Bright Neon Ice Blue",
+    "accent_color": "Cyan",
+    "architect_symbols": "Ice Crystals, Halberds"
+  },
+  "personality": {
+    "temperament": "Cold, unfeeling, relentless.",
+    "leadership": "Immovable Object",
+    "morality": "Lawful Neutral",
+    "emotion": "Apathy",
+    "virtue": "Patience",
+    "fear": "None.",
+    "strength": "Absolute area control.",
+    "weakness": "Slow movement."
+  },
+  "world_building": {
+    "home_realm": "The Freezing Spire",
+    "known_locations": [
+      "The Glacial Steps",
+      "The Frozen Throne"
+    ],
+    "ancient_relics": [
+      "The Winter's Halberd"
+    ],
+    "architect_connection": "The chilling end",
+    "enemy_factions": [
+      "Those of fire and chaos"
+    ],
+    "important_events": [
+      "The Freezing of the First Sun"
+    ],
+    "timeline": "Post-Fracture"
+  },
+  "marketplace": {
+    "image": "ipfs://TO_BE_FILLED",
+    "image_small": "ipfs://TO_BE_FILLED",
+    "image_thumbnail": "ipfs://TO_BE_FILLED",
+    "image_high": "ipfs://TO_BE_FILLED",
+    "animation_url": "ipfs://TO_BE_FILLED",
+    "preview": "ipfs://TO_BE_FILLED",
+    "external_url": "https://redverse.xyz/guardian/14",
+    "background_color": "000000",
+    "royalty": "5%",
+    "license": "CC BY-NC 4.0",
+    "edition": 14,
+    "collection_number": 14,
+    "supply": 1
+  },
+  "traits": [
+    {
+      "trait_type": "Role",
+      "value": "The Vanguard"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "Lawful Neutral"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "The Winter's Halberd"
+    },
+    {
+      "trait_type": "Armor",
+      "value": "The Permafrost Plate"
+    },
+    {
+      "trait_type": "Helmet",
+      "value": "The Helm of Absolute Zero"
+    },
+    {
+      "trait_type": "Companion",
+      "value": "The Frost Astrolabe"
+    },
+    {
+      "trait_type": "Aura",
+      "value": "The Biting Frost"
+    },
+    {
+      "trait_type": "Core",
+      "value": "The Blue Starburst"
+    },
+    {
+      "trait_type": "Class",
+      "value": "The Vanguard"
+    },
+    {
+      "trait_type": "Rank",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Threat Level",
+      "value": "Alpha"
+    },
+    {
+      "trait_type": "Realm",
+      "value": "The Freezing Spire"
+    },
+    {
+      "trait_type": "Material",
+      "value": "Obsidian and True Ice"
+    },
+    {
+      "trait_type": "Cape",
+      "value": "The Blizzard's Mantle"
+    }
+  ]
+}

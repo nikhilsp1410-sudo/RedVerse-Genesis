@@ -1,0 +1,73 @@
+{
+  "name": "Sylas - The Silent Judge",
+  "description": "From the Astral Tribunal, Sylas observes the balance of the RedVerse. He is the Silent Judge, an agile executor of cosmic law. Wielding his Void Chakrams, he strikes with acrobatic lethality, ensuring that those who tip the scales of reality face immediate, silent judgment.",
+  "image": "ipfs://bafybeiagnoixk6uxcykyl2n3oppv2petvypwi4utpjc3qfg5udk7m4eaca/012.png",
+  "external_url": "https://redverse.xyz/guardian/12",
+  "attributes": [
+    {
+      "trait_type": "Role",
+      "value": "The Arbiter"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "Lawful Neutral"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "The Void Chakrams"
+    },
+    {
+      "trait_type": "Armor",
+      "value": "The Cosmic Carapace"
+    },
+    {
+      "trait_type": "Helmet",
+      "value": "The Helm of Judgment"
+    },
+    {
+      "trait_type": "Companion",
+      "value": "The Third Eye"
+    },
+    {
+      "trait_type": "Aura",
+      "value": "The Cosmic Void"
+    },
+    {
+      "trait_type": "Core",
+      "value": "The Violet Starburst"
+    },
+    {
+      "trait_type": "Class",
+      "value": "The Arbiter"
+    },
+    {
+      "trait_type": "Rank",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Threat Level",
+      "value": "Alpha"
+    },
+    {
+      "trait_type": "Realm",
+      "value": "The Astral Tribunal"
+    },
+    {
+      "trait_type": "Material",
+      "value": "Cosmic Obsidian"
+    },
+    {
+      "trait_type": "Cape",
+      "value": "The Void Mantle"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Guardian Number",
+      "value": 12
+    },
+    {
+      "trait_type": "Generation",
+      "value": "Genesis"
+    }
+  ]
+}

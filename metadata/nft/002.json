@@ -1,0 +1,69 @@
+{
+  "name": "Valerius - The Crimson King",
+  "description": "Valerius rules over the Hall of Eternity, manipulating time and space through a massive celestial astrolabe. He is the vain, theatrical master of the golden void.",
+  "image": "ipfs://bafybeiagnoixk6uxcykyl2n3oppv2petvypwi4utpjc3qfg5udk7m4eaca/002.png",
+  "external_url": "https://redverse.xyz/guardian/2",
+  "attributes": [
+    {
+      "trait_type": "Role",
+      "value": "The Crimson King"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "Lawful Evil"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "The Sovereign Scepter"
+    },
+    {
+      "trait_type": "Armor",
+      "value": "The God-King Plate"
+    },
+    {
+      "trait_type": "Helmet",
+      "value": "The Crown of Hubris"
+    },
+    {
+      "trait_type": "Aura",
+      "value": "The Astrolabe of Hubris"
+    },
+    {
+      "trait_type": "Core",
+      "value": "The Sovereign Spark"
+    },
+    {
+      "trait_type": "Class",
+      "value": "The Crimson King"
+    },
+    {
+      "trait_type": "Rank",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Threat Level",
+      "value": "Omega"
+    },
+    {
+      "trait_type": "Realm",
+      "value": "The Hall of Eternity"
+    },
+    {
+      "trait_type": "Material",
+      "value": "Gold and Obsidian"
+    },
+    {
+      "trait_type": "Cape",
+      "value": "The Celestial Mantle"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Guardian Number",
+      "value": 2
+    },
+    {
+      "trait_type": "Generation",
+      "value": "Genesis"
+    }
+  ]
+}

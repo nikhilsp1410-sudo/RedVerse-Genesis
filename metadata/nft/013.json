@@ -1,0 +1,73 @@
+{
+  "name": "Hyperion - The Golden Vanguard",
+  "description": "Hyperion is the tip of the spear. Clad in the Radiant Plate, he leads the charge against the forces of darkness. Wielding the massive Solar Glaive, he sweeps aside entire battalions of enemies with sweeping arcs of golden plasma, inspiring his allies with his divine presence.",
+  "image": "ipfs://bafybeiagnoixk6uxcykyl2n3oppv2petvypwi4utpjc3qfg5udk7m4eaca/013.png",
+  "external_url": "https://redverse.xyz/guardian/13",
+  "attributes": [
+    {
+      "trait_type": "Role",
+      "value": "The Vanguard"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "Lawful Good"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "The Solar Glaive"
+    },
+    {
+      "trait_type": "Armor",
+      "value": "The Radiant Plate"
+    },
+    {
+      "trait_type": "Helmet",
+      "value": "The Helm of the Sun"
+    },
+    {
+      "trait_type": "Companion",
+      "value": "The Sun Sphere"
+    },
+    {
+      "trait_type": "Aura",
+      "value": "The Divine Radiance"
+    },
+    {
+      "trait_type": "Core",
+      "value": "The Golden Sunburst"
+    },
+    {
+      "trait_type": "Class",
+      "value": "The Vanguard"
+    },
+    {
+      "trait_type": "Rank",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Threat Level",
+      "value": "Alpha"
+    },
+    {
+      "trait_type": "Realm",
+      "value": "The Radiant Cathedral"
+    },
+    {
+      "trait_type": "Material",
+      "value": "Obsidian and Gold"
+    },
+    {
+      "trait_type": "Cape",
+      "value": "The Vanguard's Cloak"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Guardian Number",
+      "value": 13
+    },
+    {
+      "trait_type": "Generation",
+      "value": "Genesis"
+    }
+  ]
+}

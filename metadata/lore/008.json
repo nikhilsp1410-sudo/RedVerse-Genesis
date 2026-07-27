@@ -1,0 +1,225 @@
+{
+  "identity": {
+    "guardian_number": 8,
+    "id": "008",
+    "name": "Tiberius",
+    "legendary_title": "The Golden Bulwark",
+    "collection": "RedVerse Genesis",
+    "generation": 1,
+    "universe": "RedVerse",
+    "version": "5.0"
+  },
+  "story": {
+    "short_description": "Tiberius, The Golden Bulwark. The unbreakable shield of the RedVerse.",
+    "long_description": "Tiberius stands as the ultimate defender of the Shattered Cathedral, a realm of divine order and holy retribution. Clad in the Crusader's Carapace, he wields the towering Aegis of the Lion and the devastating Sunburst Mace to repel the darkest incursions. He does not yield, and he does not break.",
+    "origin": "Forged in the holy fires of the Shattered Cathedral",
+    "purpose": "To protect the innocent and crush the forces of chaos.",
+    "legacy": "The most impenetrable defense in the RedVerse.",
+    "current_status": "Active",
+    "role_in_fracture": "The Paladin",
+    "relationship_to_architects": "Divine Protector",
+    "historical_importance": "High"
+  },
+  "combat": {
+    "primary_weapon": "The Sunburst Mace",
+    "secondary_weapon": "The Aegis of the Lion",
+    "combat_style": "Immovable defense and holy retribution. He plants his towering shield to weather any assault, then counterattacks with crushing blows.",
+    "class": "The Paladin",
+    "rank": "Legendary",
+    "guardian_type": "Genesis",
+    "threat_level": "Alpha",
+    "power_level": 9100
+  },
+  "visual_identity": {
+    "helmet": "The Helm of the Martyr",
+    "armor": "The Crusader's Carapace",
+    "cape": "The Martyr's Mantle",
+    "companion": "The Guiding Star",
+    "aura": "The Divine Bastion",
+    "core": "The Templar's Heart",
+    "energy": "Amber Divine Light",
+    "material": "Obsidian Metal and Royal Gold",
+    "primary_color": "Obsidian Black",
+    "secondary_color": "Royal Gold",
+    "accent_color": "Amber",
+    "architect_symbols": "Templar Cross, Lion's Head, Sunbursts"
+  },
+  "personality": {
+    "temperament": "Stoic, righteous, unyielding.",
+    "leadership": "Holy Commander",
+    "morality": "Lawful Good",
+    "emotion": "Righteous Fury",
+    "virtue": "Fortitude",
+    "fear": "Failing to protect those behind him.",
+    "strength": "Impenetrable defense and blinding holy magic.",
+    "weakness": "His rigid adherence to honor can be exploited by chaotic enemies."
+  },
+  "world_building": {
+    "home_realm": "The Shattered Cathedral",
+    "known_locations": [
+      "The Grand Nave",
+      "The Golden Altar"
+    ],
+    "ancient_relics": [
+      "The Aegis of the Lion",
+      "The Sunburst Mace"
+    ],
+    "architect_connection": "Revered as a Saint",
+    "enemy_factions": [
+      "The Void Walkers",
+      "The Corrupted",
+      "Forces of Entropy"
+    ],
+    "important_events": [
+      "The Defense of the Cathedral"
+    ],
+    "timeline": "Post-Fracture Defender"
+  },
+  "marketplace": {
+    "image": "ipfs://TO_BE_FILLED",
+    "image_small": "ipfs://TO_BE_FILLED",
+    "image_thumbnail": "ipfs://TO_BE_FILLED",
+    "image_high": "ipfs://TO_BE_FILLED",
+    "animation_url": "ipfs://TO_BE_FILLED",
+    "preview": "ipfs://TO_BE_FILLED",
+    "external_url": "https://redverse.xyz/guardian/8",
+    "background_color": "000000",
+    "royalty": "5%",
+    "license": "CC BY-NC 4.0",
+    "edition": 8,
+    "collection_number": 8,
+    "supply": 1
+  },
+  "traits": [
+    {
+      "trait_type": "Role",
+      "value": "The Paladin"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "Lawful Good"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "The Sunburst Mace"
+    },
+    {
+      "trait_type": "Secondary Weapon",
+      "value": "The Aegis of the Lion"
+    },
+    {
+      "trait_type": "Armor",
+      "value": "The Crusader's Carapace"
+    },
+    {
+      "trait_type": "Helmet",
+      "value": "The Helm of the Martyr"
+    },
+    {
+      "trait_type": "Companion",
+      "value": "The Guiding Star"
+    },
+    {
+      "trait_type": "Aura",
+      "value": "The Divine Bastion"
+    },
+    {
+      "trait_type": "Core",
+      "value": "The Templar's Heart"
+    },
+    {
+      "trait_type": "Class",
+      "value": "The Paladin"
+    },
+    {
+      "trait_type": "Rank",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Threat Level",
+      "value": "Alpha"
+    },
+    {
+      "trait_type": "Realm",
+      "value": "The Shattered Cathedral"
+    },
+    {
+      "trait_type": "Material",
+      "value": "Obsidian and Gold"
+    },
+    {
+      "trait_type": "Cape",
+      "value": "The Martyr's Mantle"
+    }
+  ],
+  "art_direction": {
+    "silhouette": "Immovable wall. Massive shield, heavy armor, mace.",
+    "pose": "Standing guard, shield planted, mace held low, completely immovable.",
+    "camera": "Epic, low angle, portraying an unyielding defender.",
+    "environment": "A dark, imposing gothic/cathedral realm with towering black spires, knight statues, and a stormy sky glowing with amber divine light.",
+    "lighting": "Holy, radiant amber light piercing through dark gothic shadows.",
+    "mood": "Holy, ancient, unyielding, divine retribution, templar.",
+    "materials": "Imposing obsidian metal densely engraved with glowing royal gold.",
+    "scale": "Huge, imposing, fortified paladin/crusader.",
+    "visual_theme": "Holy Templar, Lion, Golden Defense.",
+    "rendering_style": "AAA Unreal Engine 5, photorealistic",
+    "art_direction_notes": "The golden templar cross on his visor and the roaring lion head on his shield are his most defining features."
+  },
+  "lore": {
+    "origin": "Forged from the remnants of the Architects' holy guard, imbued with the light of the Cathedral.",
+    "history": "Tiberius held the Grand Nave of the Shattered Cathedral against a massive Void incursion for three centuries without taking a single step backward.",
+    "purpose": "To shield the innocent and crush corruption.",
+    "legend": "When you stand behind the Lion, you are safe.",
+    "current_mission": "Defending the sacred archives of the Cathedral.",
+    "secrets": "His shield, the Aegis of the Lion, contains the soul of the first creature to ever show courage.",
+    "quotes": [
+      "\"My shield is the wall against which chaos breaks.\""
+    ],
+    "famous_battles": [
+      "The Siege of the Three Centuries"
+    ],
+    "architect_notes": "We gave him a shield. He became the wall."
+  },
+  "relationships": {
+    "creators": "The Architects",
+    "protects": "The Innocent",
+    "fought": "The Void Walkers",
+    "serves": "Divine Order",
+    "allies": [
+      "Aurelius (Shares his vision of order)"
+    ],
+    "rivals": [
+      "Moros (Views his entropic nature as abhorrent)",
+      "Orox (A clash of immovable object vs immovable object)"
+    ],
+    "future_connections": []
+  },
+  "status": {
+    "production": {
+      "metadata_complete": true,
+      "prompt_complete": true,
+      "image_generated": true,
+      "image_reviewed": true,
+      "image_approved": true,
+      "uploaded_ipfs": false,
+      "website_added": false,
+      "contract_verified": false
+    }
+  },
+  "future_expansion": {
+    "models_3d": null,
+    "videos": null,
+    "audio": null,
+    "voice_lines": null,
+    "game_stats": {
+      "hp": 12000,
+      "attack": 1300,
+      "defense": 2500,
+      "speed": 300
+    },
+    "ar_support": null,
+    "vr_support": null,
+    "collectibles": null,
+    "merchandise": null
+  }
+}

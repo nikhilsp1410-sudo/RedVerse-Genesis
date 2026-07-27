@@ -1,0 +1,77 @@
+{
+  "name": "Tiberius - The Golden Bulwark",
+  "description": "Tiberius stands as the ultimate defender of the Shattered Cathedral, a realm of divine order and holy retribution. Clad in the Crusader's Carapace, he wields the towering Aegis of the Lion and the devastating Sunburst Mace to repel the darkest incursions. He does not yield, and he does not break.",
+  "image": "ipfs://bafybeiagnoixk6uxcykyl2n3oppv2petvypwi4utpjc3qfg5udk7m4eaca/008.png",
+  "external_url": "https://redverse.xyz/guardian/8",
+  "attributes": [
+    {
+      "trait_type": "Role",
+      "value": "The Paladin"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "Lawful Good"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "The Sunburst Mace"
+    },
+    {
+      "trait_type": "Secondary Weapon",
+      "value": "The Aegis of the Lion"
+    },
+    {
+      "trait_type": "Armor",
+      "value": "The Crusader's Carapace"
+    },
+    {
+      "trait_type": "Helmet",
+      "value": "The Helm of the Martyr"
+    },
+    {
+      "trait_type": "Companion",
+      "value": "The Guiding Star"
+    },
+    {
+      "trait_type": "Aura",
+      "value": "The Divine Bastion"
+    },
+    {
+      "trait_type": "Core",
+      "value": "The Templar's Heart"
+    },
+    {
+      "trait_type": "Class",
+      "value": "The Paladin"
+    },
+    {
+      "trait_type": "Rank",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Threat Level",
+      "value": "Alpha"
+    },
+    {
+      "trait_type": "Realm",
+      "value": "The Shattered Cathedral"
+    },
+    {
+      "trait_type": "Material",
+      "value": "Obsidian and Gold"
+    },
+    {
+      "trait_type": "Cape",
+      "value": "The Martyr's Mantle"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Guardian Number",
+      "value": 8
+    },
+    {
+      "trait_type": "Generation",
+      "value": "Genesis"
+    }
+  ]
+}

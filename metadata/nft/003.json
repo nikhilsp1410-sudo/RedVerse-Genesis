@@ -1,0 +1,73 @@
+{
+  "name": "Malakor - The Void Sentinel",
+  "description": "During the Fracture, Malakor realized that the only way to combat the Void Walkers was to harness their power. He bound a singularity to his chest armor, becoming a dark, imposing force of chaotic justice in the Void Rifts.",
+  "image": "ipfs://bafybeiagnoixk6uxcykyl2n3oppv2petvypwi4utpjc3qfg5udk7m4eaca/003.png",
+  "external_url": "https://redverse.xyz/guardian/3",
+  "attributes": [
+    {
+      "trait_type": "Role",
+      "value": "The Void Sentinel"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "Chaotic Neutral"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "The Singularity Spear"
+    },
+    {
+      "trait_type": "Armor",
+      "value": "The Abyssal Plate"
+    },
+    {
+      "trait_type": "Helmet",
+      "value": "The Crown of the Abyss"
+    },
+    {
+      "trait_type": "Companion",
+      "value": "The Null Sphere"
+    },
+    {
+      "trait_type": "Aura",
+      "value": "Cosmic Void"
+    },
+    {
+      "trait_type": "Core",
+      "value": "The Event Horizon"
+    },
+    {
+      "trait_type": "Class",
+      "value": "The Void Sentinel"
+    },
+    {
+      "trait_type": "Rank",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Threat Level",
+      "value": "Omega"
+    },
+    {
+      "trait_type": "Realm",
+      "value": "The Void Rifts"
+    },
+    {
+      "trait_type": "Material",
+      "value": "Obsidian and Gold"
+    },
+    {
+      "trait_type": "Cape",
+      "value": "The Shadow Mantle"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Guardian Number",
+      "value": 3
+    },
+    {
+      "trait_type": "Generation",
+      "value": "Genesis"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #D90429;
+  --color-primary-hover: #ef233c;
+  --color-background: #0B0B0F;
+  --color-surface: #13131A;
+  --color-surface-light: #1C1C26;
+  --color-text-main: #F8F8F8;
+  --color-text-muted: #A1A1AA;
+  --color-accent: #00F2FE;
+  
+  --font-sans: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --font-heading: 'Outfit', 'Inter', system-ui, sans-serif;
+}
+
+/* Custom base styles */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-[var(--color-background)] text-[var(--color-text-main)] font-sans antialiased m-0 selection:bg-primary/30;
+  }
+}
+
+/* Reusable utility classes for the design system */
+@layer utilities {
+  .glass {
+    @apply bg-surface/60 backdrop-blur-md border border-white/5;
+  }
+  .glass-hover {
+    @apply hover:bg-surface/80 hover:border-primary/50 transition-all duration-300;
+  }
+  .text-glow {
+    text-shadow: 0 0 20px rgba(217, 4, 41, 0.5);
+  }
+  .box-glow {
+    box-shadow: 0 0 20px rgba(217, 4, 41, 0.2);
+  }
+  .box-glow-hover:hover {
+    box-shadow: 0 0 30px rgba(217, 4, 41, 0.4);
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "identity": {
+    "guardian_number": 10,
+    "id": "010",
+    "name": "Zael",
+    "legendary_title": "The Crimson Scourge",
+    "collection": "RedVerse Genesis",
+    "generation": 1,
+    "universe": "RedVerse",
+    "version": "5.0"
+  },
+  "story": {
+    "short_description": "Zael, The Crimson Scourge. A visceral, terrifying force of torment.",
+    "long_description": "Zael is a nightmare made manifest. Residing in the Crimson Abyss, he is a sadistic executioner who wields the Bloodchain Whip, a terrifying bladed chain that moves like a living serpent. He thrives on chaos and the suffering of the corrupted.",
+    "origin": "Born from the coagulated malice of the Void",
+    "purpose": "To hunt and torture the most resilient enemies.",
+    "legacy": "The most feared Tormentor in the RedVerse.",
+    "current_status": "Active",
+    "role_in_fracture": "The Assassin / Tormentor",
+    "relationship_to_architects": "Uncontrollable Weapon",
+    "historical_importance": "High"
+  },
+  "combat": {
+    "primary_weapon": "The Bloodchain Whip",
+    "secondary_weapon": "None",
+    "combat_style": "Visceral, bloody, and agonizing mid-range combat. The chain whip slices through armor and soul alike.",
+    "class": "The Tormentor",
+    "rank": "Legendary",
+    "guardian_type": "Genesis",
+    "threat_level": "Omega",
+    "power_level": 9300
+  },
+  "visual_identity": {
+    "helmet": "The Helm of Torment",
+    "armor": "The Flayed Carapace",
+    "cape": "The Flayer's Mantle",
+    "companion": "The Eye of Ruin",
+    "aura": "The Blood Mist",
+    "core": "The Crimson Nexus",
+    "energy": "Blood Red Plasma",
+    "material": "Jagged Obsidian and Crimson Energy",
+    "primary_color": "Deep Black",
+    "secondary_color": "Crimson Red",
+    "accent_color": "Blood Red",
+    "architect_symbols": "Chains, Spiders, Blades"
+  },
+  "personality": {
+    "temperament": "Sadistic, relentless, chaotic.",
+    "leadership": "Lone Assassin",
+    "morality": "Chaotic Neutral",
+    "emotion": "Bloodlust",
+    "virtue": "Tenacity",
+    "fear": "Nothing.",
+    "strength": "Lethal mid-range area control and extreme agility.",
+    "weakness": "His bloodlust can cause him to ignore his own safety."
+  },
+  "world_building": {
+    "home_realm": "The Crimson Abyss",
+    "known_locations": [
+      "The Flayed Spires",
+      "The Blood Rivers"
+    ],
+    "ancient_relics": [
+      "The Bloodchain Whip"
+    ],
+    "architect_connection": "They avoid him",
+    "enemy_factions": [
+      "Everyone"
+    ],
+    "important_events": [
+      "The Red Slaughter"
+    ],
+    "timeline": "Post-Fracture Tormentor"
+  },
+  "marketplace": {
+    "image": "ipfs://TO_BE_FILLED",
+    "image_small": "ipfs://TO_BE_FILLED",
+    "image_thumbnail": "ipfs://TO_BE_FILLED",
+    "image_high": "ipfs://TO_BE_FILLED",
+    "animation_url": "ipfs://TO_BE_FILLED",
+    "preview": "ipfs://TO_BE_FILLED",
+    "external_url": "https://redverse.xyz/guardian/10",
+    "background_color": "000000",
+    "royalty": "5%",
+    "license": "CC BY-NC 4.0",
+    "edition": 10,
+    "collection_number": 10,
+    "supply": 1
+  },
+  "traits": [
+    {
+      "trait_type": "Role",
+      "value": "The Tormentor"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "Chaotic Neutral"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "The Bloodchain Whip"
+    },
+    {
+      "trait_type": "Armor",
+      "value": "The Flayed Carapace"
+    },
+    {
+      "trait_type": "Helmet",
+      "value": "The Helm of Torment"
+    },
+    {
+      "trait_type": "Companion",
+      "value": "The Eye of Ruin"
+    },
+    {
+      "trait_type": "Aura",
+      "value": "The Blood Mist"
+    },
+    {
+      "trait_type": "Core",
+      "value": "The Crimson Nexus"
+    },
+    {
+      "trait_type": "Class",
+      "value": "The Assassin"
+    },
+    {
+      "trait_type": "Rank",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Threat Level",
+      "value": "Omega"
+    },
+    {
+      "trait_type": "Realm",
+      "value": "The Crimson Abyss"
+    },
+    {
+      "trait_type": "Material",
+      "value": "Jagged Obsidian"
+    },
+    {
+      "trait_type": "Cape",
+      "value": "The Flayer's Mantle"
+    }
+  ]
+}

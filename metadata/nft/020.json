@@ -1,0 +1,69 @@
+{
+  "name": "Aion - The Prime Architect",
+  "description": "Aion is the culmination of the RedVerse. Hovering in the Cosmic Void, he holds the power of creation and destruction in his hands. He has transcended physical weapons; he manipulates the very fabric of reality, watching over the 19 Guardians he helped forge.",
+  "image": "ipfs://bafybeiagnoixk6uxcykyl2n3oppv2petvypwi4utpjc3qfg5udk7m4eaca/020.png",
+  "external_url": "https://redverse.xyz/guardian/20",
+  "attributes": [
+    {
+      "trait_type": "Role",
+      "value": "The Architect"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "True Neutral"
+    },
+    {
+      "trait_type": "Armor",
+      "value": "The Genesis Mantle"
+    },
+    {
+      "trait_type": "Helmet",
+      "value": "The Cosmic Crown"
+    },
+    {
+      "trait_type": "Companion",
+      "value": "The Orbiting Cosmos"
+    },
+    {
+      "trait_type": "Aura",
+      "value": "The Fabric of Reality"
+    },
+    {
+      "trait_type": "Core",
+      "value": "The Black Hole Core"
+    },
+    {
+      "trait_type": "Class",
+      "value": "The Architect"
+    },
+    {
+      "trait_type": "Rank",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Threat Level",
+      "value": "Unquantifiable"
+    },
+    {
+      "trait_type": "Realm",
+      "value": "The Cosmic Void"
+    },
+    {
+      "trait_type": "Material",
+      "value": "Stardust and Vantablack"
+    },
+    {
+      "trait_type": "Cape",
+      "value": "The Galaxy Cloak"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Guardian Number",
+      "value": 20
+    },
+    {
+      "trait_type": "Generation",
+      "value": "Genesis"
+    }
+  ]
+}

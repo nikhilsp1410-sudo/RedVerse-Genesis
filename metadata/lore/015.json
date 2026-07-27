@@ -1,0 +1,149 @@
+{
+  "identity": {
+    "guardian_number": 15,
+    "id": "015",
+    "name": "Malok",
+    "legendary_title": "The Toxic Juggernaut",
+    "collection": "RedVerse Genesis",
+    "generation": 1,
+    "universe": "RedVerse",
+    "version": "5.0"
+  },
+  "story": {
+    "short_description": "Malok, The Toxic Juggernaut. A terrifying force of plague and decay.",
+    "long_description": "Malok is the embodiment of decay. Wielding the Venomous Battleaxe, he lumbers through the Decaying Spire, turning everything he touches to ash and sludge. He is an unstoppable juggernaut of toxic energy.",
+    "origin": "Born from the corrupted remnants of a dead world",
+    "purpose": "To erode the foundations of reality so it can be rebuilt.",
+    "legacy": "The Bringer of the Plague.",
+    "current_status": "Active",
+    "role_in_fracture": "The Juggernaut",
+    "relationship_to_architects": "The Necessary Decay",
+    "historical_importance": "High"
+  },
+  "combat": {
+    "primary_weapon": "The Venomous Battleaxe",
+    "secondary_weapon": "None",
+    "combat_style": "Brutal, heavy melee attacks combined with wide-area toxic corruption.",
+    "class": "The Juggernaut",
+    "rank": "Legendary",
+    "guardian_type": "Genesis",
+    "threat_level": "Omega",
+    "power_level": 9400
+  },
+  "visual_identity": {
+    "helmet": "The Helm of Decay",
+    "armor": "The Plague Carapace",
+    "cape": "The Toxic Mantle",
+    "companion": "The Plague Astrolabe",
+    "aura": "The Noxious Fumes",
+    "core": "The Toxic Core",
+    "energy": "Toxic Green Energy",
+    "material": "Obsidian and Corrupted Metal",
+    "primary_color": "Deep Obsidian Black",
+    "secondary_color": "Toxic Neon Green",
+    "accent_color": "Acid Green",
+    "architect_symbols": "Webs, Skulls, Axes"
+  },
+  "personality": {
+    "temperament": "Relentless, destructive, decaying.",
+    "leadership": "Lone Juggernaut",
+    "morality": "Chaotic Neutral",
+    "emotion": "Destruction",
+    "virtue": "Inevitable",
+    "fear": "Purity.",
+    "strength": "Unstoppable momentum and damage over time.",
+    "weakness": "Extremely slow."
+  },
+  "world_building": {
+    "home_realm": "The Decaying Spire",
+    "known_locations": [
+      "The Sludge Pits",
+      "The Rotting Throne"
+    ],
+    "ancient_relics": [
+      "The Venomous Battleaxe"
+    ],
+    "architect_connection": "The great recycler",
+    "enemy_factions": [
+      "The Pure",
+      "The Holy"
+    ],
+    "important_events": [
+      "The Rotting of Sector 4"
+    ],
+    "timeline": "Post-Fracture"
+  },
+  "marketplace": {
+    "image": "ipfs://TO_BE_FILLED",
+    "image_small": "ipfs://TO_BE_FILLED",
+    "image_thumbnail": "ipfs://TO_BE_FILLED",
+    "image_high": "ipfs://TO_BE_FILLED",
+    "animation_url": "ipfs://TO_BE_FILLED",
+    "preview": "ipfs://TO_BE_FILLED",
+    "external_url": "https://redverse.xyz/guardian/15",
+    "background_color": "000000",
+    "royalty": "5%",
+    "license": "CC BY-NC 4.0",
+    "edition": 15,
+    "collection_number": 15,
+    "supply": 1
+  },
+  "traits": [
+    {
+      "trait_type": "Role",
+      "value": "The Juggernaut"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "Chaotic Neutral"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "The Venomous Battleaxe"
+    },
+    {
+      "trait_type": "Armor",
+      "value": "The Plague Carapace"
+    },
+    {
+      "trait_type": "Helmet",
+      "value": "The Helm of Decay"
+    },
+    {
+      "trait_type": "Companion",
+      "value": "The Plague Astrolabe"
+    },
+    {
+      "trait_type": "Aura",
+      "value": "The Noxious Fumes"
+    },
+    {
+      "trait_type": "Core",
+      "value": "The Toxic Core"
+    },
+    {
+      "trait_type": "Class",
+      "value": "The Juggernaut"
+    },
+    {
+      "trait_type": "Rank",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Threat Level",
+      "value": "Omega"
+    },
+    {
+      "trait_type": "Realm",
+      "value": "The Decaying Spire"
+    },
+    {
+      "trait_type": "Material",
+      "value": "Obsidian and Corrupted Metal"
+    },
+    {
+      "trait_type": "Cape",
+      "value": "The Toxic Mantle"
+    }
+  ]
+}

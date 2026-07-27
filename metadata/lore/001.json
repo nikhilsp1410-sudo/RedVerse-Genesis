@@ -1,0 +1,218 @@
+{
+  "identity": {
+    "guardian_number": 1,
+    "id": "001",
+    "name": "Kaelen",
+    "legendary_title": "The First Guardian",
+    "collection": "RedVerse Genesis",
+    "generation": 1,
+    "universe": "RedVerse",
+    "version": "5.0"
+  },
+  "story": {
+    "short_description": "Kaelen, The First Guardian. The anchor of the timeline.",
+    "long_description": "Kaelen was the first Architect to bind a Crimson Shard to his armor during the Fracture, sacrificing his physical form to stabilize the timeline. He now stands as an eternal sentinel in the Genesis Temple.",
+    "origin": "Forged in the Fracture",
+    "purpose": "To prevent reality from collapsing further.",
+    "legacy": "The absolute anchor point of the RedVerse timeline.",
+    "current_status": "Active",
+    "role_in_fracture": "The First Sacrifice",
+    "relationship_to_architects": "Former Peer, Now Legend",
+    "historical_importance": "Absolute"
+  },
+  "combat": {
+    "primary_weapon": "The Chronos Halberd",
+    "secondary_weapon": "None",
+    "combat_style": "Methodical, impenetrable defense followed by a single devastating strike.",
+    "class": "The First Guardian",
+    "rank": "Legendary",
+    "guardian_type": "Genesis",
+    "threat_level": "Omega",
+    "power_level": 9999
+  },
+  "visual_identity": {
+    "helmet": "Visor of Eternity",
+    "armor": "Aegis Plate",
+    "cape": "The Void Mantle",
+    "companion": "Sentinel Drone Ordis",
+    "aura": "Temporal Stasis",
+    "core": "The Alpha Shard",
+    "energy": "Crimson Plasma",
+    "material": "Vantablack Obsidian and White Ceramic",
+    "primary_color": "Vantablack",
+    "secondary_color": "White Ceramic",
+    "accent_color": "Crimson and Gold",
+    "architect_symbols": "Fracture Runes, Floating Shards"
+  },
+  "personality": {
+    "temperament": "Stoic, unwavering, burdened by duty.",
+    "leadership": "Leading by absolute example",
+    "morality": "Lawful Neutral",
+    "emotion": "Resignation",
+    "virtue": "Self-Sacrifice",
+    "fear": "The total collapse of the timeline",
+    "strength": "Impenetrable defense and unyielding willpower",
+    "weakness": "Lacks agility, completely immobile while using his signature ability."
+  },
+  "world_building": {
+    "home_realm": "The Genesis Temple",
+    "known_locations": [
+      "The Epicenter of the Fracture"
+    ],
+    "ancient_relics": [
+      "The Chronos Halberd",
+      "The Alpha Shard"
+    ],
+    "architect_connection": "The First to Transpose",
+    "enemy_factions": [
+      "The Void Walkers"
+    ],
+    "important_events": [
+      "The First Binding",
+      "The Fracture"
+    ],
+    "timeline": "Zero Hour"
+  },
+  "marketplace": {
+    "image": "ipfs://TO_BE_FILLED",
+    "image_small": "ipfs://TO_BE_FILLED",
+    "image_thumbnail": "ipfs://TO_BE_FILLED",
+    "image_high": "ipfs://TO_BE_FILLED",
+    "animation_url": "ipfs://TO_BE_FILLED",
+    "preview": "ipfs://TO_BE_FILLED",
+    "external_url": "https://redverse.xyz/guardian/1",
+    "background_color": "000000",
+    "royalty": "5%",
+    "license": "CC BY-NC 4.0",
+    "edition": 1,
+    "collection_number": 1,
+    "supply": 1
+  },
+  "traits": [
+    {
+      "trait_type": "Role",
+      "value": "The First Guardian"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "Lawful Neutral"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "The Chronos Halberd"
+    },
+    {
+      "trait_type": "Armor",
+      "value": "Aegis Plate"
+    },
+    {
+      "trait_type": "Helmet",
+      "value": "Visor of Eternity"
+    },
+    {
+      "trait_type": "Companion",
+      "value": "Sentinel Drone Ordis"
+    },
+    {
+      "trait_type": "Aura",
+      "value": "Temporal Stasis"
+    },
+    {
+      "trait_type": "Core",
+      "value": "The Alpha Shard"
+    },
+    {
+      "trait_type": "Class",
+      "value": "The First Guardian"
+    },
+    {
+      "trait_type": "Rank",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Threat Level",
+      "value": "Omega"
+    },
+    {
+      "trait_type": "Realm",
+      "value": "The Genesis Temple"
+    },
+    {
+      "trait_type": "Material",
+      "value": "Obsidian and Ceramic"
+    },
+    {
+      "trait_type": "Cape",
+      "value": "The Void Mantle"
+    }
+  ],
+  "art_direction": {
+    "silhouette": "Imposing, heavily armored knight with a glowing chest core drawing the eye.",
+    "pose": "Standing aggressively, holding the glowing crimson spear.",
+    "camera": "Epic, low angle, cinematic depth of field.",
+    "environment": "A dark, ancient monolithic ruin under a starry cosmic sky with floating red shards.",
+    "lighting": "Dramatic top-down celestial light beam, heavy red ambient glow from the crystals.",
+    "mood": "Epic, ancient, cosmic, powerful.",
+    "materials": "Vantablack obsidian, bright white ceramic, polished gold, glowing red plasma.",
+    "scale": "Towering and monolithic.",
+    "visual_theme": "Cosmic Knight, Ancient Technology.",
+    "rendering_style": "AAA Unreal Engine 5, photorealistic",
+    "art_direction_notes": "The glowing red plasma veins running through the dark armor are a critical focal point."
+  },
+  "lore": {
+    "origin": "Forged in the epicenter of the Fracture.",
+    "history": "When reality splintered, Kaelen did not run. He anchored his soul to the Alpha Shard, becoming the First Guardian and freezing the epicenter in temporal stasis.",
+    "purpose": "To prevent reality from collapsing further.",
+    "legend": "He is the immovable object against which the Void crashes.",
+    "current_mission": "Hold the line at the Genesis Temple.",
+    "secrets": "His physical body no longer exists; he is pure will bound to armor.",
+    "quotes": [
+      "\"I am the line drawn in the sand.\""
+    ],
+    "famous_battles": [
+      "The Standoff at Zero Hour"
+    ],
+    "architect_notes": "Our greatest triumph and our deepest regret."
+  },
+  "relationships": {
+    "creators": "Himself (Forged)",
+    "protects": "The Genesis Temple",
+    "fought": "The Void",
+    "serves": "The Timeline",
+    "allies": [
+      "Ordis"
+    ],
+    "rivals": [
+      "Valerius, The Crimson King"
+    ],
+    "future_connections": []
+  },
+  "status": {
+    "production": {
+      "metadata_complete": true,
+      "prompt_complete": true,
+      "image_generated": true,
+      "image_reviewed": true,
+      "image_approved": true,
+      "uploaded_ipfs": false,
+      "website_added": false,
+      "contract_verified": false
+    }
+  },
+  "future_expansion": {
+    "models_3d": null,
+    "videos": null,
+    "audio": null,
+    "voice_lines": null,
+    "game_stats": {
+      "hp": 15000,
+      "attack": 400,
+      "defense": 800,
+      "speed": 100
+    },
+    "ar_support": null,
+    "vr_support": null,
+    "collectibles": null,
+    "merchandise": null
+  }
+}

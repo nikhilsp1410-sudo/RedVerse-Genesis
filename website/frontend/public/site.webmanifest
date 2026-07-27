@@ -1,0 +1,16 @@
+{
+  "name": "RedVerse",
+  "short_name": "RedVerse",
+  "description": "Forging the Future of Digital Creation",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0B0B0F",
+  "theme_color": "#D90429",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ]
+}

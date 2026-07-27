@@ -1,0 +1,327 @@
+{
+  "collection": "RedVerse Genesis",
+  "version": "5.0",
+  "guardian_count": 20,
+  "guardians": [
+    {
+      "id": 1,
+      "name": "Kaelen",
+      "title": "The First Guardian",
+      "file": "001.json",
+      "status": {
+        "metadata_complete": true,
+        "prompt_complete": true,
+        "image_generated": false,
+        "image_reviewed": false,
+        "image_approved": false,
+        "uploaded_ipfs": false,
+        "website_added": false,
+        "contract_verified": false
+      }
+    },
+    {
+      "id": 2,
+      "name": "Valerius",
+      "title": "The Crimson King",
+      "file": "002.json",
+      "status": {
+        "metadata_complete": true,
+        "prompt_complete": true,
+        "image_generated": false,
+        "image_reviewed": false,
+        "image_approved": false,
+        "uploaded_ipfs": false,
+        "website_added": false,
+        "contract_verified": false
+      }
+    },
+    {
+      "id": 3,
+      "name": "Elara",
+      "title": "The Oracle",
+      "file": "003.json",
+      "status": {
+        "metadata_complete": true,
+        "prompt_complete": true,
+        "image_generated": false,
+        "image_reviewed": false,
+        "image_approved": false,
+        "uploaded_ipfs": false,
+        "website_added": false,
+        "contract_verified": false
+      }
+    },
+    {
+      "id": 4,
+      "name": "Dravek",
+      "title": "The Eternal Warden",
+      "file": "004.json",
+      "status": {
+        "metadata_complete": true,
+        "prompt_complete": true,
+        "image_generated": false,
+        "image_reviewed": false,
+        "image_approved": false,
+        "uploaded_ipfs": false,
+        "website_added": false,
+        "contract_verified": false
+      }
+    },
+    {
+      "id": 5,
+      "name": "Kaelith",
+      "title": "The Iron Saint",
+      "file": "005.json",
+      "status": {
+        "metadata_complete": true,
+        "prompt_complete": true,
+        "image_generated": false,
+        "image_reviewed": false,
+        "image_approved": false,
+        "uploaded_ipfs": false,
+        "website_added": false,
+        "contract_verified": false
+      }
+    },
+    {
+      "id": 6,
+      "name": "Vexalia",
+      "title": "The Void Hunter",
+      "file": "006.json",
+      "status": {
+        "metadata_complete": true,
+        "prompt_complete": true,
+        "image_generated": false,
+        "image_reviewed": false,
+        "image_approved": false,
+        "uploaded_ipfs": false,
+        "website_added": false,
+        "contract_verified": false
+      }
+    },
+    {
+      "id": 7,
+      "name": "Korus",
+      "title": "The Last Architect",
+      "file": "007.json",
+      "status": {
+        "metadata_complete": true,
+        "prompt_complete": true,
+        "image_generated": false,
+        "image_reviewed": false,
+        "image_approved": false,
+        "uploaded_ipfs": false,
+        "website_added": false,
+        "contract_verified": false
+      }
+    },
+    {
+      "id": 8,
+      "name": "Tamsin",
+      "title": "The Eclipse Knight",
+      "file": "008.json",
+      "status": {
+        "metadata_complete": true,
+        "prompt_complete": true,
+        "image_generated": false,
+        "image_reviewed": false,
+        "image_approved": false,
+        "uploaded_ipfs": false,
+        "website_added": false,
+        "contract_verified": false
+      }
+    },
+    {
+      "id": 9,
+      "name": "Phaedra",
+      "title": "The Phoenix Core",
+      "file": "009.json",
+      "status": {
+        "metadata_complete": true,
+        "prompt_complete": true,
+        "image_generated": false,
+        "image_reviewed": false,
+        "image_approved": false,
+        "uploaded_ipfs": false,
+        "website_added": false,
+        "contract_verified": false
+      }
+    },
+    {
+      "id": 10,
+      "name": "Nyx",
+      "title": "The Storm Herald",
+      "file": "010.json",
+      "status": {
+        "metadata_complete": true,
+        "prompt_complete": true,
+        "image_generated": false,
+        "image_reviewed": false,
+        "image_approved": false,
+        "uploaded_ipfs": false,
+        "website_added": false,
+        "contract_verified": false
+      }
+    },
+    {
+      "id": 11,
+      "name": "Tyber",
+      "title": "The Blood Sentinel",
+      "file": "011.json",
+      "status": {
+        "metadata_complete": true,
+        "prompt_complete": true,
+        "image_generated": false,
+        "image_reviewed": false,
+        "image_approved": false,
+        "uploaded_ipfs": false,
+        "website_added": false,
+        "contract_verified": false
+      }
+    },
+    {
+      "id": 12,
+      "name": "Lyra",
+      "title": "The Silent Judge",
+      "file": "012.json",
+      "status": {
+        "metadata_complete": true,
+        "prompt_complete": true,
+        "image_generated": false,
+        "image_reviewed": false,
+        "image_approved": false,
+        "uploaded_ipfs": false,
+        "website_added": false,
+        "contract_verified": false
+      }
+    },
+    {
+      "id": 13,
+      "name": "Sylas",
+      "title": "The Astral Weaver",
+      "file": "013.json",
+      "status": {
+        "metadata_complete": true,
+        "prompt_complete": true,
+        "image_generated": false,
+        "image_reviewed": false,
+        "image_approved": false,
+        "uploaded_ipfs": false,
+        "website_added": false,
+        "contract_verified": false
+      }
+    },
+    {
+      "id": 14,
+      "name": "Zenthos",
+      "title": "The Rift Walker",
+      "file": "014.json",
+      "status": {
+        "metadata_complete": true,
+        "prompt_complete": true,
+        "image_generated": false,
+        "image_reviewed": false,
+        "image_approved": false,
+        "uploaded_ipfs": false,
+        "website_added": false,
+        "contract_verified": false
+      }
+    },
+    {
+      "id": 15,
+      "name": "Xylar",
+      "title": "The Obsidian Queen",
+      "file": "015.json",
+      "status": {
+        "metadata_complete": true,
+        "prompt_complete": true,
+        "image_generated": false,
+        "image_reviewed": false,
+        "image_approved": false,
+        "uploaded_ipfs": false,
+        "website_added": false,
+        "contract_verified": false
+      }
+    },
+    {
+      "id": 16,
+      "name": "Rokan",
+      "title": "The Time Keeper",
+      "file": "016.json",
+      "status": {
+        "metadata_complete": true,
+        "prompt_complete": true,
+        "image_generated": false,
+        "image_reviewed": false,
+        "image_approved": false,
+        "uploaded_ipfs": false,
+        "website_added": false,
+        "contract_verified": false
+      }
+    },
+    {
+      "id": 17,
+      "name": "Caelum",
+      "title": "The Infinity Blade",
+      "file": "017.json",
+      "status": {
+        "metadata_complete": true,
+        "prompt_complete": true,
+        "image_generated": false,
+        "image_reviewed": false,
+        "image_approved": false,
+        "uploaded_ipfs": false,
+        "website_added": false,
+        "contract_verified": false
+      }
+    },
+    {
+      "id": 18,
+      "name": "Orion",
+      "title": "The Celestial Reaper",
+      "file": "018.json",
+      "status": {
+        "metadata_complete": true,
+        "prompt_complete": true,
+        "image_generated": false,
+        "image_reviewed": false,
+        "image_approved": false,
+        "uploaded_ipfs": false,
+        "website_added": false,
+        "contract_verified": false
+      }
+    },
+    {
+      "id": 19,
+      "name": "Morok",
+      "title": "The Crimson Emperor",
+      "file": "019.json",
+      "status": {
+        "metadata_complete": true,
+        "prompt_complete": true,
+        "image_generated": false,
+        "image_reviewed": false,
+        "image_approved": false,
+        "uploaded_ipfs": false,
+        "website_added": false,
+        "contract_verified": false
+      }
+    },
+    {
+      "id": 20,
+      "name": "Malakor",
+      "title": "The Final Guardian",
+      "file": "020.json",
+      "status": {
+        "metadata_complete": true,
+        "prompt_complete": true,
+        "image_generated": false,
+        "image_reviewed": false,
+        "image_approved": false,
+        "uploaded_ipfs": false,
+        "website_added": false,
+        "contract_verified": false
+      }
+    }
+  ]
+}

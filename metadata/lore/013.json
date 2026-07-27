@@ -1,0 +1,149 @@
+{
+  "identity": {
+    "guardian_number": 13,
+    "id": "013",
+    "name": "Hyperion",
+    "legendary_title": "The Golden Vanguard",
+    "collection": "RedVerse Genesis",
+    "generation": 1,
+    "universe": "RedVerse",
+    "version": "5.0"
+  },
+  "story": {
+    "short_description": "Hyperion, The Golden Vanguard. The towering crusader of the Radiant Cathedral.",
+    "long_description": "Hyperion is the tip of the spear. Clad in the Radiant Plate, he leads the charge against the forces of darkness. Wielding the massive Solar Glaive, he sweeps aside entire battalions of enemies with sweeping arcs of golden plasma, inspiring his allies with his divine presence.",
+    "origin": "Forged in the holy fires of the Radiant Cathedral",
+    "purpose": "To lead the charge and break the enemy lines.",
+    "legacy": "The greatest frontline commander of the RedVerse.",
+    "current_status": "Active",
+    "role_in_fracture": "The Vanguard",
+    "relationship_to_architects": "The Golden Spear",
+    "historical_importance": "High"
+  },
+  "combat": {
+    "primary_weapon": "The Solar Glaive",
+    "secondary_weapon": "None",
+    "combat_style": "Frontline assault. He leads the charge, using his massive glaive to sweep aside entire battalions of enemies.",
+    "class": "The Vanguard",
+    "rank": "Legendary",
+    "guardian_type": "Genesis",
+    "threat_level": "Alpha",
+    "power_level": 9200
+  },
+  "visual_identity": {
+    "helmet": "The Helm of the Sun",
+    "armor": "The Radiant Plate",
+    "cape": "The Vanguard's Cloak",
+    "companion": "The Sun Sphere",
+    "aura": "The Divine Radiance",
+    "core": "The Golden Sunburst",
+    "energy": "Golden Plasma",
+    "material": "Obsidian and Royal Gold",
+    "primary_color": "Deep Obsidian Black",
+    "secondary_color": "Bright Royal Gold",
+    "accent_color": "Amber",
+    "architect_symbols": "Sunbursts, T-Visor, Spears"
+  },
+  "personality": {
+    "temperament": "Courageous, inspiring, unstoppable.",
+    "leadership": "Frontline Commander",
+    "morality": "Lawful Good",
+    "emotion": "Valor",
+    "virtue": "Courage",
+    "fear": "Failing to inspire his allies.",
+    "strength": "Massive sweeping attacks and crowd control.",
+    "weakness": "Relies on being surrounded by enemies to maximize his effectiveness."
+  },
+  "world_building": {
+    "home_realm": "The Radiant Cathedral",
+    "known_locations": [
+      "The Vanguard's Hall",
+      "The Golden Steps"
+    ],
+    "ancient_relics": [
+      "The Solar Glaive"
+    ],
+    "architect_connection": "Revered Champion",
+    "enemy_factions": [
+      "The Corrupted",
+      "The Void"
+    ],
+    "important_events": [
+      "The Breaking of the Dark Lines"
+    ],
+    "timeline": "Post-Fracture Crusader"
+  },
+  "marketplace": {
+    "image": "ipfs://TO_BE_FILLED",
+    "image_small": "ipfs://TO_BE_FILLED",
+    "image_thumbnail": "ipfs://TO_BE_FILLED",
+    "image_high": "ipfs://TO_BE_FILLED",
+    "animation_url": "ipfs://TO_BE_FILLED",
+    "preview": "ipfs://TO_BE_FILLED",
+    "external_url": "https://redverse.xyz/guardian/13",
+    "background_color": "000000",
+    "royalty": "5%",
+    "license": "CC BY-NC 4.0",
+    "edition": 13,
+    "collection_number": 13,
+    "supply": 1
+  },
+  "traits": [
+    {
+      "trait_type": "Role",
+      "value": "The Vanguard"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "Lawful Good"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "The Solar Glaive"
+    },
+    {
+      "trait_type": "Armor",
+      "value": "The Radiant Plate"
+    },
+    {
+      "trait_type": "Helmet",
+      "value": "The Helm of the Sun"
+    },
+    {
+      "trait_type": "Companion",
+      "value": "The Sun Sphere"
+    },
+    {
+      "trait_type": "Aura",
+      "value": "The Divine Radiance"
+    },
+    {
+      "trait_type": "Core",
+      "value": "The Golden Sunburst"
+    },
+    {
+      "trait_type": "Class",
+      "value": "The Vanguard"
+    },
+    {
+      "trait_type": "Rank",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Threat Level",
+      "value": "Alpha"
+    },
+    {
+      "trait_type": "Realm",
+      "value": "The Radiant Cathedral"
+    },
+    {
+      "trait_type": "Material",
+      "value": "Obsidian and Gold"
+    },
+    {
+      "trait_type": "Cape",
+      "value": "The Vanguard's Cloak"
+    }
+  ]
+}

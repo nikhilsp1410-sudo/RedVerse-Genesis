@@ -1,0 +1,148 @@
+{
+  "identity": {
+    "guardian_number": 20,
+    "id": "020",
+    "name": "Aion",
+    "legendary_title": "The Prime Architect",
+    "collection": "RedVerse Genesis",
+    "generation": 1,
+    "universe": "RedVerse",
+    "version": "5.0"
+  },
+  "story": {
+    "short_description": "Aion, The Prime Architect. The ultimate cosmic entity, creator and destroyer of galaxies.",
+    "long_description": "Aion is the culmination of the RedVerse. Hovering in the Cosmic Void, he holds the power of creation and destruction in his hands. He has transcended physical weapons; he manipulates the very fabric of reality, watching over the 19 Guardians he helped forge.",
+    "origin": "He has always existed",
+    "purpose": "To oversee the grand design of the multiverse.",
+    "legacy": "The Alpha and the Omega.",
+    "current_status": "Active",
+    "role_in_fracture": "The Architect",
+    "relationship_to_architects": "He IS the Prime Architect",
+    "historical_importance": "High"
+  },
+  "combat": {
+    "primary_weapon": "None",
+    "secondary_weapon": "The Orbiting Cosmos",
+    "combat_style": "Absolute omnipotence. He simply wills his enemies out of existence.",
+    "class": "The Architect",
+    "rank": "Legendary",
+    "guardian_type": "Genesis",
+    "threat_level": "Unquantifiable",
+    "power_level": 9999
+  },
+  "visual_identity": {
+    "helmet": "The Cosmic Crown",
+    "armor": "The Genesis Mantle",
+    "cape": "The Galaxy Cloak",
+    "companion": "The Orbiting Cosmos",
+    "aura": "The Fabric of Reality",
+    "core": "The Black Hole Core",
+    "energy": "Omnipotent Cosmic Energy",
+    "material": "Stardust and Vantablack",
+    "primary_color": "Pristine White",
+    "secondary_color": "Royal Gold",
+    "accent_color": "Cosmic Purple",
+    "architect_symbols": "Galaxies, Black Holes, Monoliths"
+  },
+  "personality": {
+    "temperament": "Omniscient, absolute, divine.",
+    "leadership": "The Creator",
+    "morality": "True Neutral",
+    "emotion": "None",
+    "virtue": "Balance",
+    "fear": "None.",
+    "strength": "Absolute power over space, time, and matter.",
+    "weakness": "None."
+  },
+  "world_building": {
+    "home_realm": "The Cosmic Void",
+    "known_locations": [
+      "The Center of the Universe",
+      "The Genesis Forge"
+    ],
+    "ancient_relics": [
+      "None"
+    ],
+    "architect_connection": "The Prime",
+    "enemy_factions": [
+      "Those who would unmake reality"
+    ],
+    "important_events": [
+      "The Genesis Fracture"
+    ],
+    "timeline": "Post-Fracture"
+  },
+  "marketplace": {
+    "image": "ipfs://TO_BE_FILLED",
+    "image_small": "ipfs://TO_BE_FILLED",
+    "image_thumbnail": "ipfs://TO_BE_FILLED",
+    "image_high": "ipfs://TO_BE_FILLED",
+    "animation_url": "ipfs://TO_BE_FILLED",
+    "preview": "ipfs://TO_BE_FILLED",
+    "external_url": "https://redverse.xyz/guardian/20",
+    "background_color": "000000",
+    "royalty": "5%",
+    "license": "CC BY-NC 4.0",
+    "edition": 20,
+    "collection_number": 20,
+    "supply": 1
+  },
+  "traits": [
+    {
+      "trait_type": "Role",
+      "value": "The Architect"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "True Neutral"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "None"
+    },
+    {
+      "trait_type": "Armor",
+      "value": "The Genesis Mantle"
+    },
+    {
+      "trait_type": "Helmet",
+      "value": "The Cosmic Crown"
+    },
+    {
+      "trait_type": "Companion",
+      "value": "The Orbiting Cosmos"
+    },
+    {
+      "trait_type": "Aura",
+      "value": "The Fabric of Reality"
+    },
+    {
+      "trait_type": "Core",
+      "value": "The Black Hole Core"
+    },
+    {
+      "trait_type": "Class",
+      "value": "The Architect"
+    },
+    {
+      "trait_type": "Rank",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Threat Level",
+      "value": "Unquantifiable"
+    },
+    {
+      "trait_type": "Realm",
+      "value": "The Cosmic Void"
+    },
+    {
+      "trait_type": "Material",
+      "value": "Stardust and Vantablack"
+    },
+    {
+      "trait_type": "Cape",
+      "value": "The Galaxy Cloak"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "RedVerse Genesis",
+  "description": "The RedVerse Genesis Collection features 20 absolutely unique, legendary Guardians forged from the remnants of a fractured multiverse. Each Guardian wields incredible power and plays a crucial role in maintaining the balance of the universe.",
+  "image": "ipfs://bafybeih5lqoszwxxotlx4tmsn5kubs4nwhbscy72ncc67r4yqr72a5w4ku/collection_image.png",
+  "banner_image": "ipfs://bafybeih5lqoszwxxotlx4tmsn5kubs4nwhbscy72ncc67r4yqr72a5w4ku/collection_banner.png",
+  "featured_image": "ipfs://bafybeih5lqoszwxxotlx4tmsn5kubs4nwhbscy72ncc67r4yqr72a5w4ku/collection_featured.png",
+  "external_link": "https://redverse.xyz",
+  "seller_fee_basis_points": 500,
+  "fee_recipient": "0x2fB463881961ABF6906713615C068dbB9B1b5Ab5",
+  "creator_information": {
+    "name": "RedVerse Studios",
+    "description": "RedVerse Studios is a world-building powerhouse creating next-generation decentralized lore and immersive web3 experiences."
+  },
+  "social_links": {
+    "twitter": "https://x.com/RedVerse_studio",
+    "instagram": "https://www.instagram.com/redverse_studio?igsh=MTdqOGY5MTNzeXA5ZA==",
+    "discord": "https://discord.gg/RedVerse",
+    "website": "https://redverse.xyz"
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "identity": {
+    "guardian_number": 7,
+    "id": "007",
+    "name": "Moros",
+    "legendary_title": "The Eclipse Wraith",
+    "collection": "RedVerse Genesis",
+    "generation": 1,
+    "universe": "RedVerse",
+    "version": "5.0"
+  },
+  "story": {
+    "short_description": "Moros, The Eclipse Wraith. The silent executioner of the RedVerse.",
+    "long_description": "When the Fracture ripped open the cosmos, the resulting entropy and death coalesced into a single entity. Moros resides in the Eclipsed Necropolis, a dark realm where the souls of shattered realities gather. He is the ultimate executioner, wielding the Eclipse Scythe to reap the dimensional energy of those who disturb the final rest of the universe.",
+    "origin": "Manifested from the collective entropy of the Fracture",
+    "purpose": "To serve as the necessary force of death and execution.",
+    "legacy": "The grim reaper of the RedVerse.",
+    "current_status": "Active",
+    "role_in_fracture": "The Executioner",
+    "relationship_to_architects": "The Inevitable End",
+    "historical_importance": "Critical"
+  },
+  "combat": {
+    "primary_weapon": "The Eclipse Scythe",
+    "secondary_weapon": "None",
+    "combat_style": "Silent, lethal, sweeping executions. He uses the scythe to reap the dimensional energy of his foes, leaving nothing behind.",
+    "class": "The Executioner",
+    "rank": "Legendary",
+    "guardian_type": "Genesis",
+    "threat_level": "Omega",
+    "power_level": 9400
+  },
+  "visual_identity": {
+    "helmet": "The Crown of Nightmares",
+    "armor": "The Umbral Carapace",
+    "cape": "The Death Shroud",
+    "companion": "The Star of Ruin",
+    "aura": "Crackling Violet Mist",
+    "core": "The Violet Singularity",
+    "energy": "Violet Plasma",
+    "material": "Vantablack and Gothic Metal",
+    "primary_color": "Vantablack",
+    "secondary_color": "Gothic Purple",
+    "accent_color": "Violet Energy",
+    "architect_symbols": "Eclipses, Gothic Spires"
+  },
+  "personality": {
+    "temperament": "Silent, inevitable, haunting.",
+    "leadership": "Lone Reaper",
+    "morality": "True Neutral",
+    "emotion": "Hollow",
+    "virtue": "Inevitability",
+    "fear": "Nothing.",
+    "strength": "Lethal precision and the ability to sever souls from physical forms.",
+    "weakness": "Can be overwhelmed by pure, blinding radiant light."
+  },
+  "world_building": {
+    "home_realm": "The Eclipsed Necropolis",
+    "known_locations": [
+      "The Silent Spires",
+      "The Chained Courtyard"
+    ],
+    "ancient_relics": [
+      "The Eclipse Scythe",
+      "The Star of Ruin"
+    ],
+    "architect_connection": "The Architects fear him",
+    "enemy_factions": [
+      "Those who defy death",
+      "The Undying"
+    ],
+    "important_events": [
+      "The First Reaping"
+    ],
+    "timeline": "Post-Fracture Entropy"
+  },
+  "marketplace": {
+    "image": "ipfs://TO_BE_FILLED",
+    "image_small": "ipfs://TO_BE_FILLED",
+    "image_thumbnail": "ipfs://TO_BE_FILLED",
+    "image_high": "ipfs://TO_BE_FILLED",
+    "animation_url": "ipfs://TO_BE_FILLED",
+    "preview": "ipfs://TO_BE_FILLED",
+    "external_url": "https://redverse.xyz/guardian/7",
+    "background_color": "000000",
+    "royalty": "5%",
+    "license": "CC BY-NC 4.0",
+    "edition": 7,
+    "collection_number": 7,
+    "supply": 1
+  },
+  "traits": [
+    {
+      "trait_type": "Role",
+      "value": "The Executioner"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "True Neutral"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "The Eclipse Scythe"
+    },
+    {
+      "trait_type": "Armor",
+      "value": "The Umbral Carapace"
+    },
+    {
+      "trait_type": "Helmet",
+      "value": "The Crown of Nightmares"
+    },
+    {
+      "trait_type": "Companion",
+      "value": "The Star of Ruin"
+    },
+    {
+      "trait_type": "Aura",
+      "value": "Violet Mist"
+    },
+    {
+      "trait_type": "Core",
+      "value": "The Violet Singularity"
+    },
+    {
+      "trait_type": "Class",
+      "value": "The Executioner"
+    },
+    {
+      "trait_type": "Rank",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Threat Level",
+      "value": "Omega"
+    },
+    {
+      "trait_type": "Realm",
+      "value": "The Eclipsed Necropolis"
+    },
+    {
+      "trait_type": "Material",
+      "value": "Vantablack Metal"
+    },
+    {
+      "trait_type": "Cape",
+      "value": "The Death Shroud"
+    }
+  ],
+  "art_direction": {
+    "silhouette": "Tall, slender, grim reaper-esque, spiked and tattered.",
+    "pose": "Standing ominously, holding the scythe like a reaper.",
+    "camera": "Epic, dramatic framing against the eclipsed moon.",
+    "environment": "A dark, gothic nightmare realm with floating black spires, massive iron chains, and a dark eclipsed moon in the stormy purple sky.",
+    "lighting": "Dark atmospheric lighting punctuated by intense, glowing violet energy and moonlight.",
+    "mood": "Dark, ominous, gothic, deathly, nightmare.",
+    "materials": "Sleek, jagged vantablack plate armor, heavily tattered dark cloth.",
+    "scale": "Imposing humanoid.",
+    "visual_theme": "Grim Reaper, Gothic Horror, Violet Eclipse.",
+    "rendering_style": "AAA Unreal Engine 5, photorealistic",
+    "art_direction_notes": "The purple singularity core and scythe edge must emit a soft but intense violet glow that illuminates the dark armor."
+  },
+  "lore": {
+    "origin": "Formed from the collective death of countless universes during the Fracture.",
+    "history": "Moros does not speak. He simply appears where death is required on a cosmic scale.",
+    "purpose": "To reap the dimensional energy of those whose time has ended.",
+    "legend": "When the sky turns purple and the moon eclipses, the Wraith has come to collect.",
+    "current_mission": "Harvesting the corrupted souls of the Void.",
+    "secrets": "He is the only Guardian who can permanently kill another Guardian.",
+    "quotes": [
+      "\"...\" (He never speaks. The sound of his scythe dragging is his only warning.)"
+    ],
+    "famous_battles": [
+      "The Reaping of the Undying City"
+    ],
+    "architect_notes": "We created life. He is what happens when life expires."
+  },
+  "relationships": {
+    "creators": "Entropy",
+    "protects": "The Final Rest",
+    "fought": "The Undying",
+    "serves": "Death",
+    "allies": [
+      "None (He works alone)"
+    ],
+    "rivals": [
+      "Aurelius (Aurelius creates order; Moros represents the inevitable end of that order)"
+    ],
+    "future_connections": []
+  },
+  "status": {
+    "production": {
+      "metadata_complete": true,
+      "prompt_complete": true,
+      "image_generated": true,
+      "image_reviewed": true,
+      "image_approved": true,
+      "uploaded_ipfs": false,
+      "website_added": false,
+      "contract_verified": false
+    }
+  },
+  "future_expansion": {
+    "models_3d": null,
+    "videos": null,
+    "audio": null,
+    "voice_lines": null,
+    "game_stats": {
+      "hp": 9000,
+      "attack": 1900,
+      "defense": 800,
+      "speed": 600
+    },
+    "ar_support": null,
+    "vr_support": null,
+    "collectibles": null,
+    "merchandise": null
+  }
+}

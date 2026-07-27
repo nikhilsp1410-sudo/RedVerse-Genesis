@@ -1,0 +1,73 @@
+{
+  "name": "Castiel - The Radiant Archangel",
+  "description": "Castiel descends from the Celestial Bastion to purge corruption. Clad in the Heavenly Aegis and wielding the Seraphim's Javelin, he is a beacon of hope for the lost and a blinding terror to the wicked.",
+  "image": "ipfs://bafybeiagnoixk6uxcykyl2n3oppv2petvypwi4utpjc3qfg5udk7m4eaca/016.png",
+  "external_url": "https://redverse.xyz/guardian/16",
+  "attributes": [
+    {
+      "trait_type": "Role",
+      "value": "The Archangel"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "Lawful Good"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "The Seraphim's Javelin"
+    },
+    {
+      "trait_type": "Armor",
+      "value": "The Heavenly Aegis"
+    },
+    {
+      "trait_type": "Helmet",
+      "value": "The Halo Crown"
+    },
+    {
+      "trait_type": "Companion",
+      "value": "The Aegis Shield"
+    },
+    {
+      "trait_type": "Aura",
+      "value": "The Divine Light"
+    },
+    {
+      "trait_type": "Core",
+      "value": "The Blue Sunburst"
+    },
+    {
+      "trait_type": "Class",
+      "value": "The Archangel"
+    },
+    {
+      "trait_type": "Rank",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Threat Level",
+      "value": "Alpha"
+    },
+    {
+      "trait_type": "Realm",
+      "value": "The Celestial Bastion"
+    },
+    {
+      "trait_type": "Material",
+      "value": "Pristine Silver and White Ceramic"
+    },
+    {
+      "trait_type": "Cape",
+      "value": "The Seraph's Wings"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Guardian Number",
+      "value": 16
+    },
+    {
+      "trait_type": "Generation",
+      "value": "Genesis"
+    }
+  ]
+}

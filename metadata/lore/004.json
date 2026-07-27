@@ -1,0 +1,221 @@
+{
+  "identity": {
+    "guardian_number": 4,
+    "id": "004",
+    "name": "Aurelius",
+    "legendary_title": "The Celestial Arbiter",
+    "collection": "RedVerse Genesis",
+    "generation": 1,
+    "universe": "RedVerse",
+    "version": "5.0"
+  },
+  "story": {
+    "short_description": "Aurelius, The Celestial Arbiter. The divine judge of the fractured timeline.",
+    "long_description": "Aurelius resides in the Astral Sanctum, acting as the ultimate judge of all cosmic events. Forged from pure starlight and unwavering law, he brings divine order to a chaotic universe, wielding the Astrolabe of Judgement to mete out celestial punishment.",
+    "origin": "Manifested from the First Light of the Fracture",
+    "purpose": "To maintain the absolute cosmic balance between order and chaos.",
+    "legacy": "A divine presence whose judgment is final and absolute.",
+    "current_status": "Active",
+    "role_in_fracture": "The Cosmic Judge",
+    "relationship_to_architects": "Superior / Divine Observer",
+    "historical_importance": "Critical"
+  },
+  "combat": {
+    "primary_weapon": "The Astrolabe of Judgement",
+    "secondary_weapon": "None",
+    "combat_style": "Majestic and distant, using celestial geometry and blinding light to execute enemies from afar.",
+    "class": "The Celestial Arbiter",
+    "rank": "Legendary",
+    "guardian_type": "Genesis",
+    "threat_level": "Omega",
+    "power_level": 9800
+  },
+  "visual_identity": {
+    "helmet": "The Crown of Stars",
+    "armor": "The Empyrean Plate",
+    "cape": "The Firmament Mantle",
+    "companion": "The Prism of Truth",
+    "aura": "Divine Radiance",
+    "core": "The Astral Heart",
+    "energy": "Azure Starlight",
+    "material": "White Ceramic, Royal Gold, Deep Blue Velvet",
+    "primary_color": "Brilliant White",
+    "secondary_color": "Royal Gold",
+    "accent_color": "Deep Blue",
+    "architect_symbols": "Astrolabes, Sunbursts, Celestial Spheres"
+  },
+  "personality": {
+    "temperament": "Regal, impartial, absolute, divine.",
+    "leadership": "Supreme Commander",
+    "morality": "Lawful Good",
+    "emotion": "Serenity",
+    "virtue": "Absolute Justice",
+    "fear": "The corruption of the cosmic scales",
+    "strength": "Unmatched celestial magic and absolute authority",
+    "weakness": "Lacks empathy; judges purely by cosmic law without exception."
+  },
+  "world_building": {
+    "home_realm": "The Astral Sanctum",
+    "known_locations": [
+      "The Golden Hall",
+      "The Zenith Point"
+    ],
+    "ancient_relics": [
+      "The Astrolabe of Judgement",
+      "The Prism of Truth"
+    ],
+    "architect_connection": "Revered as a God",
+    "enemy_factions": [
+      "The Void Walkers",
+      "Agents of Chaos"
+    ],
+    "important_events": [
+      "The First Judgement",
+      "The Sealing of the Abyss"
+    ],
+    "timeline": "Eternal Light"
+  },
+  "marketplace": {
+    "image": "ipfs://TO_BE_FILLED",
+    "image_small": "ipfs://TO_BE_FILLED",
+    "image_thumbnail": "ipfs://TO_BE_FILLED",
+    "image_high": "ipfs://TO_BE_FILLED",
+    "animation_url": "ipfs://TO_BE_FILLED",
+    "preview": "ipfs://TO_BE_FILLED",
+    "external_url": "https://redverse.xyz/guardian/4",
+    "background_color": "000000",
+    "royalty": "5%",
+    "license": "CC BY-NC 4.0",
+    "edition": 4,
+    "collection_number": 4,
+    "supply": 1
+  },
+  "traits": [
+    {
+      "trait_type": "Role",
+      "value": "The Celestial Arbiter"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "Lawful Good"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "The Astrolabe of Judgement"
+    },
+    {
+      "trait_type": "Armor",
+      "value": "The Empyrean Plate"
+    },
+    {
+      "trait_type": "Helmet",
+      "value": "The Crown of Stars"
+    },
+    {
+      "trait_type": "Companion",
+      "value": "The Prism of Truth"
+    },
+    {
+      "trait_type": "Aura",
+      "value": "Divine Radiance"
+    },
+    {
+      "trait_type": "Core",
+      "value": "The Astral Heart"
+    },
+    {
+      "trait_type": "Class",
+      "value": "The Celestial Arbiter"
+    },
+    {
+      "trait_type": "Rank",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Threat Level",
+      "value": "Omega"
+    },
+    {
+      "trait_type": "Realm",
+      "value": "The Astral Sanctum"
+    },
+    {
+      "trait_type": "Material",
+      "value": "Ceramic and Gold"
+    },
+    {
+      "trait_type": "Cape",
+      "value": "The Firmament Mantle"
+    }
+  ],
+  "art_direction": {
+    "silhouette": "Regal, imposing knight with a towering crown and a massive celestial staff.",
+    "pose": "Commanding, majestic, levitating a glowing prism in one hand while holding the staff in the other.",
+    "camera": "Epic, low angle, showing the sheer scale of the golden realm.",
+    "environment": "A bright, heavenly ancient architectural realm filled with gold structures, floating blue crystals, and a massive golden celestial ring/astrolabe in the background sky.",
+    "lighting": "Brilliant, divine golden sunlight and glowing azure energy.",
+    "mood": "Heavenly, divine, majestic, commanding.",
+    "materials": "Pristine white ceramic, polished royal gold, dark blue fabric, glowing azure gems.",
+    "scale": "Larger than life, divine.",
+    "visual_theme": "Celestial, Divine, Astrolabes, Sunbursts.",
+    "rendering_style": "AAA Unreal Engine 5, photorealistic",
+    "art_direction_notes": "The intricate gold filigree over the white ceramic is the defining texture of his armor."
+  },
+  "lore": {
+    "origin": "When the Fracture occurred, the purest light from the tearing of the cosmos coalesced into Aurelius.",
+    "history": "He constructed the Astral Sanctum from the debris of dead universes, creating a flawless golden realm where he observes the timeline.",
+    "purpose": "To judge the worthiness of all factions and maintain the absolute cosmic balance.",
+    "legend": "When the sky turns gold, the Arbiter has rendered his verdict.",
+    "current_mission": "Monitoring the corruption of the Void.",
+    "secrets": "He knows how the universe will end, and he is sworn to let it happen.",
+    "quotes": [
+      "\"Order is the only truth. All else is a lie waiting to be corrected.\""
+    ],
+    "famous_battles": [
+      "The Banishment of the Dark Tide"
+    ],
+    "architect_notes": "We created the universe, but he rules it."
+  },
+  "relationships": {
+    "creators": "The Universe Itself",
+    "protects": "The Cosmic Balance",
+    "fought": "The Chaos Entities",
+    "serves": "Cosmic Law",
+    "allies": [
+      "Kaelen (Respects his sacrifice)"
+    ],
+    "rivals": [
+      "Malakor (Views his chaotic methods as a threat)",
+      "Valerius (Despises his vanity)"
+    ],
+    "future_connections": []
+  },
+  "status": {
+    "production": {
+      "metadata_complete": true,
+      "prompt_complete": true,
+      "image_generated": true,
+      "image_reviewed": true,
+      "image_approved": true,
+      "uploaded_ipfs": false,
+      "website_added": false,
+      "contract_verified": false
+    }
+  },
+  "future_expansion": {
+    "models_3d": null,
+    "videos": null,
+    "audio": null,
+    "voice_lines": null,
+    "game_stats": {
+      "hp": 11000,
+      "attack": 1200,
+      "defense": 900,
+      "speed": 400
+    },
+    "ar_support": null,
+    "vr_support": null,
+    "collectibles": null,
+    "merchandise": null
+  }
+}

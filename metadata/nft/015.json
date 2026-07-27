@@ -1,0 +1,73 @@
+{
+  "name": "Malok - The Toxic Juggernaut",
+  "description": "Malok is the embodiment of decay. Wielding the Venomous Battleaxe, he lumbers through the Decaying Spire, turning everything he touches to ash and sludge. He is an unstoppable juggernaut of toxic energy.",
+  "image": "ipfs://bafybeiagnoixk6uxcykyl2n3oppv2petvypwi4utpjc3qfg5udk7m4eaca/015.png",
+  "external_url": "https://redverse.xyz/guardian/15",
+  "attributes": [
+    {
+      "trait_type": "Role",
+      "value": "The Juggernaut"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "Chaotic Neutral"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "The Venomous Battleaxe"
+    },
+    {
+      "trait_type": "Armor",
+      "value": "The Plague Carapace"
+    },
+    {
+      "trait_type": "Helmet",
+      "value": "The Helm of Decay"
+    },
+    {
+      "trait_type": "Companion",
+      "value": "The Plague Astrolabe"
+    },
+    {
+      "trait_type": "Aura",
+      "value": "The Noxious Fumes"
+    },
+    {
+      "trait_type": "Core",
+      "value": "The Toxic Core"
+    },
+    {
+      "trait_type": "Class",
+      "value": "The Juggernaut"
+    },
+    {
+      "trait_type": "Rank",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Threat Level",
+      "value": "Omega"
+    },
+    {
+      "trait_type": "Realm",
+      "value": "The Decaying Spire"
+    },
+    {
+      "trait_type": "Material",
+      "value": "Obsidian and Corrupted Metal"
+    },
+    {
+      "trait_type": "Cape",
+      "value": "The Toxic Mantle"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Guardian Number",
+      "value": 15
+    },
+    {
+      "trait_type": "Generation",
+      "value": "Genesis"
+    }
+  ]
+}

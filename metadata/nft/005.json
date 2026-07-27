@@ -1,0 +1,73 @@
+{
+  "name": "Cyrus - The Astral Blade",
+  "description": "Forged in the upper atmospheres of the Celestial Spire, Cyrus was designed to be the ultimate vanguard. He is incredibly agile, dual-wielding plasma blades to slice through reality itself and outmaneuver the forces of the Void before they even realize they've been engaged.",
+  "image": "ipfs://bafybeiagnoixk6uxcykyl2n3oppv2petvypwi4utpjc3qfg5udk7m4eaca/005.png",
+  "external_url": "https://redverse.xyz/guardian/5",
+  "attributes": [
+    {
+      "trait_type": "Role",
+      "value": "The Vanguard"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "Chaotic Good"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "The Twin Novas"
+    },
+    {
+      "trait_type": "Armor",
+      "value": "The Zenith Suit"
+    },
+    {
+      "trait_type": "Helmet",
+      "value": "The Cyan Visor"
+    },
+    {
+      "trait_type": "Companion",
+      "value": "The Celestial Gyro"
+    },
+    {
+      "trait_type": "Aura",
+      "value": "The Halo of Zenith"
+    },
+    {
+      "trait_type": "Core",
+      "value": "The Cyan Star"
+    },
+    {
+      "trait_type": "Class",
+      "value": "The Astral Blade"
+    },
+    {
+      "trait_type": "Rank",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Threat Level",
+      "value": "Alpha"
+    },
+    {
+      "trait_type": "Realm",
+      "value": "The Celestial Spire"
+    },
+    {
+      "trait_type": "Material",
+      "value": "Ceramic and Obsidian"
+    },
+    {
+      "trait_type": "Cape",
+      "value": "The Stardust Cloak"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Guardian Number",
+      "value": 5
+    },
+    {
+      "trait_type": "Generation",
+      "value": "Genesis"
+    }
+  ]
+}

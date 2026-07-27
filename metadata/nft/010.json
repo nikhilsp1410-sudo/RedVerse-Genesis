@@ -1,0 +1,73 @@
+{
+  "name": "Zael - The Crimson Scourge",
+  "description": "Zael is a nightmare made manifest. Residing in the Crimson Abyss, he is a sadistic executioner who wields the Bloodchain Whip, a terrifying bladed chain that moves like a living serpent. He thrives on chaos and the suffering of the corrupted.",
+  "image": "ipfs://bafybeiagnoixk6uxcykyl2n3oppv2petvypwi4utpjc3qfg5udk7m4eaca/010.png",
+  "external_url": "https://redverse.xyz/guardian/10",
+  "attributes": [
+    {
+      "trait_type": "Role",
+      "value": "The Tormentor"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "Chaotic Neutral"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "The Bloodchain Whip"
+    },
+    {
+      "trait_type": "Armor",
+      "value": "The Flayed Carapace"
+    },
+    {
+      "trait_type": "Helmet",
+      "value": "The Helm of Torment"
+    },
+    {
+      "trait_type": "Companion",
+      "value": "The Eye of Ruin"
+    },
+    {
+      "trait_type": "Aura",
+      "value": "The Blood Mist"
+    },
+    {
+      "trait_type": "Core",
+      "value": "The Crimson Nexus"
+    },
+    {
+      "trait_type": "Class",
+      "value": "The Assassin"
+    },
+    {
+      "trait_type": "Rank",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Threat Level",
+      "value": "Omega"
+    },
+    {
+      "trait_type": "Realm",
+      "value": "The Crimson Abyss"
+    },
+    {
+      "trait_type": "Material",
+      "value": "Jagged Obsidian"
+    },
+    {
+      "trait_type": "Cape",
+      "value": "The Flayer's Mantle"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Guardian Number",
+      "value": 10
+    },
+    {
+      "trait_type": "Generation",
+      "value": "Genesis"
+    }
+  ]
+}

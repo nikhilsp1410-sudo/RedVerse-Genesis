@@ -1,0 +1,73 @@
+{
+  "name": "Osiris - The Desert Mystic",
+  "description": "Osiris commands the searing light of the desert sun. Clad in the Sandstone Robes and wielding the Sun-God's Staff, he protects the ancient secrets of the Floating Pyramids from those who seek to plunder the universe's past.",
+  "image": "ipfs://bafybeiagnoixk6uxcykyl2n3oppv2petvypwi4utpjc3qfg5udk7m4eaca/019.png",
+  "external_url": "https://redverse.xyz/guardian/19",
+  "attributes": [
+    {
+      "trait_type": "Role",
+      "value": "The Mystic"
+    },
+    {
+      "trait_type": "Faction",
+      "value": "Lawful Good"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "The Sun-God's Staff"
+    },
+    {
+      "trait_type": "Armor",
+      "value": "The Sandstone Robes"
+    },
+    {
+      "trait_type": "Helmet",
+      "value": "The Hood of Ra"
+    },
+    {
+      "trait_type": "Companion",
+      "value": "The Sun Dial"
+    },
+    {
+      "trait_type": "Aura",
+      "value": "The Desert Wind"
+    },
+    {
+      "trait_type": "Core",
+      "value": "The Blue Sunburst"
+    },
+    {
+      "trait_type": "Class",
+      "value": "The Mystic"
+    },
+    {
+      "trait_type": "Rank",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Threat Level",
+      "value": "Alpha"
+    },
+    {
+      "trait_type": "Realm",
+      "value": "The Floating Pyramids"
+    },
+    {
+      "trait_type": "Material",
+      "value": "White Gold and Sandstone"
+    },
+    {
+      "trait_type": "Cape",
+      "value": "The Pharaoh's Cloak"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Guardian Number",
+      "value": 19
+    },
+    {
+      "trait_type": "Generation",
+      "value": "Genesis"
+    }
+  ]
+}
