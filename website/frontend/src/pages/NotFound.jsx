@@ -18,7 +18,7 @@ const NotFound = () => {
       
       <Section className="min-h-[calc(100vh-64px)] flex items-center justify-center relative overflow-hidden">
         {/* Background anomaly effect */}
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary/10 via-[#0B0B0F] to-[#0B0B0F]" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary/10 via-background to-background" />
         
         <Container className="relative z-10 text-center">
           <motion.div

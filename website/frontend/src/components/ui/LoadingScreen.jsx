@@ -53,10 +53,10 @@ const LoadingScreen = ({ onComplete }) => {
           initial={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 1, ease: "easeInOut" }}
-          className="fixed inset-0 z-[9999] bg-[#0B0B0F] flex flex-col items-center justify-center text-white overflow-hidden"
+          className="fixed inset-0 z-[9999] bg-background flex flex-col items-center justify-center text-text overflow-hidden"
         >
           {/* Background Ambient */}
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary/10 via-[#0B0B0F] to-[#0B0B0F]" />
+          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary/10 via-background to-background" />
 
           {/* Rotating Core Animation */}
           <div className="relative w-40 h-40 mb-12">

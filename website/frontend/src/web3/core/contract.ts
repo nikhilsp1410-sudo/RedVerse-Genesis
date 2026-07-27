@@ -9,12 +9,7 @@ export const RedVerseGenesisABI = [
   "function ownerOf(uint256 tokenId) view returns (address)",
   "function tokenURI(uint256 tokenId) view returns (string)",
   "function supportsInterface(bytes4 interfaceId) view returns (bool)",
-  "function royaltyInfo(uint256 tokenId, uint256 salePrice) view returns (address receiver, uint256 royaltyAmount)",
-  "function owner() view returns (address)",
-  "function paused() view returns (bool)",
-  "function contractURI() view returns (string)",
-  "function totalMinted() view returns (uint256)",
-  "function MAX_SUPPLY() view returns (uint256)"
+  "function royaltyInfo(uint256 tokenId, uint256 salePrice) view returns (address receiver, uint256 royaltyAmount)"
 ];
 
 /**

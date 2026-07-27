@@ -25,8 +25,8 @@ const fetchMockMetadata = async (tokenId) => {
       ? `A unique entity belonging to the ${civilization}. Forged in the anomaly.`
       : 'An encrypted entity. Its true form remains hidden in the void.',
     image: isRevealed 
-      ? `ipfs://QmFinalProductionMetadataCID22222222222/revealed_${tokenId}.png`
-      : `ipfs://QmFinalProductionMetadataCID22222222222/unrevealed.gif`,
+      ? `ipfs://QmPlaceholderImageHash/revealed_${tokenId}.png`
+      : `ipfs://QmPlaceholderImageHash/unrevealed.gif`,
     attributes: isRevealed ? [
       { trait_type: 'Civilization', value: civilization },
       { trait_type: 'Power Level', value: Math.floor(seededRandom(tokenId * 3) * 100) + 1 },

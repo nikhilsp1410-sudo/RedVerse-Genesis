@@ -2,8 +2,7 @@ import { useRef, useState } from 'react';
 import { motion, useScroll, useTransform, AnimatePresence } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { ChevronDown } from 'lucide-react';
-import PremiumImage from '../components/ui/PremiumImage';
-import SEO from '../components/SEO';
+import Footer from '../components/Footer';
 
 const Lore = () => {
   const containerRef = useRef(null);
@@ -17,18 +16,14 @@ const Lore = () => {
   const opacityFade = useTransform(scrollYProgress, [0, 0.1], [1, 0]);
 
   return (
-    <div ref={containerRef} className="min-h-screen bg-[#0B0B0F] text-text selection:bg-primary/30 relative">
-      <SEO 
-        title="RedVerse Lore | The Crimson Fracture"
-        description="Dive deep into the history of the RedVerse. The Architects, The Crimson Core, and the birth of the 20 Guardians in the fracture of spacetime."
-        url="https://redverse.xyz/lore"
-      />
+    <div ref={containerRef} className="min-h-screen bg-background text-text selection:bg-primary/30 relative">
+      
       {/* Global Parallax Background */}
       <motion.div 
         style={{ y: bgY }}
         className="fixed inset-0 z-0 opacity-20 pointer-events-none"
       >
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-primary/10 via-[#0B0B0F] to-[#0B0B0F]" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-primary/10 via-background to-background" />
         <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/stardust.png')] opacity-10"></div>
       </motion.div>
 
@@ -79,13 +74,9 @@ const Lore = () => {
               transition={{ duration: 1.5 }}
               className="aspect-square glass-heavy rounded-2xl relative overflow-hidden flex items-center justify-center border border-border group"
             >
-               <PremiumImage 
-                 src="/images/obsidian_spire.png" 
-                 alt="The Obsidian Spire" 
-                 containerClassName="absolute inset-0 w-full h-full transform group-hover:scale-110 transition-transform duration-1000"
-               />
-               <div className="absolute inset-0 bg-gradient-to-t from-[rgba(11,11,15,0.9)] via-transparent to-transparent z-10 pointer-events-none"></div>
-               <span className="absolute bottom-6 left-6 z-20 text-xs font-display tracking-widest uppercase text-white/50">Historical Archive File 001</span>
+               <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent z-10"></div>
+               <div className="w-full h-full bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-surface-light via-surface to-background"></div>
+               <span className="absolute z-20 text-xs font-display tracking-widest uppercase text-text-muted/50 group-hover:text-primary transition-colors">Obsidian Spire Data Corrupted</span>
             </motion.div>
           </div>
         </section>
@@ -123,7 +114,7 @@ const Lore = () => {
         </section>
 
         {/* 4. The Fracture */}
-        <section className="py-32 px-4 border-y border-border bg-[#0B0B0F] relative">
+        <section className="py-32 px-4 border-y border-border bg-background relative">
           <div className="max-w-7xl mx-auto">
             <motion.div 
               initial={{ opacity: 0, rotate: -2 }}
@@ -183,7 +174,7 @@ const Lore = () => {
                   transition={{ duration: 0.6, delay: i * 0.1 }}
                   className={`mb-16 relative flex items-center md:justify-between ${i % 2 === 0 ? 'md:flex-row-reverse' : ''}`}
                 >
-                  <div className="absolute left-4 md:left-1/2 w-3 h-3 bg-[#0B0B0F] border-2 border-primary rounded-full -translate-x-[6px] shadow-[0_0_10px_rgba(217,4,41,0.8)] z-10"></div>
+                  <div className="absolute left-4 md:left-1/2 w-3 h-3 bg-background border-2 border-primary rounded-full -translate-x-[6px] shadow-[0_0_10px_rgba(217,4,41,0.8)] z-10"></div>
                   
                   {/* Empty Spacer */}
                   <div className="hidden md:block md:w-1/2"></div>
@@ -201,7 +192,7 @@ const Lore = () => {
         </section>
 
         {/* 6. Twenty Guardians */}
-        <section className="py-32 px-4 border-y border-border bg-[#0B0B0F] text-center">
+        <section className="py-32 px-4 border-y border-border bg-background text-center">
           <div className="max-w-4xl mx-auto">
             <motion.h2 
               initial={{ opacity: 0, y: 20 }}
@@ -259,6 +250,7 @@ const Lore = () => {
         </section>
 
       </div>
+      <Footer />
     </div>
   );
 };
@@ -266,7 +258,7 @@ const Lore = () => {
 const ExpandableChapter = ({ title, content }) => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className="border border-border rounded-xl bg-[#0B0B0F] overflow-hidden transition-colors hover:border-primary/50">
+    <div className="border border-border rounded-xl bg-background overflow-hidden transition-colors hover:border-primary/50">
       <button 
         onClick={() => setIsOpen(!isOpen)} 
         className="w-full text-left p-6 flex justify-between items-center focus:outline-none"

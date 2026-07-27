@@ -23,7 +23,7 @@ const AdminLayout = () => {
   ];
 
   return (
-    <div className="flex h-screen bg-[#0B0B0F] overflow-hidden text-white font-sans">
+    <div className="flex h-screen bg-background overflow-hidden text-white font-sans">
       <Helmet>
         <title>RedVerse | Admin Control</title>
         <meta name="robots" content="noindex, nofollow" />

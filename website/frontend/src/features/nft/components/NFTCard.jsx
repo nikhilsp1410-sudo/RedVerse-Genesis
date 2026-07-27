@@ -36,8 +36,8 @@ const NFTCard = ({ nft, onClick }) => {
         {/* Real Image Tag */}
         {isRevealed && (
            <img 
-             src={nft.image ? nft.image.replace('ipfs://', 'https://gateway.pinata.cloud/ipfs/') : `https://gateway.pinata.cloud/ipfs/QmFinalProductionMetadataCID22222222222/revealed_${nft.tokenId}.png`} 
-             alt={`RedVerse Genesis #${nft.tokenId}`}
+             src={`https://picsum.photos/seed/redverse-${nft.tokenId}/400/400`} // Mocking an actual image load since our IPFS hash is a placeholder
+             alt={nft.name}
              loading="lazy"
              onLoad={() => setImgLoaded(true)}
              className={`absolute inset-0 w-full h-full object-cover mix-blend-overlay pointer-events-none transition-opacity duration-700 ${imgLoaded ? 'opacity-100' : 'opacity-0'}`}

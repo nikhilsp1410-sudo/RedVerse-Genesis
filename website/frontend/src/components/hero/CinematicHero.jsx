@@ -46,7 +46,7 @@ export const CinematicHero = () => {
   }, []);
 
   return (
-    <section className="relative w-full h-screen overflow-hidden bg-[#0B0B0F]">
+    <section className="relative w-full h-screen overflow-hidden bg-background">
       
       {/* 3D Canvas Background & Model */}
       <div className="absolute inset-0 z-0">
@@ -55,6 +55,7 @@ export const CinematicHero = () => {
           dpr={[1, 2]} // Optimize for high DPI without killing perf
           gl={{ antialias: true, alpha: false }}
         >
+          <color attach="background" args={['#0B0B0F']} />
           <Suspense fallback={null}>
             <Environment preset="city" />
             <SpaceBackground mousePosition={mousePosition} />

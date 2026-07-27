@@ -18,7 +18,7 @@ export const NETWORKS = {
 };
 
 // SWITCHING ENVIRONMENTS: Change ACTIVE_NETWORK and CONTRACT_ADDRESS here
-export const ACTIVE_NETWORK = NETWORKS.AMOY; 
+export const ACTIVE_NETWORK = NETWORKS.MAINNET; 
 
 // Replace with deployed address on the active network
-export const CONTRACT_ADDRESS = import.meta.env.VITE_CONTRACT_ADDRESS || "0x0000000000000000000000000000000000000000";
+export const CONTRACT_ADDRESS = import.meta.env.VITE_CONTRACT_ADDRESS || "0xccFD90167f47c4F890C213Cc4a4611eE91942d0B";

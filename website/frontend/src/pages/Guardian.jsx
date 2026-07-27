@@ -4,14 +4,12 @@ import { motion } from 'framer-motion';
 import { Canvas, useFrame } from '@react-three/fiber';
 import { Points, PointMaterial, Environment } from '@react-three/drei';
 import * as random from 'maath/random/dist/maath-random.esm';
-import { ArrowLeft, Shield, Sword, Cpu, Zap, Activity, Fingerprint, Lock, Unlock, ShieldAlert, Orbit } from 'lucide-react';
+import { ArrowLeft, Shield, Sword, Cpu, Zap, Activity, Fingerprint, Lock, Unlock, ShieldAlert } from 'lucide-react';
 import Tilt from 'react-parallax-tilt';
+import { guardians } from '../data/guardians';
 import { useWallet } from '@/web3';
-import { useDynamicNFT } from '../web3/hooks/useDynamicNFT';
-import { useDynamicGallery } from '../web3/hooks/useDynamicGallery';
-import { CONTRACT_ADDRESS } from '../web3/core/config';
+import { useLiveNFT } from '../web3/hooks/useLiveNFT';
 import PremiumImage from '../components/ui/PremiumImage';
-import SEO from '../components/SEO';
 
 // 3D Background Component
 function InteractiveAura({ color }) {
@@ -19,11 +17,9 @@ function InteractiveAura({ color }) {
   const [sphere] = useState(() => random.inSphere(new Float32Array(1500), { radius: 2.5 }));
   
   useFrame((state, delta) => {
-    if(ref.current) {
-      ref.current.rotation.x -= delta / 15;
-      ref.current.rotation.y += delta / 20;
-      ref.current.position.y = Math.sin(state.clock.elapsedTime * 0.5) * 0.2;
-    }
+    ref.current.rotation.x -= delta / 15;
+    ref.current.rotation.y += delta / 20;
+    ref.current.position.y = Math.sin(state.clock.elapsedTime * 0.5) * 0.2;
   });
 
   return (
@@ -38,8 +34,8 @@ function InteractiveAura({ color }) {
 const Guardian = () => {
   const { id } = useParams();
   const { isConnected, account, connectWallet } = useWallet();
-  const { nft: guardian, isLoading, error } = useDynamicNFT(id);
-  const { nfts } = useDynamicGallery(); // For related entities
+  const guardian = guardians.find(g => g.id === parseInt(id));
+  const liveData = useLiveNFT(id);
 
   // Scroll to top on load/change
   useEffect(() => {
@@ -47,27 +43,17 @@ const Guardian = () => {
   }, [id]);
 
   const relatedGuardians = useMemo(() => {
-    if (!guardian || !nfts) return [];
-    return nfts
-      .filter(g => g.id !== guardian.id && (g.attributes['Faction'] === guardian.attributes['Faction'] || g.attributes['Class'] === guardian.attributes['Class']))
+    if (!guardian) return [];
+    return guardians
+      .filter(g => g.id !== guardian.id && (g.moralAlignment === guardian.moralAlignment || g.combatStyle.split(' ')[0] === guardian.combatStyle.split(' ')[0]))
       .slice(0, 4);
-  }, [guardian, nfts]);
+  }, [guardian]);
 
-  if (isLoading) {
+  if (!guardian) {
     return (
-      <div className="min-h-screen flex flex-col items-center justify-center pt-24 text-center bg-[#0B0B0F]">
-         <Orbit className="w-12 h-12 text-primary/50 animate-spin-slow mb-6" />
-         <h1 className="text-2xl text-white font-heading uppercase animate-pulse">Syncing Cryptographic Identity...</h1>
-      </div>
-    );
-  }
-
-  if (error || !guardian) {
-    return (
-      <div className="min-h-screen flex items-center justify-center pt-24 text-center bg-[#0B0B0F]">
+      <div className="min-h-screen flex items-center justify-center pt-24 text-center bg-background">
         <div>
-           <h1 className="text-4xl text-primary font-heading uppercase">Artifact Not Found</h1>
-           <p className="text-text-muted mt-2 max-w-md">{error || 'This entity has not materialized on the ledger.'}</p>
+           <h1 className="text-4xl text-primary font-heading uppercase">Artifact Lost</h1>
            <Link to="/collection" className="mt-6 inline-flex items-center text-white hover:text-primary transition-colors border border-border px-6 py-2 rounded">
              Return to Archive
            </Link>
@@ -76,27 +62,13 @@ const Guardian = () => {
     );
   }
 
-  // Derive dynamic attributes
-  const title = guardian.attributes['Role'] || `Guardian #${guardian.id}`;
-  const faction = guardian.attributes['Faction'] || 'Unknown Faction';
-  const core = guardian.attributes['Core'] || 'Unknown Core';
-  const weapon = guardian.attributes['Weapon'] || 'Unknown Weapon';
-  const armor = guardian.attributes['Armor'] || 'Unknown Armor';
-  const aura = guardian.attributes['Aura'] || 'Unknown Aura';
-  const companion = guardian.attributes['Companion'] || 'Unknown Companion';
-
   // Derive theme colors
-  const isVoid = core.toLowerCase().includes('void') || faction.toLowerCase().includes('evil');
+  const isVoid = guardian.core.toLowerCase().includes('void') || guardian.moralAlignment === 'Chaotic Evil';
   const themeColor = isVoid ? "#8B5CF6" : "#D90429"; // Purple for void/evil, Crimson for rest
 
   return (
-    <div className="min-h-screen bg-[#0B0B0F] text-text selection:bg-primary/30 relative">
-      <SEO 
-        title={`${guardian.name} | ${title} | RedVerse Genesis`}
-        description={guardian.description.substring(0, 150) + "..."}
-        image={guardian.image}
-        url={`https://redverse.xyz/guardian/${guardian.id}`}
-      />
+    <div className="min-h-screen bg-background text-text selection:bg-primary/30 relative">
+      
       {/* Immersive 3D Background */}
       <div className="fixed inset-0 z-0 pointer-events-none opacity-40">
          <Canvas camera={{ position: [0, 0, 3] }}>
@@ -104,7 +76,7 @@ const Guardian = () => {
             <InteractiveAura color={themeColor} />
             <Environment preset="night" />
          </Canvas>
-         <div className="absolute inset-0 bg-gradient-to-b from-[rgba(11,11,15,0.2)] via-[rgba(11,11,15,0.8)] to-[#0B0B0F]" />
+         <div className="absolute inset-0 bg-gradient-to-b from-background/20 via-background/80 to-background" />
       </div>
 
       <div className="relative z-10 pt-24 pb-32">
@@ -122,9 +94,11 @@ const Guardian = () => {
                   &larr; Prev
                 </Link>
               )}
-              <Link to={`/guardian/${guardian.id + 1}`} className="text-text-muted hover:text-white uppercase font-display tracking-widest text-xs border border-border px-4 py-2 rounded bg-surface/50 transition-colors">
+              {guardian.id < 20 && (
+                <Link to={`/guardian/${guardian.id + 1}`} className="text-text-muted hover:text-white uppercase font-display tracking-widest text-xs border border-border px-4 py-2 rounded bg-surface/50 transition-colors">
                   Next &rarr;
-              </Link>
+                </Link>
+              )}
             </div>
           </div>
           
@@ -138,17 +112,17 @@ const Guardian = () => {
               className="lg:col-span-5 relative"
             >
               <div className="aspect-[3/4] w-full rounded-2xl overflow-hidden glass-heavy group sticky top-28 border border-border/50 shadow-[0_0_50px_rgba(0,0,0,0.8)]">
-                <div className="absolute inset-0 bg-gradient-to-t from-[rgba(11,11,15,0.9)] via-transparent to-transparent z-10 pointer-events-none"></div>
+                <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-transparent to-transparent z-10 pointer-events-none"></div>
                 <PremiumImage 
-                  src={guardian.image}
-                  alt={`${guardian.name} - ${title}`}
+                  src={`/images/guardians/${guardian.id.toString().padStart(3, '0')}.png`}
+                  alt={`${guardian.name} - ${guardian.title}`}
                   containerClassName="w-full h-full"
                   priority={true}
                 />
                 
                 {/* Overlay Metadata */}
                 <div className="absolute top-4 left-4 z-20">
-                   <span className="px-3 py-1 bg-[rgba(11,11,15,0.8)] backdrop-blur-md rounded text-xs font-mono text-white/90 border border-border">
+                   <span className="px-3 py-1 bg-background/80 backdrop-blur-md rounded text-xs font-mono text-white/90 border border-border">
                       ID: #{guardian.id.toString().padStart(3, '0')}
                    </span>
                 </div>
@@ -168,7 +142,7 @@ const Guardian = () => {
                 transition={{ duration: 0.6, delay: 0.3 }}
                 className="text-primary font-bold tracking-[0.3em] uppercase text-sm mb-4 font-display"
               >
-                {title}
+                {guardian.title}
               </motion.p>
               <motion.h1 
                 initial={{ opacity: 0, y: 10 }}
@@ -187,11 +161,11 @@ const Guardian = () => {
                 className="glass p-6 md:p-8 rounded-xl border-l-4 border-l-primary mb-8 bg-surface/40 backdrop-blur-md shadow-[0_0_20px_rgba(0,0,0,0.5)]"
               >
                 <p className="text-xl text-white/90 leading-relaxed font-light italic mb-4">
-                  "Bound by the Fracture. Driven by the Core."
+                  "{guardian.motivation || 'Bound by the Fracture. Driven by the Core.'}"
                 </p>
                 <div className="h-px w-full bg-gradient-to-r from-primary/50 to-transparent my-4"></div>
-                <p className="text-text-muted leading-relaxed whitespace-pre-wrap">
-                  {guardian.description}
+                <p className="text-text-muted leading-relaxed">
+                  {guardian.biography}
                 </p>
               </motion.div>
 
@@ -201,14 +175,16 @@ const Guardian = () => {
                     <h4 className="text-sm font-display tracking-widest uppercase text-text-muted mb-1 flex items-center">
                        <Fingerprint className="w-4 h-4 mr-2" /> Ownership Registry
                     </h4>
-                    {guardian.ownerAddress ? (
+                    {liveData.isLoading ? (
+                       <p className="text-white font-bold tracking-wider animate-pulse text-xs mt-2">Syncing with Core...</p>
+                    ) : liveData.owner ? (
                        <div className="mt-2">
                          <p className="text-white font-bold tracking-wider flex items-center mb-2 text-sm">
-                           <Lock className="w-4 h-4 mr-2 text-primary" /> Claimed Artifact
+                           <Lock className="w-4 h-4 mr-2 text-primary" /> Immutable Artifact
                          </p>
-                         <p className="text-xs font-mono bg-[rgba(11,11,15,0.5)] px-2 py-1 rounded inline-block border border-border/50">
+                         <p className="text-xs font-mono bg-background/50 px-2 py-1 rounded inline-block border border-border/50">
                            <span className="text-text-muted">Owner: </span>
-                           {guardian.ownerAddress.toLowerCase() === account?.toLowerCase() ? <span className="text-primary font-bold">You</span> : <span className="text-white">{guardian.ownerAddress.substring(0,6)}...{guardian.ownerAddress.substring(38)}</span>}
+                           {liveData.owner.toLowerCase() === account?.toLowerCase() ? <span className="text-primary font-bold">You</span> : <span className="text-white">{liveData.owner.substring(0,6)}...{liveData.owner.substring(38)}</span>}
                          </p>
                        </div>
                     ) : (
@@ -222,31 +198,60 @@ const Guardian = () => {
                  </div>
                  
                  {/* Live Blockchain Data Badge */}
-                 <div className="border-l-2 border-primary/20 pl-6 w-full md:w-auto">
-                   <h4 className="text-[10px] font-display tracking-widest uppercase text-primary mb-2">Live Ledger Data</h4>
-                   <div className="flex flex-col gap-2 text-[10px] font-mono text-text-muted mb-4">
-                     <p>Contract: <span className="text-white">{CONTRACT_ADDRESS.slice(0, 6)}...{CONTRACT_ADDRESS.slice(-4)}</span></p>
+                 {!liveData.isLoading && liveData.name && (
+                   <div className="border-l-2 border-primary/20 pl-6 w-full md:w-auto">
+                     <h4 className="text-[10px] font-display tracking-widest uppercase text-primary mb-2">Live Ledger Data</h4>
+                     <div className="flex flex-col gap-1 text-[10px] font-mono text-text-muted">
+                       <p>Contract: <span className="text-white">{liveData.name} ({liveData.symbol})</span></p>
+                       {liveData.royaltyAmount && <p>Royalty: <span className="text-white">{parseFloat(liveData.royaltyAmount)} MATIC / ETH</span></p>}
+                     </div>
                    </div>
-                   <div className="flex flex-wrap gap-2">
-                      <span className="px-2 py-1 bg-surface/50 border border-border backdrop-blur-md rounded text-[10px] uppercase font-display tracking-widest text-white flex items-center shadow-lg">
-                        <img src="https://cryptologos.cc/logos/polygon-matic-logo.svg?v=025" alt="Polygon" className="w-3 h-3 mr-1" />
-                        Polygon
-                      </span>
-                   </div>
-                 </div>
+                 )}
 
-                 <div className="flex flex-col gap-2 w-full md:w-auto mt-4 md:mt-0">
-                    <a href={`https://opensea.io/assets/matic/${CONTRACT_ADDRESS}/${guardian.id}`} target="_blank" rel="noreferrer" className="px-6 py-3 bg-primary text-white border border-primary transition-colors rounded uppercase text-[10px] font-bold tracking-widest whitespace-nowrap text-center shadow-[0_0_15px_rgba(217,4,41,0.5)] hover:bg-transparent hover:text-primary">
-                       View on OpenSea
-                    </a>
-                    {!isConnected && (
-                       <button onClick={connectWallet} className="px-6 py-3 bg-primary/10 hover:bg-primary/20 text-white border border-primary/50 transition-colors rounded uppercase text-[10px] font-bold tracking-widest whitespace-nowrap text-center">
-                          Connect to Verify
-                       </button>
-                    )}
-                 </div>
+                 {!isConnected && (
+                    <button onClick={connectWallet} className="px-6 py-3 bg-primary/20 hover:bg-primary text-white border border-primary transition-colors rounded uppercase text-[10px] font-bold tracking-widest whitespace-nowrap mt-4 md:mt-0 shadow-[0_0_15px_rgba(217,4,41,0.3)]">
+                       Connect to Verify
+                    </button>
+                 )}
               </div>
             </motion.div>
+          </div>
+
+          {/* Deep Lore: History & Role */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-20">
+             <motion.div 
+               initial={{ opacity: 0, y: 20 }}
+               whileInView={{ opacity: 1, y: 0 }}
+               viewport={{ once: true }}
+               className="glass-heavy p-8 rounded-2xl border border-border"
+             >
+                <h3 className="text-2xl font-heading font-bold uppercase text-white mb-4 flex items-center">
+                   History <span className="w-12 h-px bg-primary ml-4"></span>
+                </h3>
+                <p className="text-text-muted leading-relaxed font-light">
+                   Forged long before the collapse, {guardian.name} was an integral part of the Architects' civilization. 
+                   As a {guardian.combatStyle.split(' ')[0]}, they were deeply tied to the infrastructure of the old world. 
+                   When the Core shattered, they were one of the few who managed to survive the gravitational inversion, 
+                   retaining fragments of their former memories while being fundamentally altered by dimensional radiation.
+                </p>
+             </motion.div>
+             <motion.div 
+               initial={{ opacity: 0, y: 20 }}
+               whileInView={{ opacity: 1, y: 0 }}
+               viewport={{ once: true }}
+               transition={{ delay: 0.2 }}
+               className="glass-heavy p-8 rounded-2xl border border-border"
+             >
+                <h3 className="text-2xl font-heading font-bold uppercase text-white mb-4 flex items-center">
+                   Role in the Fracture <span className="w-12 h-px bg-primary ml-4"></span>
+                </h3>
+                <p className="text-text-muted leading-relaxed font-light">
+                   Within the ruined RedVerse, their alignment is strictly <strong>{guardian.moralAlignment}</strong>. 
+                   They act as a stabilizing—or destructive—force among the remaining twenty. 
+                   Their primary objective is directly tied to the shards of the broken core they possess, 
+                   using their unique abilities to either restore order to the shattered dimensions or plunge them further into the Void.
+                </p>
+             </motion.div>
           </div>
 
           {/* Equipment & Abilities Matrix */}
@@ -259,18 +264,18 @@ const Guardian = () => {
              <h2 className="text-3xl font-heading font-bold uppercase text-center mb-12">Artifact <span className="text-primary text-glow">Matrix</span></h2>
              
              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                <EquipmentCard icon={Sword} title="Weaponry" desc={weapon} />
-                <EquipmentCard icon={Shield} title="Armor Class" desc={armor} />
-                <EquipmentCard icon={Zap} title="Crimson Core" desc={core} />
-                <EquipmentCard icon={Activity} title="Aura Projection" desc={aura} />
-                <EquipmentCard icon={Cpu} title="Companion Entity" desc={companion} />
+                <EquipmentCard icon={Sword} title="Weaponry" desc={guardian.weapon} />
+                <EquipmentCard icon={Shield} title="Armor Class" desc={guardian.armor} />
+                <EquipmentCard icon={Zap} title="Crimson Core" desc={guardian.core} />
+                <EquipmentCard icon={Activity} title="Aura Projection" desc={guardian.aura} />
+                <EquipmentCard icon={Cpu} title="Companion Entity" desc={guardian.companion} />
                 <div className="glass p-6 rounded-xl border border-primary/30 bg-primary/5 flex flex-col justify-center">
-                   <h4 className="text-xs font-display tracking-widest text-primary uppercase mb-2">Metadata Attributes</h4>
-                   <p className="text-white font-bold uppercase mb-4">{guardian.rawAttributes.length} Immutable Traits</p>
+                   <h4 className="text-xs font-display tracking-widest text-primary uppercase mb-2">Signature Ability</h4>
+                   <p className="text-white font-bold uppercase mb-4">{guardian.signatureAbility}</p>
                    <h4 className="text-xs font-display tracking-widest text-primary uppercase mb-2 flex items-center">
-                      <ShieldAlert className="w-3 h-3 mr-1" /> On-Chain IPFS
+                      <ShieldAlert className="w-3 h-3 mr-1" /> Known Weakness
                    </h4>
-                   <p className="text-text-muted text-sm break-all">{guardian.image.slice(0, 40)}...</p>
+                   <p className="text-text-muted text-sm">{guardian.weakness}</p>
                 </div>
              </div>
           </motion.div>
@@ -285,7 +290,7 @@ const Guardian = () => {
              <div className="flex justify-between items-end mb-8">
                 <div>
                    <h2 className="text-3xl font-heading font-bold uppercase text-white">Related <span className="text-primary">Entities</span></h2>
-                   <p className="text-text-muted text-sm mt-2">Guardians sharing the {faction} alignment.</p>
+                   <p className="text-text-muted text-sm mt-2">Guardians sharing the {guardian.moralAlignment} alignment.</p>
                 </div>
                 <Link to="/collection" className="text-xs font-display uppercase tracking-widest text-primary hover:text-white transition-colors hidden sm:block">
                    View Full Archive →
@@ -305,15 +310,11 @@ const Guardian = () => {
                        <Link to={`/guardian/${related.id}`} className="block group">
                           <div className="aspect-[3/4] rounded-xl overflow-hidden glass relative border border-border group-hover:border-primary/50 transition-colors shadow-lg group-hover:shadow-[0_0_30px_rgba(217,4,41,0.2)]">
                              <div className="absolute inset-0 bg-surface z-0">
-                                <PremiumImage 
-                                  src={related.image}
-                                  alt={related.name}
-                                  containerClassName="w-full h-full group-hover:scale-110 transition-transform duration-1000"
-                                />
+                                <div className="w-full h-full bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-surface-light to-background opacity-80 group-hover:scale-110 transition-transform duration-1000" />
                              </div>
-                             <div className="absolute inset-0 bg-gradient-to-t from-[#0B0B0F] via-[rgba(11,11,15,0.4)] to-transparent z-10 opacity-90 group-hover:opacity-60 transition-opacity"></div>
+                             <div className="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-transparent z-10 opacity-90 group-hover:opacity-60 transition-opacity"></div>
                              <div className="absolute inset-x-0 bottom-0 p-6 z-20 transform translate-y-2 group-hover:translate-y-0 transition-transform">
-                                <p className="text-primary font-display text-[10px] tracking-widest uppercase mb-1 truncate">{related.attributes['Role'] || 'Guardian'}</p>
+                                <p className="text-primary font-display text-[10px] tracking-widest uppercase mb-1 truncate">{related.title}</p>
                                 <h3 className="text-lg font-heading font-bold uppercase text-white group-hover:text-glow truncate transition-all">{related.name}</h3>
                              </div>
                           </div>

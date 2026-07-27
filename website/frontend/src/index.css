@@ -68,7 +68,7 @@ html {
 }
 
 body {
-  background-color: #0B0B0F;
+  background-color: var(--color-background);
   color: var(--color-text);
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
@@ -80,7 +80,7 @@ body {
   width: 6px;
 }
 ::-webkit-scrollbar-track {
-  background: #0B0B0F;
+  background: var(--color-background);
 }
 ::-webkit-scrollbar-thumb {
   background: var(--color-surface-light);

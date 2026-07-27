@@ -21,9 +21,9 @@ const Mint = () => {
   };
 
   return (
-    <div className="min-h-screen pt-32 pb-20 bg-[#0B0B0F] text-text selection:bg-primary/30 relative flex items-center justify-center">
+    <div className="min-h-screen pt-32 pb-20 bg-background text-text selection:bg-primary/30 relative flex items-center justify-center">
       {/* Background */}
-      <div className="absolute inset-0 z-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary/5 via-[#0B0B0F] to-[#0B0B0F]" />
+      <div className="absolute inset-0 z-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary/5 via-background to-background" />
 
       <div className="max-w-4xl w-full mx-auto px-4 relative z-10">
         <motion.div 
@@ -43,7 +43,7 @@ const Mint = () => {
                  alt="Mint Preview"
                  containerClassName="w-full h-full transform group-hover:scale-105 transition-transform duration-700"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-[rgba(11,11,15,0.9)] to-transparent flex flex-col justify-end p-6">
+              <div className="absolute inset-0 bg-gradient-to-t from-background/90 to-transparent flex flex-col justify-end p-6">
                 <span className="text-primary font-display text-[10px] tracking-widest uppercase mb-1">Genesis Collection</span>
                 <h3 className="text-2xl font-heading font-bold text-white uppercase tracking-wider">The 20 Legends</h3>
               </div>

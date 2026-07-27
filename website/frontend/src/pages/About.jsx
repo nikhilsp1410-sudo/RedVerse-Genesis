@@ -1,14 +1,9 @@
 import { motion } from 'framer-motion';
-import SEO from '../components/SEO';
 
 const About = () => {
   return (
-    <div className="min-h-screen pt-24 pb-20 bg-[#0B0B0F] text-text selection:bg-primary/30">
-      <SEO 
-        title="About RedVerse | The Vision & Roadmap"
-        description="Learn about the RedVerse Genesis project. A premium, museum-quality digital collectible series focusing on immaculate, handcrafted cinematic art."
-        url="https://redverse.xyz/about"
-      />
+    <div className="min-h-screen pt-24 pb-20 bg-background text-text selection:bg-primary/30">
+      
       {/* Header */}
       <div className="text-center mb-20 px-4">
         <motion.p 
@@ -30,57 +25,87 @@ const About = () => {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-24">
         
-        {/* The Vision Section */}
+        {/* Vision Section */}
         <section>
           <div className="glass-heavy p-8 md:p-12 rounded-2xl relative overflow-hidden">
              <div className="absolute top-0 right-0 w-64 h-64 bg-primary/10 rounded-full blur-[80px] -translate-y-1/2 translate-x-1/4"></div>
-             <h2 className="text-3xl font-heading font-bold uppercase mb-6 relative z-10 text-primary">The Vision</h2>
+             <h2 className="text-3xl font-heading font-bold uppercase mb-6 relative z-10">The Vision</h2>
              <div className="prose prose-invert max-w-none relative z-10">
                <p className="text-lg text-text-muted leading-relaxed">
                  RedVerse Genesis is a premium, museum-quality digital collectible series. We have moved entirely away from the massive, procedural NFT collections of the past. Instead, this project focuses on <strong>immaculate, handcrafted cinematic art</strong>.
                </p>
                <p className="text-lg text-text-muted leading-relaxed mt-4">
-                 Our vision is to build a high-end Web3 IP that stands alongside the greatest sci-fi fantasy universes, starting with an immutable foundation on the Polygon blockchain.
+                 There are exactly 20 Guardians in the Genesis collection. Each was meticulously designed, lore-crafted, and rendered using cutting-edge AAA Unreal Engine 5 aesthetic prompts. They are not just images; they are individual characters in an unfolding science-fantasy epic called <em>The Crimson Fracture</em>.
                </p>
              </div>
           </div>
         </section>
 
-        {/* The Mission Section */}
+        {/* Roadmap Section */}
         <section>
-          <div className="glass p-8 md:p-12 rounded-2xl relative overflow-hidden border border-border">
-             <h2 className="text-3xl font-heading font-bold uppercase mb-6 relative z-10 text-white">The Mission</h2>
-             <div className="prose prose-invert max-w-none relative z-10">
-               <p className="text-lg text-text-muted leading-relaxed">
-                 To pioneer the next generation of digital storytelling. We aim to merge AAA-quality visual design with robust smart contract mechanics, providing our collectors not just with a PFP, but with a piece of a meticulously crafted universe.
-               </p>
-             </div>
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-heading font-bold uppercase text-glow">The Roadmap</h2>
+          </div>
+          
+          <div className="space-y-6">
+            {[
+              { phase: "Phase I", title: "The Crimson Fracture", status: "Completed", current: false },
+              { phase: "Phase II", title: "Genesis (20 Guardians)", status: "Active", current: true },
+              { phase: "Phase III", title: "Awakening", status: "Upcoming", current: false },
+              { phase: "Phase IV", title: "The Architects", status: "Upcoming", current: false },
+              { phase: "Phase V", title: "The Fallen", status: "Upcoming", current: false },
+              { phase: "Phase VI", title: "Voidborn", status: "Upcoming", current: false }
+            ].map((item, idx) => (
+              <motion.div 
+                key={idx}
+                initial={{ opacity: 0, x: -20 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: idx * 0.1 }}
+                className={`glass p-6 rounded-xl flex items-center justify-between border ${item.current ? 'border-primary shadow-[0_0_15px_rgba(217,4,41,0.2)]' : 'border-border'}`}
+              >
+                <div className="flex items-center space-x-6">
+                  <span className={`font-display tracking-widest text-sm ${item.current ? 'text-primary' : 'text-text-muted'}`}>
+                    {item.phase}
+                  </span>
+                  <h3 className="text-xl font-heading font-bold uppercase text-white">{item.title}</h3>
+                </div>
+                <div className="hidden sm:block">
+                  <span className={`px-3 py-1 rounded text-xs font-mono border ${item.current ? 'bg-primary/20 border-primary text-primary' : 'bg-surface border-border text-text-muted'}`}>
+                    {item.status}
+                  </span>
+                </div>
+              </motion.div>
+            ))}
           </div>
         </section>
 
-        {/* Why 20 NFTs Section */}
-        <section className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div className="glass-heavy p-8 md:p-10 rounded-2xl border border-primary/20">
-             <h3 className="text-2xl font-heading font-bold uppercase mb-4 text-glow">Why Exactly 20 NFTs?</h3>
-             <p className="text-text-muted leading-relaxed font-light">
-               We chose absolute quality over procedural quantity. Rather than generating 10,000 random permutations, we focused our entire creative pipeline on designing 20 distinct, breathtaking, and story-rich masterpieces. Scarcity here is a byproduct of extreme artistic dedication.
-             </p>
+        {/* FAQ Section */}
+        <section>
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-heading font-bold uppercase">Frequently Asked Questions</h2>
           </div>
-          <div className="glass-heavy p-8 md:p-10 rounded-2xl border border-border">
-             <h3 className="text-2xl font-heading font-bold uppercase mb-4">Why RedVerse Exists?</h3>
-             <p className="text-text-muted leading-relaxed font-light">
-               The Web3 space is cluttered with low-effort derivatives. RedVerse exists to set a new standard. It was born from the desire to create a dark luxury aesthetic that feels immersive, mature, and technologically superior.
-             </p>
-          </div>
-        </section>
-
-        {/* Future Direction */}
-        <section className="pb-12">
-          <div className="text-center">
-            <h2 className="text-4xl font-heading font-bold uppercase mb-6 text-primary text-glow">Future Direction</h2>
-            <p className="text-xl text-text-muted leading-relaxed max-w-2xl mx-auto font-light mb-8">
-              Genesis is the foundation. As we expand the IP, these original 20 Guardians will serve as the absolute apex of the ecosystem. The roadmap includes expansive lore chapters, physical integrations, and interactive digital experiences.
-            </p>
+          
+          <div className="space-y-4">
+            {[
+              { q: "Why only 20 Guardians?", a: "We chose quality over quantity. Rather than generating 10,000 random permutations, we focused our entire creative pipeline on designing 20 distinct, breathtaking, and story-rich masterpieces." },
+              { q: "What is the Crimson Core?", a: "In the lore, it is a singular source of infinite dimensional energy that powered The Architects' civilization. Its shattering caused the cataclysm known as The Crimson Fracture." },
+              { q: "Who were the Architects?", a: "An ancient, highly advanced civilization that pushed the boundaries of spacetime physics. Their hubris ultimately destroyed them, leaving only the Guardians behind." },
+              { q: "Will future collections exist?", a: "Yes. Genesis is exactly that—the beginning. The roadmap outlines future expansions like Awakening, The Fallen, and Voidborn." },
+              { q: "Why Polygon?", a: "Polygon allows for extremely fast, low-cost transactions while maintaining the security of Ethereum, making it the perfect layer for premium digital collectibles." },
+              { q: "How are royalties handled?", a: "Secondary sales enforce a strict creator royalty embedded directly into the ERC-721 smart contract to fund the continuous development of the RedVerse universe." }
+            ].map((faq, idx) => (
+              <motion.div 
+                key={idx}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                className="glass p-6 rounded-xl border border-border hover:border-primary/50 transition-colors"
+              >
+                <h4 className="text-lg font-heading font-bold text-white mb-2">{faq.q}</h4>
+                <p className="text-text-muted font-light">{faq.a}</p>
+              </motion.div>
+            ))}
           </div>
         </section>
 

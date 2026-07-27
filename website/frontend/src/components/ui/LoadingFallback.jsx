@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 
 const LoadingFallback = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen w-full bg-[#0B0B0F] absolute inset-0 z-50">
+    <div className="flex flex-col items-center justify-center min-h-screen w-full bg-background absolute inset-0 z-50">
       <motion.div 
         className="w-16 h-16 border border-primary/30 rounded-full flex items-center justify-center relative mb-6"
         animate={{ rotate: 360 }}

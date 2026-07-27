@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Volume2, VolumeX, Menu, X } from 'lucide-react';
-import { AnimatePresence, motion } from 'framer-motion';
+import { Volume2, VolumeX } from 'lucide-react';
 import { useWallet, NetworkBadge, WalletButton } from '@/web3';
 import { useAudio } from '../context/AudioContext';
 
@@ -12,7 +11,6 @@ const Navbar = () => {
   const { error } = useWallet();
   const { isMuted, toggleMute } = useAudio();
   const [scrolled, setScrolled] = useState(false);
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const location = useLocation();
 
   useEffect(() => {
@@ -26,7 +24,7 @@ const Navbar = () => {
 
   const navClasses = `fixed w-full z-50 transition-all duration-500 ${
     scrolled 
-      ? 'bg-[rgba(11,11,15,0.8)] backdrop-blur-xl border-b border-border shadow-[0_4px_30px_rgba(0,0,0,0.5)] py-2' 
+      ? 'bg-background/80 backdrop-blur-xl border-b border-border shadow-[0_4px_30px_rgba(0,0,0,0.5)] py-2' 
       : 'bg-transparent border-b border-transparent py-4'
   }`;
 
@@ -63,45 +61,9 @@ const Navbar = () => {
              {error && <span className="text-primary text-xs hidden lg:inline-block max-w-[200px] truncate" title={error}>{error}</span>}
              <NetworkBadge />
              <WalletButton />
-             
-             {/* Mobile Menu Toggle */}
-             <button 
-               className="md:hidden p-2 text-text-muted hover:text-white transition-colors focus:outline-none"
-               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-             >
-               {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-             </button>
           </div>
         </div>
       </div>
-
-      {/* Mobile Menu Overlay */}
-      <AnimatePresence>
-        {mobileMenuOpen && (
-          <motion.div 
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -20 }}
-            className="md:hidden absolute top-full left-0 w-full bg-[rgba(11,11,15,0.95)] backdrop-blur-xl border-b border-border shadow-[0_10px_30px_rgba(0,0,0,0.5)]"
-          >
-            <div className="px-4 pt-2 pb-6 space-y-4 flex flex-col">
-              {['Collection', 'Lore', 'About', 'Mint'].map((item) => {
-                const isActive = location.pathname.includes(item.toLowerCase());
-                return (
-                  <Link 
-                    key={item} 
-                    to={`/${item.toLowerCase()}`}
-                    onClick={() => setMobileMenuOpen(false)}
-                    className={`px-4 py-3 text-sm font-display tracking-widest uppercase rounded border ${isActive ? 'bg-primary/20 text-white border-primary' : 'bg-surface/50 text-text-muted border-transparent hover:border-border hover:text-white'} transition-colors`}
-                  >
-                    {item}
-                  </Link>
-                );
-              })}
-            </div>
-          </motion.div>
-        )}
-      </AnimatePresence>
     </nav>
   );
 };

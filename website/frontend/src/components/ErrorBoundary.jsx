@@ -20,7 +20,7 @@ class ErrorBoundary extends Component {
   render() {
     if (this.state.hasError) {
       return (
-        <div className="min-h-screen bg-[#0B0B0F] flex flex-col items-center justify-center text-white">
+        <div className="min-h-screen bg-background flex flex-col items-center justify-center text-white">
           <Container className="text-center">
             <Heading level={1} className="text-primary mb-4">System Anomaly</Heading>
             <p className="text-text-muted mb-8 text-xl max-w-lg mx-auto">

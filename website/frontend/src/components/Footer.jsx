@@ -1,12 +1,11 @@
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { CONTRACT_ADDRESS } from '../web3/core/config';
 
 const Footer = () => {
   return (
-    <footer className="bg-[#0B0B0F] border-t border-border py-16 relative overflow-hidden">
+    <footer className="bg-background border-t border-border py-16 relative overflow-hidden">
       {/* Subtle background glow */}
-      <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-1/2 h-32 bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-primary/10 via-[#0B0B0F] to-transparent pointer-events-none" />
+      <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-1/2 h-32 bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-primary/10 via-background to-transparent pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
@@ -38,16 +37,17 @@ const Footer = () => {
             <h4 className="text-primary font-display text-[10px] uppercase tracking-widest mb-4">Collection</h4>
             <ul className="space-y-2">
               <li><Link to="/collection" className="text-text-muted hover:text-white transition-colors text-sm font-light">Genesis Archive</Link></li>
-              <li><a href={`https://polygonscan.com/address/${CONTRACT_ADDRESS}`} target="_blank" rel="noreferrer" className="text-text-muted hover:text-white transition-colors text-sm font-light">Smart Contract</a></li>
-              <li><a href="https://opensea.io/" target="_blank" rel="noreferrer" className="text-text-muted hover:text-white transition-colors text-sm font-light">OpenSea</a></li>
+              <li><a href="#" className="text-text-muted hover:text-white transition-colors text-sm font-light">Smart Contract</a></li>
+              <li><a href="#" className="text-text-muted hover:text-white transition-colors text-sm font-light">Polygonscan</a></li>
             </ul>
           </div>
 
           <div>
             <h4 className="text-primary font-display text-[10px] uppercase tracking-widest mb-4">Connect</h4>
             <ul className="space-y-2">
-              <li><a href="https://x.com/RedVerse_studio" target="_blank" rel="noreferrer" className="text-text-muted hover:text-white transition-colors text-sm font-light">X (Twitter)</a></li>
-              <li><a href="https://www.instagram.com/redverse_studio?igsh=MTdqOGY5MTNzeXA5ZA==" target="_blank" rel="noreferrer" className="text-text-muted hover:text-white transition-colors text-sm font-light">Instagram</a></li>
+              <li><a href="#" className="text-text-muted hover:text-white transition-colors text-sm font-light">Documentation</a></li>
+              <li><a href="#" className="text-text-muted hover:text-white transition-colors text-sm font-light">Twitter / X</a></li>
+              <li><a href="#" className="text-text-muted hover:text-white transition-colors text-sm font-light">Discord</a></li>
             </ul>
           </div>
 
@@ -57,10 +57,8 @@ const Footer = () => {
           <p className="text-xs text-text-muted/50 font-display uppercase tracking-widest">
             © {new Date().getFullYear()} RedVerse. All rights reserved.
           </p>
-          <div className="flex gap-4 items-center">
-             <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="text-xs text-primary hover:text-white transition-colors font-display uppercase tracking-widest flex items-center">
-                Back to Top ↑
-             </button>
+          <div className="flex gap-4">
+             <span className="text-xs text-text-muted/50 font-display uppercase tracking-widest">AAA Experience</span>
           </div>
         </div>
       </div>
